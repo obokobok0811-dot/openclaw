@@ -1,6 +1,6 @@
 {
-  "consecutive_failures": 65,
+  "consecutive_failures": 77,
   "restart_attempts": 3,
   "last_healthy": null,
-  "last_failure": "2026-02-23T01:42:34.467495"
+  "last_failure": "2026-02-23T02:42:37.061936"
 }
