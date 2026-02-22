@@ -7,7 +7,7 @@ Automated SQLite Backup System
 - Retains last 7 backups (local + remote)
 - Telegram alert on failure
 """
-import os, json, subprocess, datetime, glob, shutil, sys, urllib.request
+import os, json, subprocess, datetime, glob, shutil, sys, urllib.request, urllib.parse, urllib.error
 from pathlib import Path
 
 # === Config ===
@@ -133,6 +133,37 @@ def create_encrypted_archive(staging_dir, timestamp):
 
     return enc_path
 
+# === Step 3.5: Token refresh ===
+def refresh_gdrive_token(token_data):
+    """Refresh Google Drive OAuth token using refresh_token."""
+    refresh_token = token_data.get('refresh_token')
+    client_id = token_data.get('client_id')
+    client_secret = token_data.get('client_secret')
+    token_uri = token_data.get('token_uri', 'https://oauth2.googleapis.com/token')
+    if not all([refresh_token, client_id, client_secret]):
+        return None
+    try:
+        data = urllib.parse.urlencode({
+            'client_id': client_id,
+            'client_secret': client_secret,
+            'refresh_token': refresh_token,
+            'grant_type': 'refresh_token',
+        }).encode()
+        req = urllib.request.Request(token_uri, data=data)
+        resp = urllib.request.urlopen(req)
+        result = json.loads(resp.read())
+        new_token = result.get('access_token')
+        if new_token:
+            token_data['token'] = new_token
+            with open(GDRIVE_TOKEN_PATH, 'w') as f:
+                json.dump(token_data, f, indent=2)
+            GDRIVE_TOKEN_PATH.chmod(0o600)
+            print(f'Token refreshed successfully', flush=True)
+            return new_token
+    except Exception as e:
+        print(f'WARN: Token refresh error: {e}', flush=True)
+    return None
+
 # === Step 4: Google Drive upload ===
 def upload_to_gdrive(file_path):
     """Upload to Google Drive using REST API with OAuth token."""
@@ -143,10 +174,23 @@ def upload_to_gdrive(file_path):
     try:
         with open(GDRIVE_TOKEN_PATH) as f:
             token_data = json.load(f)
-        access_token = token_data.get('access_token', '')
+        access_token = token_data.get('token') or token_data.get('access_token', '')
         if not access_token:
             print('WARN: Empty access_token, skipping upload', flush=True)
             return None
+        # Try a test request; if 401, refresh the token
+        test_url = 'https://www.googleapis.com/drive/v3/about?fields=user'
+        test_req = urllib.request.Request(test_url, headers={'Authorization': f'Bearer {access_token}'})
+        try:
+            urllib.request.urlopen(test_req)
+        except urllib.error.HTTPError as he:
+            if he.code == 401:
+                access_token = refresh_gdrive_token(token_data)
+                if not access_token:
+                    print('WARN: Token refresh failed, skipping upload', flush=True)
+                    return None
+            else:
+                raise
     except Exception as e:
         print(f'WARN: Could not read gdrive token: {e}', flush=True)
         return None

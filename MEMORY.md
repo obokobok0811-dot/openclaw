@@ -18,9 +18,9 @@ Generated: Sun Feb 22 14:35:00 KST 2026
 
 ## PoC 현황
 - CRM: poc/crm.db + FAISS, Gmail 24건, Flask API :5000
-- 긴급 이메일: poc/scripts/urgent_simulate_and_extract.py, 시간대 게이트(평일 17-21, 주말 07-21)
-- 비즈니스 분석: 3 전문가 스캐폴드, 데모 다이제스트 전송 완료
-- 개인 RAG: 자동 게시 모드, poc/knowledge 스캐폴드
+- 긴급 이메일: poc/urgent/ (TF-IDF+LR 분류기 F1=0.865, 30분 폴링, 시간대 게이트, 피드백 재학습)
+- 비즈니스 분석: 8 전문가 (BaseExpert 상속) + Synthesizer, poc/experts/
+- 개인 RAG: poc/knowledge/ (수집→파싱→NER→임베딩→검색, auto-post 모드, Flask API)
 - 수동-승인(CMD: B모드) 정책 적용 중
 
 ## 교훈 #lesson
@@ -28,13 +28,36 @@ Generated: Sun Feb 22 14:35:00 KST 2026
 - 보안 스캐너 실행 시 프로세스 세션 충돌 반복 → 경량 스크립트(flush stdout, 짧은 실행)로 해결
 - 스캐너가 자기 리포트 파일을 재스캔하는 자기참조 문제 → SKIP_FILES에 추가
 
+## 자동화 서비스 (LaunchAgent 9개 활성) #infra
+- security-scanner: 매일 03:30
+- gateway-verify: 매주 월 04:00
+- repo-size-monitor: 매주 월 04:15
+- memory-scan: 매월 1일 04:30
+- db-backup: 매시간 (poc/backup/backup_databases.py)
+- git-sync: 매시간 (scripts/git/auto_sync.py, pre-commit hook 포함)
+- usage-parser: 매시간 (poc/tracking/gateway_parser.py → usage.jsonl)
+- usage-report: 매일 23:55 (poc/tracking/daily_report.py → Telegram)
+- urgent-email: 30분 간격 (poc/urgent/poller.py → Gmail 스캔 → ML 분류 → 시간대 게이트 → Telegram)
+
+## Git 설정 #infra
+- user: Clawd <clawd@openclaw.ai>
+- remote 미설정 (로컬 커밋+태그만)
+- pre-commit hook: 민감 데이터 차단 (API키, 봇토큰, JWT, .key/.pem)
+
+## 사용량 트래커 #infra
+- poc/tracking/tracker.py: 19개 모델 가격표, 4개 provider 자동 감지
+- gateway_parser.py: 게이트웨이 로그에서 호출 자동 수집 (duration 기반 토큰 추정, ±20%)
+- 2026-02-22 첫 수집: 122회, $10.13 (opus-4.6 10회 $6.08 / gpt-5-mini 112회 $4.05)
+
 ## Todos (#todo)
-- credentials/ 파일 권한 600 설정
-- gmail_30_summary.txt 내 노출 토큰 마스킹/삭제
-- inbound 세션 OAuth secret 정리
+- ~~credentials/ 파일 권한 600 설정~~ ✅ 2026-02-22
+- ~~gmail_30.jsonl 내 노출 토큰 마스킹~~ ✅ 2026-02-22 (plain + base64 전량 레닥션)
+- ~~inbound 세션 OAuth secret 정리~~ ✅ 2026-02-22 (디렉토리 삭제)
+- git remote 설정 (사용자 제공 대기)
 - Fathom/Todoist API 토큰 대기
 - Box token 대기
 - Slack token 대기
+- gdrive_token.json 대기 (백업 Drive 업로드용)
 
 
 

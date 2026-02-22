@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.clawd.usage-report</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/andy/.openclaw/workspace/poc/tracking/daily_report.py</string>
+        <string>daily</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/andy/.openclaw/workspace</string>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>23</integer>
+        <key>Minute</key>
+        <integer>55</integer>
+    </dict>
+    <key>StandardOutPath</key>
+    <string>/Users/andy/.openclaw/workspace/poc/tracking/report_stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/andy/.openclaw/workspace/poc/tracking/report_stderr.log</string>
+</dict>
+</plist>

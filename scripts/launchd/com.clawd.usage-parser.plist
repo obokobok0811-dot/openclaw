@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.clawd.usage-parser</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/andy/.openclaw/workspace/poc/tracking/gateway_parser.py</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/andy/.openclaw/workspace</string>
+    <key>StartInterval</key>
+    <integer>3600</integer>
+    <key>StandardOutPath</key>
+    <string>/Users/andy/.openclaw/workspace/poc/tracking/parser_stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/andy/.openclaw/workspace/poc/tracking/parser_stderr.log</string>
+</dict>
+</plist>
