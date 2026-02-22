@@ -1,0 +1,50 @@
+Summary of recent emails (up to 50):
+
+- 2026-02-21T03:04:12-08:00 | Google Cloud <googlecloud@google.com> | Google Cloud 무료 체험판에 오신 것을 환영합니다
+  snippet: 빠르게 시작하고 Google Cloud에서 제공되는 항목을 살펴보세요. Google Cloud 내 콘솔로 이동 Google Cloud에 오신 것을 환영합니다 이 튜토리얼에서 기본적인 사항을 알아보고 20개 이상의 제품을 매달 무료로 사용하여 Google Cloud로 할 수 있는 다양한 작업을 살펴보세요 내 콘솔로 이동 무료로 빌드, 테스트, 탐색할 수 있도록
+- 2026-02-21T10:54:05+00:00 | Google <no-reply@accounts.google.com> | 보안 알림
+  snippet: 다음 계정의 복구 이메일이 변경됨 obokobok0811@gmail.com 내 계정의 복구 이메일이 변경되었습니다. 변경한 적이 없는 경우 계정 활동기록을 확인하시기 바랍니다. 활동 확인 다음 페이지에서 보안 활동도 확인할 수 있습니다. https://myaccount.google.com/notifications 이 이메일은 Google 계정 및 서비스의
+- 2026-02-21T10:54:05+00:00 | Google <no-reply@accounts.google.com> | 보안 알림
+  snippet: 복구 전화번호가 변경됨 obokobok0811@gmail.com 계정의 복구 전화번호가 변경되었습니다. 변경한 적이 없는 경우 계정 활동기록을 확인하시기 바랍니다. 활동 확인 다음 페이지에서 보안 활동도 확인할 수 있습니다. https://myaccount.google.com/notifications 이 이메일은 Google 계정 및 서비스의 중요한 변경사항
+- 2026-02-17T12:49:19+00:00 | Ollama <hello@ollama.com> | Subagents and web search in Claude Code
+  snippet: Ollama now supports subagents and web search in Claude Code. No MCP servers or API keys required. Get started ollama launch claude --model minimax-m2.5:cloud It works with any model on Ollama&#39;s
+- 2026-02-13T20:10:07+00:00 | Ollama <hello@ollama.com> | Ollama gets a new command with new models MiniMax M2.5 & GLM-5
+  snippet: Ollama 0.16 now has a new command to get started with different models and for use with apps out-of-the-box. ollama If you don&#39;t have the latest Ollama, please update here. Using models with coding
+- 2026-02-12T20:42:19+00:00 | Brave Search API <search-api@brave.com> | New ToS & plans for the Brave Search API
+  snippet: Hi obok, Please note that we&#39;ve updated our Terms of Service. By continuing to use our service, you&#39;re agreeing to these updated terms. Log in to the dashboard to read the new terms and
+- 2026-02-12T07:22:22+00:00 | Brave Search API <search-api@brave.com> | Brave Search API login attempt
+  snippet: Brave Hi obok, Here is your verification code to complete the sign-in process: 381435 This verification code will expire in 15 minutes. For security reasons, this code can only be used once. For your
+- 2026-02-11T16:58:30-08:00 | Google <no-reply@google.com> | 오복님, Google 계정 설정을 확인해 주세요
+  snippet: 오복 님, 안녕하세요. 새로운 컴퓨터에서 Google을 사용해 주셔서 감사합니다. 계정 이용과 관련한 유용한 도움말을 아래에서 확인해 보세요. ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌
+- 2026-02-12T09:47:29+09:00 | "신오복" <obokobok0811@gmail.com> | Re:
+  snippet: https://drive.google.com/drive/folders/1EOh0YW9B37XCFinEGbFq5nSo5wtEvMiu?usp=share_link On Tue, Feb 10, 2026 at 10:38 PM 신경호 &lt;zzuvizzuvi@gmail.com&gt; wrote: 8276748615:
+- 2026-02-12T09:38:46+09:00 | "신오복" <obokobok0811@gmail.com> | Re:
+  snippet: https://drive.google.com/drive/folders/1EOh0YW9B37XCFinEGbFq5nSo5wtEvMiu?usp=share_link On Tue, Feb 10, 2026 at 11:12 PM 신경호 &lt;zzuvizzuvi@gmail.com&gt; wrote: 8262485103:
+- 2026-02-11T12:56:53+00:00 | Remote Mouse <cron@mg.remotemouse.net> | Remote Mouse 데스크톱 앱 링크를 다운로드 하세요
+  snippet: 컴퓨터에서 이 이메일을 열어야만 다음의 링크를 클릭하여 바로 다운로드 할 수 있습니다. - Windows용(Windows 7 이상): https://www.remotemouse.net - Mac용(OSX Yosemite 10.10 이상): https://itunes.apple.com/app/remote-mouse/id403195710?mt=12 다른 버전이
+- 2026-02-10T23:12:18+09:00 | "신경호" <zzuvizzuvi@gmail.com> | 
+  snippet: [BOT_TOKEN_REDACTED]
+- 2026-02-10T06:10:27-08:00 | Account No Reply <no-reply@communication.github.com> | GitHub 정보 수신 및 처리 가이드
+  snippet: GitHub 정보 수신 및 처리 가이드 본 이메일은 이메일 수신 설정에 따른 자동 알림 이메일입니다. 안녕하세요. GitHub입니다. &quot;정보통신망 이용 촉진 및 정보 보호 등에 관한 법률(정보통신망법)&quot; 개정에 따라 귀하께서 요청 하신 정보를 접수하고 처리한 결과를 알려 드립니다. 다음은 09-02-2026 (UTC)에 수신한 사항에 대해
+- 2026-02-10T22:38:34+09:00 | "신경호" <zzuvizzuvi@gmail.com> | 
+  snippet: [BOT_TOKEN_REDACTED]
+- 2026-02-10T22:34:07+09:00 | "신경호" <zzuvizzuvi@gmail.com> | 
+  snippet: [BOT_TOKEN_REDACTED]
+- 2026-02-09T10:06:35-06:00 | GitHub <no-reply@email.github.com> | Welcome to your GitHub Copilot free trial!
+  snippet: Use these resources to get started Logo image for GitHub GitHub Copilot Welcome to your GitHub Copilot Pro Trial. Over the next 30 days, experience how GitHub Copilot can help you stay in the flow and
+- 2026-02-09T23:18:48+09:00 | "신경호" <zzuvizzuvi@gmail.com> | Re: test
+  snippet: [BOT_TOKEN_REDACTED] 2026년 2월 9일 (월) 오후 8:00, 신오복 &lt;obokobok0811@gmail.com&gt;님이 작성: { &quot;agents&quot; : { &quot;defaults&quot; : { &quot;compaction&quot; : { &quot;mode
+- 2026-02-09T20:00:42+09:00 | "신오복" <obokobok0811@gmail.com> | test
+  snippet: { &quot;agents&quot; : { &quot;defaults&quot; : { &quot;compaction&quot; : { &quot;mode&quot; : &quot;safeguard&quot; }, &quot;maxConcurrent&quot; : 4, &quot;model&quot; : { &quot;primary&quot; :
+- 2026-02-09T20:00:18+09:00 | "신오복" <obokobok0811@gmail.com> | {   "agents" : {     "defaults" : {       "compaction" : {         "mode" : "safeguard"       },       "maxConcurrent" : 4,       "model" : {         "primary" : "ollama\/gpt-oss:20b"       },       "subagents" : {         "maxConcurrent" : 8       },       "workspace" : "\/Users\/andy\/.openclaw\/workspace"     }   },   "auth" : {     "profiles" : {       "google:default" : {         "mode" : "api_key",         "provider" : "google"       }     }   },   "channels" : {     "telegram" : {       "botToken" : "__OPENCLAW_REDACTED__",       "dmPolicy" : "pairing",       "enabled" : true,       "groupPolicy" : "allowlist",       "streamMode" : "partial"     }   },   "commands" : {     "native" : "auto",     "nativeSkills" : "auto"   },   "gateway" : {     "bind" : "loopback",     "mode" : "local",     "port" : 18789,     "tailscale" : {       "mode" : "off",       "resetOnExit" : false     }   },   "messages" : {     "ackReactionScope" : "group-mentions"   },   "meta" : {     "lastTouc...
+  snippet: 
+- 2026-02-09T19:59:26+09:00 | "신오복" <obokobok0811@gmail.com> | 
+  snippet: 
+- 2026-02-09T10:20:59+00:00 | Brave Search API <search-api@brave.com> | Brave Search API login attempt
+  snippet: Brave Hi obok, Here is your verification code to complete the sign-in process: 469852 This verification code will expire in 15 minutes. For security reasons, this code can only be used once. For your
+- 2026-02-09T10:20:33+00:00 | Brave Search API <search-api@brave.com> | Brave Search API new user created
+  snippet: Brave Hi obok, Your account is now active. You&#39;re almost ready to build with the power of programmable Web search! Next steps: Subscribe to a plan Generate an API key Review the docs for
+- 2026-02-09T10:20:11+00:00 | Brave Search API <search-api@brave.com> | Brave Search API verify your email
+  snippet: Brave Hi obok, Please follow the link below to verify your email address: Verify Email The verification link will expire in 24 hours. View our Privacy Policy and Terms of Service. If you didn&#39;t
+- 2026-02-09T01:46:39-08:00 | Google AI Studio <googleaistudio-noreply@google.com> | Hi 오복, welcome to Google AI Studio
+  snippet: Build with the latest state-of-the-art models from Google DeepMind. ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏ ͏ ‍͏

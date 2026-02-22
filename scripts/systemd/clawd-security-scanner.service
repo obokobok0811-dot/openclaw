@@ -1,0 +1,14 @@
+[Unit]
+Description=Clawd Security Scanner
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /Users/andy/.openclaw/workspace/poc/security/scanner_v2.py
+WorkingDirectory=/Users/andy/.openclaw/workspace
+User=andy
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target

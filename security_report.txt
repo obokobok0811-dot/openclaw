@@ -1,0 +1,103 @@
+OpenClaw Security Audit
+Generated: 2026년  2월 21일 토요일 16시 01분 07초 UTC UTC
+Host: Andyui-Macmini.local
+User: root
+
+1) Credentials directory and permissions
+drwx------  5 andy  staff  160  2월 22 00:52 /Users/andy/.openclaw/workspace/credentials
+Contents and perms:
+total 24
+drwx------   5 andy  staff   160  2월 22 00:52 .
+drwxr-xr-x  33 andy  staff  1056  2월 22 00:51 ..
+-rw-------   1 andy  staff    31  2월 12 16:24 brave_api.key
+-rw-------   1 andy  staff   139  2월 12 20:03 telegram_bot.json
+-rw-------   1 andy  staff   449  2월 12 20:04 telegram_pairing.json
+
+2) FIFO and pending commands
+command_approver_fifo exists:
+prw-------  1 andy  staff  0  2월 12 20:25 /Users/andy/.openclaw/workspace/workspace/command_approver_fifo
+pending_commands.jsonl perms:
+-rw-------  1 andy  staff  413  2월 21 21:11 /Users/andy/.openclaw/workspace/workspace/pending_commands.jsonl
+Last 50 lines (if any):
+{"id": "d610d455-fbf0-4f73-abe1-3db4561f8d20", "cmd": "hdiutil attach 'workspace/inbound/session_20260221211029/combined.7z.extracted/RemoteMouse.dmg' -nobrowse -quiet; cp -R \"/Volumes/Remote Mouse/Remote Mouse.app\" /Applications/ || true; hdiutil detach \"/Volumes/Remote Mouse\" -quiet || true", "created_at": 1771675896, "status": "queued", "note": "Install Remote Mouse from DMG found in uploaded archive"}
+
+3) Workspace files with world-writable perms (danger)
+
+4) Recent files modified in workspace (last 24h)
+607223        8 -rw-------    1 andy             staff                1440  2월 22 01:01 /Users/andy/.openclaw/workspace/security_report.txt
+578851        8 -rw-r--r--    1 andy             staff                3466  2월 21 21:16 /Users/andy/.openclaw/workspace/memory/2026-02-21.md
+577077        8 -rw-r--r--    1 andy             staff                 203  2월 21 19:13 /Users/andy/.openclaw/workspace/config/model_fallback.json
+578984        8 -rw-r--r--    1 andy             staff                 190  2월 21 20:27 /Users/andy/.openclaw/workspace/Dockerfile
+312960        8 -rw-r--r--    1 andy             staff                 138  2월 21 19:16 /Users/andy/.openclaw/workspace/workspace/forwarded_messages.jsonl
+584903        8 -rw-r--r--    1 andy             staff                 386  2월 21 22:02 /Users/andy/.openclaw/workspace/workspace/tccchk.sh
+581664    12528 -rw-r--r--    1 andy             staff             6410567  2월 21 21:11 /Users/andy/.openclaw/workspace/workspace/inbound/session_20260221211029/combined.7z
+580678     6256 -rw-------    1 andy             staff             3200035  2월 21 21:10 /Users/andy/.openclaw/workspace/workspace/inbound/session_20260221211029/file_6---cbda3a86-49db-435c-a428-ef971d5463ef.jpg
+580680        8 -rw-------    1 andy             staff                 412  2월 21 21:10 /Users/andy/.openclaw/workspace/workspace/inbound/session_20260221211029/file_9---bf3ae6bd-2fea-441c-b084-8114195a4178.json
+580675      136 -rw-------    1 andy             staff               69111  2월 21 21:10 /Users/andy/.openclaw/workspace/workspace/inbound/session_20260221211029/file_3---d5ae5c5b-19c2-4cee-9bd3-adad3a674a50.jpg
+580672     8192 -rw-------    1 andy             staff             4194304  2월 21 21:10 /Users/andy/.openclaw/workspace/workspace/inbound/session_20260221211029/file_11---2275921c-1eb6-4003-9abf-f2460b5669f7.7z
+580679      368 -rw-------    1 andy             staff              187853  2월 21 21:10 /Users/andy/.openclaw/workspace/workspace/inbound/session_20260221211029/file_7---dcf1a97b-a0ec-4be9-8f94-eeb5c6e514c4.jpg
+580673     4336 -rw-------    1 andy             staff             2216263  2월 21 21:10 /Users/andy/.openclaw/workspace/workspace/inbound/session_20260221211029/file_12---762392a6-24fe-478a-bfc3-5ef5037c568c
+580677      448 -rw-------    1 andy             staff              226658  2월 21 21:10 /Users/andy/.openclaw/workspace/workspace/inbound/session_20260221211029/file_5---60647aba-283c-40bd-aad0-077390b72a8e.jpg
+580670      528 -rw-------    1 andy             staff              269561  2월 21 21:10 /Users/andy/.openclaw/workspace/workspace/inbound/session_20260221211029/file_0---c653ecb0-bd3d-4d3c-b94d-a1d84b051d70.mp4
+580671       96 -rw-------    1 andy             staff               46192  2월 21 21:10 /Users/andy/.openclaw/workspace/workspace/inbound/session_20260221211029/file_1---8d4043e0-e23c-44e4-8aaf-5592879866f3.ogg
+580674      168 -rw-------    1 andy             staff               83445  2월 21 21:10 /Users/andy/.openclaw/workspace/workspace/inbound/session_20260221211029/file_2---665b34f4-6979-4bc4-8e3b-d083e4d67ee7.jpg
+581669    12704 -rw-r--r--    1 andy             staff             6503327  2월 21 20:59 /Users/andy/.openclaw/workspace/workspace/inbound/session_20260221211029/combined.7z.extracted/RemoteMouse.dmg
+580676      136 -rw-------    1 andy             staff               66495  2월 21 21:10 /Users/andy/.openclaw/workspace/workspace/inbound/session_20260221211029/file_4---019a7997-fa19-4cec-b4cc-9b2285e47013.jpg
+342914        8 -rw-------    1 andy             staff                 413  2월 21 21:11 /Users/andy/.openclaw/workspace/workspace/pending_commands.jsonl
+602711        8 -rw-r--r--    1 andy             staff                 440  2월 22 00:33 /Users/andy/.openclaw/workspace/workspace/tasks.jsonl
+582175        8 -rw-r--r--    1 andy             staff                 248  2월 21 21:13 /Users/andy/.openclaw/workspace/workspace/command_outputs/d610d455-fbf0-4f73-abe1-3db4561f8d20.txt
+584298        8 -rw-r--r--    1 andy             staff                 252  2월 21 21:31 /Users/andy/.openclaw/workspace/workspace/clip_tcc_command.txt
+602703        8 -rw-r--r--    1 andy             staff                 913  2월 22 00:33 /Users/andy/.openclaw/workspace/agents/admin/app.py
+602715        8 -rw-r--r--    1 andy             staff                 497  2월 22 00:33 /Users/andy/.openclaw/workspace/agents/README.md
+602705        8 -rw-r--r--    1 andy             staff                1364  2월 22 00:33 /Users/andy/.openclaw/workspace/agents/worker_fetcher/app.py
+602710        8 -rw-r--r--    1 andy             staff                1362  2월 22 00:33 /Users/andy/.openclaw/workspace/agents/worker_planner/app.py
+602708        8 -rw-r--r--    1 andy             staff                1325  2월 22 00:33 /Users/andy/.openclaw/workspace/agents/worker_extractor/app.py
+316403       32 -rwxr-xr-x    1 andy             staff               12523  2월 21 19:14 /Users/andy/.openclaw/workspace/replyer.py
+602779        8 -rw-r--r--    1 andy             staff                 332  2월 22 00:42 /Users/andy/.openclaw/workspace/scripts/systemd/worker_fetcher.service
+602778        8 -rw-r--r--    1 andy             staff                 309  2월 22 00:42 /Users/andy/.openclaw/workspace/scripts/systemd/admin.service
+602781        8 -rw-r--r--    1 andy             staff                 338  2월 22 00:42 /Users/andy/.openclaw/workspace/scripts/systemd/worker_extractor.service
+602782        8 -rw-r--r--    1 andy             staff                 332  2월 22 00:42 /Users/andy/.openclaw/workspace/scripts/systemd/worker_planner.service
+602714        8 -rw-r--r--    1 andy             staff                 453  2월 22 00:33 /Users/andy/.openclaw/workspace/scripts/setup_team.sh
+602783        8 -rw-r--r--    1 andy             staff                 509  2월 22 00:35 /Users/andy/.openclaw/workspace/scripts/install_systemd_services.sh
+602816        8 -rw-r--r--    1 andy             staff                 403  2월 22 00:36 /Users/andy/.openclaw/workspace/scripts/install_system_services.sh
+607214       16 -rwxr-xr-x    1 andy             staff                4215  2월 22 00:51 /Users/andy/.openclaw/workspace/scripts/security_audit.sh
+578982       16 -rw-r--r--    1 andy             staff                4391  2월 21 20:27 /Users/andy/.openclaw/workspace/webhook_assistant.py
+578986        8 -rw-r--r--    1 andy             staff                 399  2월 21 20:27 /Users/andy/.openclaw/workspace/deploy.sh
+
+5) Services (systemctl) status for admin/workers (requires sudo)
+systemctl not available on this host
+
+6) Listening network sockets (requires sudo for full info)
+COMMAND    PID      USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+symptomsd  441 _networkd   20u  IPv6 0xfdf18913da7b12eb      0t0  TCP *:57216 (LISTEN)
+rapportd   601      andy   10u  IPv4 0x8928a8c58c31b748      0t0  TCP *:49152 (LISTEN)
+rapportd   601      andy   11u  IPv6 0x2e2a4829895858e8      0t0  TCP *:49152 (LISTEN)
+ControlCe  661      andy    9u  IPv4 0xb084870c4a697160      0t0  TCP *:7000 (LISTEN)
+ControlCe  661      andy   10u  IPv6 0x624e3d0c24d390b9      0t0  TCP *:7000 (LISTEN)
+ControlCe  661      andy   11u  IPv4 0xed5e903168421299      0t0  TCP *:5000 (LISTEN)
+ControlCe  661      andy   12u  IPv6 0xd847dbdebb258cd2      0t0  TCP *:5000 (LISTEN)
+node       883      andy   16u  IPv4 0xe12a784b2c006d5c      0t0  TCP 127.0.0.1:18789 (LISTEN)
+node       883      andy   17u  IPv6 0x4b55695ae7005268      0t0  TCP [::1]:18789 (LISTEN)
+node       883      andy   25u  IPv4 0xb1fc7e5bdef32258      0t0  TCP 127.0.0.1:18792 (LISTEN)
+Remote    1031      andy    8u  IPv4 0x89f546e08f363492      0t0  TCP *:1978 (LISTEN)
+Remote    1031      andy   11u  IPv6 0x44bc47812c9c4b4d      0t0  TCP *:1978 (LISTEN)
+Remote    1031      andy   12u  IPv6 0xac7dd1204f68a3f2      0t0  TCP *:1979 (LISTEN)
+Remote    1031      andy   14u  IPv4 0xbb8d72d2594a95df      0t0  TCP *:1979 (LISTEN)
+
+7) Check for known sensitive files in workspace (json, pem, key)
+577077        8 -rw-r--r--    1 andy             staff                 203  2월 21 19:13 /Users/andy/.openclaw/workspace/config/model_fallback.json
+580680        8 -rw-------    1 andy             staff                 412  2월 21 21:10 /Users/andy/.openclaw/workspace/workspace/inbound/session_20260221211029/file_9---bf3ae6bd-2fea-441c-b084-8114195a4178.json
+287661        8 -rw-------    1 andy             staff                 139  2월 12 20:03 /Users/andy/.openclaw/workspace/credentials/telegram_bot.json
+304876        8 -rw-------    1 andy             staff                  31  2월 12 16:24 /Users/andy/.openclaw/workspace/credentials/brave_api.key
+298970        8 -rw-------    1 andy             staff                 449  2월 12 20:04 /Users/andy/.openclaw/workspace/credentials/telegram_pairing.json
+(Note: json listing includes many harmless files; inspect manually for secrets)
+
+8) Docker containers (if docker available)
+docker not found
+
+9) Fail2ban status (if available)
+fail2ban not installed
+10) Suggested next steps
+- If you have exposed tokens in this workspace, rotate/revoke them immediately.
+- Re-run this script as sudo to include system-wide service and socket checks.
+- Consider moving secrets to a secrets manager (Vault, GCP Secret Manager).

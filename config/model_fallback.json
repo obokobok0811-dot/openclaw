@@ -1,0 +1,7 @@
+{
+  "default_sequence": ["gpt-5-mini","claude-opus-4.5"],
+  "per_call_timeout_sec": 20,
+  "failure_criteria": "exception_or_empty_response",
+  "log_fallbacks_to": "logs/replyer.log",
+  "enabled": true
+}

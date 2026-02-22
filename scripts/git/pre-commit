@@ -1,0 +1,97 @@
+#!/bin/bash
+# Pre-commit hook: block sensitive data from being committed.
+# Install: cp this to .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
+
+RED='\033[0;31m'
+NC='\033[0m'
+
+BLOCKED=0
+
+# === 1. Check for sensitive file patterns ===
+SENSITIVE_PATTERNS=(
+    "*.key"
+    "*.pem"
+    "*.p12"
+    "*.pfx"
+    "*.token"
+    "*_token.json"
+    ".env"
+    ".env.*"
+    "backup_passphrase*"
+    "*/credentials/*"
+    "*.cookies"
+    "*.cookie"
+    "cookies.sqlite"
+    "cookies.json"
+    "session_tokens.*"
+    "*/chrome_profile/*"
+    "*/firefox_profile/*"
+    "*/Default/Cookies"
+    "*/Default/Login Data"
+    "*/Session Storage/*"
+    "*/Local Storage/*"
+)
+
+STAGED=$(git diff --cached --name-only --diff-filter=ACM)
+
+for file in $STAGED; do
+    for pattern in "${SENSITIVE_PATTERNS[@]}"; do
+        case "$file" in
+            $pattern)
+                echo -e "${RED}BLOCKED:${NC} $file matches sensitive pattern '$pattern'"
+                BLOCKED=1
+                ;;
+        esac
+    done
+done
+
+# === 2. Scan staged file contents for secrets ===
+for file in $STAGED; do
+    # Skip binary files
+    if file "$file" 2>/dev/null | grep -q "binary"; then
+        continue
+    fi
+
+    # Skip files larger than 100KB
+    size=$(wc -c < "$file" 2>/dev/null || echo 0)
+    if [ "$size" -gt 102400 ]; then
+        continue
+    fi
+
+    # Skip security tool source files (they contain regex patterns that look like secrets)
+    case "$file" in
+        poc/security/redact.py|poc/security/scanner_v*.py|poc/security/run_scanner.py|scripts/git/pre-commit)
+            continue
+            ;;
+    esac
+
+    # Check for secret patterns in staged content
+    MATCHES=$(git diff --cached "$file" 2>/dev/null | grep -nE \
+        'AKIA[0-9A-Z]{16}|-----BEGIN.*(PRIVATE KEY)-----|AIza[0-9A-Za-z_-]{35}|sk-[A-Za-z0-9]{32,}|xox[bpas]-[A-Za-z0-9-]{10,}|[0-9]{8,10}:AA[A-Za-z0-9_-]{33,}|GOCSPX-[A-Za-z0-9_-]{20,}|eyJ[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{20,}' \
+        2>/dev/null)
+
+    if [ -n "$MATCHES" ]; then
+        echo -e "${RED}BLOCKED:${NC} Potential secret found in $file:"
+        echo "$MATCHES" | head -5
+        BLOCKED=1
+    fi
+done
+
+# === 3. Check for browser profile data ===
+for file in $STAGED; do
+    case "$file" in
+        *chrome_profile*|*firefox_profile*|*Cookies*|*"Login Data"*|*"Session Storage"*|*"Local Storage"*)
+            echo -e "${RED}BLOCKED:${NC} Browser profile data: $file"
+            BLOCKED=1
+            ;;
+    esac
+done
+
+if [ $BLOCKED -eq 1 ]; then
+    echo ""
+    echo -e "${RED}Commit blocked by pre-commit hook.${NC}"
+    echo "If you're sure this is safe, use: git commit --no-verify"
+    exit 1
+fi
+
+exit 0

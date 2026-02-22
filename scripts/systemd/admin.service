@@ -1,0 +1,14 @@
+[Unit]
+Description=OpenClaw Admin Agent
+After=network.target
+
+[Service]
+Type=simple
+User=andy
+WorkingDirectory=/Users/andy/.openclaw/workspace/agents/admin
+ExecStart=/usr/bin/env python3 /Users/andy/.openclaw/workspace/agents/admin/app.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

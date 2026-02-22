@@ -1,0 +1,1 @@
+Running: hdiutil attach 'workspace/inbound/session_20260221211029/combined.7z.extracted/RemoteMouse.dmg' -nobrowse -quiet; cp -R "/Volumes/Remote Mouse/Remote Mouse.app" /Applications/ || true; hdiutil detach "/Volumes/Remote Mouse" -quiet || true

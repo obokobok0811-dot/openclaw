@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo sqlite3 "/Library/Application Support/com.apple.TCC/TCC.db" "SELECT client, auth_value, last_modified FROM access WHERE service='kTCCServiceAccessibility' ORDER BY last_modified DESC LIMIT 200;" > "$HOME/.openclaw/workspace/tcc_access_output.txt"
+ls -l "$HOME/.openclaw/workspace/tcc_access_output.txt"
+sed -n '1,200p' "$HOME/.openclaw/workspace/tcc_access_output.txt"
