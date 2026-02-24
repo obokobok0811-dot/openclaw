@@ -31,6 +31,14 @@ Things like:
 - Default speaker: Kitchen HomePod
 ```
 
+### TTS
+
+- Provider: ElevenLabs
+- Preferred voice: Rachel (voice_id: 21m00Tcm4TlvDq8ikWAM) — 따뜻한 여성 음성
+- Model: eleven_multilingual_v2
+- Voice settings: stability=0.18, similarity_boost=0.88, style=0.8, use_speaker_boost=true, speed=1.2
+- API key: configured in openclaw.json env
+
 ## Why Separate?
 
 Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.

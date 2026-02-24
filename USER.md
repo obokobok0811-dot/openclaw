@@ -2,8 +2,8 @@
 
 _Learn about the person you're helping. Update this as you go._
 
-- **Name:**
-- **What to call them:**
+- **Name:** 신경호 (Andy)
+- **What to call them:** Andy 또는 경호
 - **Pronouns:** _(optional)_
 - **Timezone:**
 - **Notes:**
