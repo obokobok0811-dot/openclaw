@@ -17,6 +17,11 @@
     <string>/Users/andy/.openclaw/workspace/scripts/watchdog/watchdog.log</string>
     <key>StandardErrorPath</key>
     <string>/Users/andy/.openclaw/workspace/scripts/watchdog/watchdog.log</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    </dict>
     <key>RunAtLoad</key>
     <true/>
 </dict>

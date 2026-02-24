@@ -12,6 +12,7 @@ from pathlib import Path
 from datetime import datetime
 
 # Config
+OPENCLAW_BIN = '/usr/local/bin/openclaw'
 MAX_RESTART_ATTEMPTS = 3
 STATE_FILE = Path(__file__).parent / 'watchdog_state.json'
 TELEGRAM_BOT_TOKEN = None
@@ -56,7 +57,7 @@ def check_gateway_health():
     """Check if gateway is responding."""
     try:
         result = subprocess.run(
-            ['openclaw', 'gateway', 'status'],
+            [OPENCLAW_BIN, 'gateway', 'status'],
             capture_output=True, text=True, timeout=30
         )
         output = result.stdout.lower() + result.stderr.lower()
@@ -73,7 +74,7 @@ def restart_gateway():
     """Attempt to restart the gateway."""
     try:
         result = subprocess.run(
-            ['openclaw', 'gateway', 'restart'],
+            [OPENCLAW_BIN, 'gateway', 'restart'],
             capture_output=True, text=True, timeout=60
         )
         return result.returncode == 0, result.stdout.strip() + result.stderr.strip()
