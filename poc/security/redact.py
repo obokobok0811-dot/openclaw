@@ -14,6 +14,15 @@ PATTERNS = [
     ('Private Key', re.compile(r'-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----')),
     ('JWT', re.compile(r'eyJ[A-Za-z0-9_-]{10,}\.[A-Za-z0-9_-]{10,}\.[A-Za-z0-9_-]{10,}')),
     ('Generic Token', re.compile(r'(?:password|secret|token|api_key)\s*[=:]\s*["\'][A-Za-z0-9_/+=-]{8,}["\']')),
+
+    ('Email Address', re.compile(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}')),
+    ('Phone Number KR', re.compile(r'01[0-9]-?\d{3,4}-?\d{4}')),
+    ('Phone Number Intl', re.compile(r'\+\d{1,3}[- ]?\d{2,4}[- ]?\d{3,4}[- ]?\d{3,4}')),
+    ('Dollar Amount', re.compile(r'\$\d{1,3}(?:,\d{3})*(?:\.\d{2})?')),
+    ('Won Amount', re.compile(r'\d{1,3}(?:,\d{3})*\s*[원]')),
+    ('Bearer Token', re.compile(r'Bearer\s+[A-Za-z0-9_\-\.]{20,}')),
+    ('ElevenLabs Key', re.compile(r'sk_[a-f0-9]{40,}')),
+    ('Brave API Key', re.compile(r'BSA[A-Za-z0-9_]{20,}')),
 ]
 
 def redact(text):
