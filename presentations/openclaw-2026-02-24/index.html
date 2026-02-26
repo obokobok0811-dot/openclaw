@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1280, height=720">
+<title>OpenClaw 2026.2.24 업데이트 — 요약(5장)</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css" id="theme">
+<style>
+:root{--accent:#58a6ff;--pos:#3fb950;--neg:#f85149}
+.reveal{font-family: "Helvetica Neue", Arial, sans-serif; font-size:32px}
+.reveal .slides{width:1280px;height:720px}
+.slidetitle{font-size:48px;font-weight:700;margin-bottom:6px}
+.subtitle{font-size:20px;color:#a6b8d6;margin-bottom:18px}
+.stat-grid{display:flex;gap:12px;margin-top:12px}
+.stat-box{flex:1;background:rgba(88,166,255,0.06);padding:10px;border-radius:8px;text-align:center}
+.stat-box .num{font-size:36px;font-weight:700;color:var(--accent)}
+.stat-box .label{font-size:18px;color:#9fb0d6}
+.benchmark-table{width:100%;border-collapse:collapse;margin-top:12px;color:#e6edf3}
+.benchmark-table th,.benchmark-table td{border:1px solid rgba(255,255,255,0.06);padding:8px;text-align:left}
+.verdict-box{margin-top:14px;padding:16px;border-left:6px solid var(--accent);background:rgba(9,12,16,0.6);border-radius:6px}
+.verdict-box.positive{border-left-color:var(--pos)}
+.verdict-box.negative{border-left-color:var(--neg)}
+.fragment{opacity:0;transition:opacity .6s ease}
+.reveal .slides section.present .fragment{opacity:1}
+.small{font-size:0.7em;color:#9fb0d6;margin-top:8px}
+.footnote{font-size:0.6em;color:#7f90a8;margin-top:16px}
+.list-2col{display:flex;gap:40px}
+.list-2col ul{flex:1}
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- 1 Title -->
+<section>
+  <div class="slidetitle">OpenClaw v2026.2.24 — 핵심 요약</div>
+  <div class="subtitle">보안·샌드박스 강화 · 채널 안정화 · 운용 주의사항</div>
+  <div class="stat-grid">
+    <div class="stat-box"><div class="num">v2026.2.24</div><div class="label">릴리스</div></div>
+    <div class="stat-box"><div class="num">보안 강화</div><div class="label">샌드박스·네트워크</div></div>
+    <div class="stat-box"><div class="num">채널 안정화</div><div class="label">Discord/Telegram/WhatsApp</div></div>
+  </div>
+  <div class="footnote">출처: OpenClaw Releases — https://github.com/openclaw/openclaw/releases/tag/v2026.2.24</div>
+</section>
+
+<!-- 2 Background + Key changes -->
+<section>
+  <h2 class="slidetitle fragment">배경 & 핵심 변경사항</h2>
+  <ul>
+    <li class="fragment">운영 안정성과 보안 취약점 완화가 핵심 목표</li>
+    <li class="fragment">샌드박스 강화: 컨테이너 네트워크·네임스페이스 제약 기본 적용</li>
+    <li class="fragment">Heartbeat/cron 라우팅 안전성 개선(누출/오전달 방지)</li>
+    <li class="fragment">채널별 버그 수정으로 메시지 회복성 향상</li>
+  </ul>
+  <div class="small fragment">요약된 변경은 운영팀이 스테이징에서 검증해야 합니다.</div>
+</section>
+
+<!-- 3 Benchmarks / comparisons -->
+<section>
+  <h2 class="slidetitle fragment">브레이킹·픽스 요약</h2>
+  <table class="benchmark-table fragment">
+    <tr><th>영역</th><th>주요 변경</th><th>영향</th></tr>
+    <tr><td>Heartbeat</td><td>DM 대상 차단</td><td>직접 메시지 알림 정책 재검토 필요</td></tr>
+    <tr><td>Sandbox</td><td>네임스페이스/네트워크 제약</td><td>일부 자동화 워크플로우 변경 필요</td></tr>
+    <tr><td>Channels</td><td>Discord/WhatsApp 복구 로직 수정</td><td>채널 신뢰성 향상</td></tr>
+  </table>
+  <div class="verdict-box fragment negative">주의: Heartbeat DM 차단은 기존 DM 기반 자동화에 중대한 영향이 있음.</div>
+</section>
+
+<!-- 4 Strengths / Weaknesses + Actions -->
+<section>
+  <h2 class="slidetitle fragment">강점 · 약점 · 권장 조치</h2>
+  <div class="list-2col fragment">
+    <ul>
+      <li><strong>강점</strong>: 보안 표면 축소, 채널 안정성 개선, 크론 안정화</li>
+      <li><strong>약점</strong>: 일부 워크플로우 호환성 문제, 사전 테스트 필요</li>
+    </ul>
+    <ul>
+      <li><strong>권장</strong>: 스테이징에서 sandbox 네트워크 테스트</li>
+      <li><strong>권장</strong>: Heartbeat/cron 전달 정책 재검토 및 문서화</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 5 Closing / CTA -->
+<section>
+  <h2 class="slidetitle fragment">다음 단계 (CTA)</h2>
+  <ol class="fragment">
+    <li>스테이징에서 네트워크·heartbeat 동작 검증</li>
+    <li>운영자 대상 영향 범위 공지 및 가이드 업데이트</li>
+    <li>롤아웃 전 복구/대체 경로 테스트</li>
+  </ol>
+  <div class="footnote fragment">원문 & 상세: https://github.com/openclaw/openclaw/releases/tag/v2026.2.24</div>
+</section>
+
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+<script>
+const deck = new Reveal({hash:false,transition:'slide',backgroundTransition:'fade'});
+deck.initialize();
+</script>
+</body>
+</html>
