@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1280, height=720, initial-scale=1.0">
+  <title>무인 소방로봇 — 기술팀 요약</title>
+  <!-- Reveal.js 5.x via CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css" id="theme">
+  <style>
+    /* Style guide: dark theme with blue accent #58a6ff, green #3fb950, red #f85149 */
+    :root{--accent:#58a6ff;--pos:#3fb950;--neg:#f85149}
+    .reveal{font-family: "Helvetica Neue", Arial, sans-serif; font-size:32px}
+    .slides section { color:#e6edf3 }
+    .title { font-size:48px; font-weight:700; margin-bottom:10px }
+    .subtitle { font-size:20px; color:#a6b8d6; margin-bottom:22px }
+    .pill { display:inline-block; padding:6px 12px; border-radius:999px; background:rgba(88,166,255,0.12); color:var(--accent); font-weight:600 }
+    .row{display:flex;gap:28px;align-items:flex-start}
+    .col{flex:1}
+    .spec{font-size:26px}
+    .callout{margin-top:18px;padding:14px;border-radius:8px;background:rgba(255,255,255,0.04)}
+    .small{font-size:0.8em;color:#9fb0d6}
+    /* stat grid */
+    .stat-grid{display:flex;gap:12px;margin-top:12px}
+    .stat-box{flex:1;background:rgba(88,166,255,0.06);padding:10px;border-radius:8px;text-align:center}
+    .stat-box .num{font-size:36px;font-weight:700;color:var(--accent)}
+    .stat-box .label{font-size:18px;color:#9fb0d6}
+    /* benchmark table */
+    .benchmark-table{width:100%;border-collapse:collapse;margin-top:12px;color:#e6edf3}
+    .benchmark-table th, .benchmark-table td{border:1px solid rgba(255,255,255,0.06);padding:8px;text-align:left}
+    .benchmark-table th{background:rgba(0,0,0,0.2)}
+    /* verdict box */
+    .verdict-box{margin-top:14px;padding:16px;border-left:6px solid var(--accent);background:rgba(9,12,16,0.6);border-radius:6px}
+    .verdict-box.positive{border-left-color:var(--pos)}
+    .verdict-box.negative{border-left-color:var(--neg)}
+    /* fragments for progressive reveal */
+    .fragment{opacity:0;transition:opacity 0.6s ease}
+    .reveal .slides section.present .fragment{opacity:1}
+    /* scale down tables if ever used */
+    table{font-size:0.7em}
+    /* ensure 1280x720 friendly layout */
+    .reveal .slides { width:1280px; height:720px }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section>
+        <div class="title">무인 소방로봇 — 기술팀 단일 슬라이드 요약</div>
+        <div class="subtitle">핵심 설계 포인트 · 현황 · 즉시 검토할 기술적 리스크</div>
+
+        <div class="row">
+          <div class="col">
+            <div class="pill">플랫폼</div>
+            <div class="spec">HR-셰르파 기반 · 6륜 인휠모터(독립구동)</div>
+
+            <div class="pill" style="margin-top:12px">생존성</div>
+            <div class="spec">800℃ 환경 대응(수막 분무로 섀시 50~60℃ 유지) · 특수 타이어</div>
+
+            <div class="pill" style="margin-top:12px">센싱 / 제어</div>
+            <div class="spec">적외선·열화상 카메라 · 원격 실시간 영상(저지연 제어)</div>
+          </div>
+
+          <div class="col">
+            <div class="pill">임무</div>
+            <div class="spec">초동 진압, 인명 탐색, 진입 판단 보조</div>
+
+            <div class="pill" style="margin-top:12px">강점</div>
+            <div class="spec">사람 접근 불가 구역 진입 가능 · 전동화로 밀폐공간 대응</div>
+
+            <div class="pill" style="margin-top:12px">기술 리스크</div>
+            <div class="spec" style="color:var(--neg)">무선 커버리지/지연 · 센서 오작동(연기·열 복합환경) · 유지보수·열 스트레스</div>
+          </div>
+        </div>
+
+        <div class="callout">
+          <strong>권장 액션(빠르게):</strong> 무선 대체링크(현장 라우터)·센서 퓨전(열+IR+LiDAR) 파일럿, 유지보수 매뉴얼 및 예비모듈 확보
+          <div class="small">프레젠테이션 용 — 자세한 데이터/벤치마크는 별도 리서치 세션에서 제공</div>
+                  <table class="benchmark-table fragment">
+            <tr><th>Platform</th><th>Mobility</th><th>Survivability</th></tr>
+            <tr><td>HR-셰르파 (현대로템)</td><td>6륜 인휠</td><td>800°C(수막)</td></tr>
+            <tr><td>대응로봇 B사</td><td>4륜 전륜</td><td>500°C</td></tr>
+          </table>
+          <div class="verdict-box fragment positive">핵심: 전동화 기반으로 밀폐·지하 화재에 유리. 무선/센서 신뢰성 보강 필요.</div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+  <script>
+    const deck = new Reveal({
+      hash: false,
+      backgroundTransition: 'fade',
+      transition: 'slide'
+    });
+    deck.initialize();
+  </script>
+</body>
+</html>
