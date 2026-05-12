@@ -1,0 +1,9 @@
+{
+  "alert": true,
+  "job_id": "REDACTED",
+  "timestamp": "2026-05-03T10:07:57Z",
+  "exit_code": 2,
+  "error": "Script not found",
+  "stderr": "/Users/andy/.openclaw/workspace/orchestrator_trader.py: [Errno 2] No such file or directory",
+  "REDACTED": "2026-05-02T13:57:00Z"
+}

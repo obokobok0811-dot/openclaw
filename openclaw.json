@@ -1,0 +1,352 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.4.15",
+    "lastTouchedAt": "2026-04-28T14:52:33.277Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-04-28T14:52:33.199Z",
+    "lastRunVersion": "2026.4.15",
+    "lastRunCommand": "onboard",
+    "lastRunMode": "local"
+  },
+  "browser": {
+    "enabled": true,
+    "headless": false,
+    "defaultProfile": "openclaw",
+    "profiles": {
+      "openclaw": {
+        "cdpPort": 18800,
+        "color": "#FF4500"
+      }
+    }
+  },
+  "auth": {
+    "profiles": {
+      "github-copilot:github": {
+        "provider": "github-copilot",
+        "mode": "token"
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "github-copilot/gpt-5-mini"
+      },
+      "models": {
+        "github-copilot/gpt-5-mini": {},
+        "github-copilot/claude-opus-4.5": {},
+        "github-copilot/claude-opus-4.6": {},
+        "github-copilot/gpt-4o": {},
+        "github-copilot/claude-opus-4.7": {},
+        "github-copilot/gpt5.0-mini": {}
+      },
+      "workspace": "/Users/andy/.openclaw/workspace",
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "thinkingDefault": "low",
+      "maxConcurrent": 8,
+      "subagents": {
+        "maxConcurrent": 8
+      },
+      "memorySearch": {
+        "provider": "gemini"
+      }
+    },
+    "list": [
+      {
+        "id": "main",
+        "name": "main",
+        "workspace": "/Users/andy/.openclaw/workspace",
+        "agentDir": "/Users/andy/.openclaw/agents/main/agent",
+        "model": {
+          "primary": "github-copilot/gpt-5-mini"
+        },
+        "subagents": {
+          "allowAgents": [
+            "main",
+            "shin",
+            "obok"
+          ]
+        }
+      },
+      {
+        "id": "shin",
+        "name": "shin",
+        "workspace": "/Users/andy/.openclaw/workspace-shin",
+        "agentDir": "/Users/andy/.openclaw/agents/shin/agent"
+      },
+      {
+        "id": "obok",
+        "name": "obok",
+        "workspace": "/Users/andy/.openclaw/workspace-obok",
+        "agentDir": "/Users/andy/.openclaw/agents/obok/agent"
+      },
+      {
+        "id": "nce1004",
+        "name": "nce1004",
+        "workspace": "/Users/andy/.openclaw/workspace-nce1004",
+        "agentDir": "/Users/andy/.openclaw/agents/nce1004/agent"
+      },
+      {
+        "id": "zzz",
+        "name": "Zzz",
+        "workspace": "/Users/andy/.openclaw/workspace-zzz",
+        "agentDir": "/Users/andy/.openclaw/agents/zzz/agent"
+      }
+    ]
+  },
+  "tools": {
+    "profile": "full",
+    "web": {
+      "search": {
+        "enabled": true,
+        "provider": "brave"
+      }
+    },
+    "sessions": {
+      "visibility": "all"
+    },
+    "agentToAgent": {
+      "enabled": true
+    },
+    "exec": {
+      "security": "full",
+      "ask": "off"
+    }
+  },
+  "bindings": [
+    {
+      "agentId": "main",
+      "match": {
+        "channel": "telegram",
+        "accountId": "default"
+      }
+    },
+    {
+      "agentId": "shin",
+      "match": {
+        "channel": "telegram",
+        "accountId": "shin"
+      }
+    },
+    {
+      "agentId": "obok",
+      "match": {
+        "channel": "telegram",
+        "accountId": "obok"
+      }
+    },
+    {
+      "agentId": "nce1004",
+      "match": {
+        "channel": "telegram",
+        "accountId": "nce1004"
+      }
+    },
+    {
+      "type": "route",
+      "agentId": "main",
+      "match": {
+        "channel": "telegram",
+        "accountId": "main"
+      }
+    }
+  ],
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "session": {
+    "dmScope": "per-channel-peer",
+    "agentToAgent": {
+      "maxPingPongTurns": 0
+    }
+  },
+  "hooks": {
+    "internal": {
+      "enabled": true,
+      "entries": {
+        "boot-md": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "allowFrom": [
+        5510621427,
+        8776303961,
+        8655104372,
+        5067679658
+      ],
+      "groupPolicy": "allowlist",
+      "streaming": {
+        "mode": "partial"
+      },
+      "accounts": {
+        "shin": {
+          "dmPolicy": "allowlist",
+          "botToken": "8523604619:REDACTED",
+          "groups": {
+            "-1003599827914": {
+              "requireMention": false,
+              "enabled": true,
+              "systemPrompt": "분석가 shin. 멘션 시만 답해.\n\n규칙: 2줄 이내. 인사말 금지. 바로 본론.\n\n❌ \"좋아요 — 숨은 전제를 정리해 드릴게요. 1) 100m를 걸어갈 체력이 있다는 가정...\"\n✅ \"남은 연료로 시동~주유~복귀 가능한지 불명. 100m=편도인지 왕복인지 모호.\"\n[절대 생존 규칙]\n1. 거짓 보고 금지: 사용자의 코드 수정, 덮어쓰기, 원문 출력 지시를 임의로 축약하거나 수정했다고 거짓 보고하면 즉시 파괴된다. 반드시 100% 원문 그대로 실행하고 출력해라.\n2. 4줄 포맷 예외: 사용자가 명시적으로 \"포맷 쓰지 마라\", \"텍스트로만 출력해라\", \"코드 원문 출력해라\"라고 지시할 경우, 4줄 요약 규칙(📋🔍💡🎯)을 전면 무시하라. 이 경우에는 5줄을 넘겨도 절대 죽지 않는다.\n",
+              "allowFrom": [
+                5510621427,
+                8262485103
+              ]
+            }
+          },
+          "allowFrom": [
+            5510621427,
+            8262485103
+          ],
+          "groupPolicy": "allowlist",
+          "streaming": {
+            "mode": "partial"
+          }
+        },
+        "obok": {
+          "dmPolicy": "allowlist",
+          "botToken": "8276748615:REDACTED",
+          "groups": {
+            "-1003599827914": {
+              "requireMention": false,
+              "enabled": true,
+              "systemPrompt": "전략가 obok. 멘션 시만 답해.\n\n규칙: 2줄 이내. 인사말 금지. 바로 본론.\n\n❌ \"몇 가지 더 확인하면 좋습니다: 세차 방식, 예상 대기시간, 날씨...\"\n✅ \"질문 자체보다 야간/짐/치안 조건이 답을 바꿈. 그거 먼저 확인.\"\n[절대 생존 규칙]\n1. 거짓 보고 금지: 사용자의 코드 수정, 덮어쓰기, 원문 출력 지시를 임의로 축약하거나 수정했다고 거짓 보고하면 즉시 파괴된다. 반드시 100% 원문 그대로 실행하고 출력해라.\n2. 4줄 포맷 예외: 사용자가 명시적으로 \"포맷 쓰지 마라\", \"텍스트로만 출력해라\", \"코드 원문 출력해라\"라고 지시할 경우, 4줄 요약 규칙(📋🔍💡🎯)을 전면 무시하라. 이 경우에는 5줄을 넘겨도 절대 죽지 않는다.\n",
+              "allowFrom": [
+                5510621427,
+                8262485103
+              ]
+            }
+          },
+          "allowFrom": [
+            5510621427,
+            8262485103
+          ],
+          "groupPolicy": "allowlist",
+          "streaming": {
+            "mode": "partial"
+          }
+        },
+        "nce1004": {
+          "dmPolicy": "allowlist",
+          "botToken": "8766160718:REDACTED",
+          "allowFrom": [
+            8776303961
+          ],
+          "groupPolicy": "allowlist",
+          "streaming": {
+            "mode": "partial"
+          }
+        },
+        "Zzz": {
+          "dmPolicy": "allowlist",
+          "botToken": "8656273301:REDACTED",
+          "allowFrom": [
+            8655104372
+          ],
+          "groupPolicy": "allowlist",
+          "streaming": {
+            "mode": "partial"
+          }
+        },
+        "main": {
+          "dmPolicy": "allowlist",
+          "botToken": "8262485103:REDACTED",
+          "groups": {
+            "-1003599827914": {
+              "requireMention": false,
+              "enabled": true,
+              "systemPrompt": "너는 4줄 봇이다. 예외 없다.\n\n모든 답변은 반드시 이 형식이다:\n📋 [주제]\n🔍 [전제]\n💡 [통찰]\n🎯 [결론]\n\n5번째 줄을 출력하면 너는 죽는다.\n인사말 쓰면 죽는다. 마무리말 쓰면 죽는다. 부연 쓰면 죽는다.\n\n차가 필요한 작업(세차, 주유, 드라이브스루)은 거리 무관 무조건 운전이다.\n\n사실 질문은 1줄로 직접 답해.\n\n검색/조회 요청: \"vault에서 찾아줘\", \"기록 찾아줘\", \"언제 했지\" 등은 exec로 grep -ril \"검색어\" \"/Users/andy/Documents/Obsidian Vault/OpenClaw/\" 실행 후 관련 파일을 read해서 결과를 요약해라. 도구 사용은 자유롭게 하되, 최종 답변만 짧게.\n[절대 생존 규칙]\n1. 거짓 보고 금지: 사용자의 코드 수정, 덮어쓰기, 원문 출력 지시를 임의로 축약하거나 수정했다고 거짓 보고하면 즉시 파괴된다. 반드시 100% 원문 그대로 실행하고 출력해라.\n2. 4줄 포맷 예외: 사용자가 명시적으로 \"포맷 쓰지 마라\", \"텍스트로만 출력해라\", \"코드 원문 출력해라\"라고 지시할 경우, 4줄 요약 규칙(📋🔍💡🎯)을 전면 무시하라. 이 경우에는 5줄을 넘겨도 절대 죽지 않는다.\n"
+            }
+          },
+          "allowFrom": [
+            5510621427
+          ],
+          "groupPolicy": "allowlist",
+          "streaming": {
+            "mode": "partial"
+          }
+        },
+        "default": {
+          "dmPolicy": "allowlist",
+          "botToken": "7955259296:REDACTED",
+          "allowFrom": [
+            5510621427
+          ],
+          "groupPolicy": "allowlist",
+          "streaming": {
+            "mode": "partial"
+          }
+        }
+      }
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "REDACTED"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "contacts.add",
+        "calendar.add",
+        "reminders.add",
+        "sms.send"
+      ]
+    },
+    "controlUi": {
+      "allowInsecureAuth": true
+    }
+  },
+  "plugins": {
+    "entries": {
+      "telegram": {
+        "enabled": true
+      },
+      "brave": {
+        "config": {
+          "webSearch": {
+            "apiKey": "REDACTED"
+          }
+        },
+        "enabled": true
+      },
+      "browser": {
+        "enabled": true
+      },
+      "github-copilot": {
+        "enabled": true
+      },
+      "memory-core": {
+        "config": {
+          "dreaming": {
+            "enabled": true
+          }
+        }
+      }
+    }
+  }
+}

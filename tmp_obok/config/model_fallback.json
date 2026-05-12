@@ -1,0 +1,7 @@
+{
+  "default_sequence": ["gpt-5-mini","claude-opus-4.5"],
+  "REDACTED": 20,
+  "failure_criteria": "REDACTED",
+  "log_fallbacks_to": "logs/replyer.log",
+  "enabled": true
+}

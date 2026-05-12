@@ -1,0 +1,6 @@
+Top-level keys and 3-line sample from REDACTED.json
+
+File content (raw):
+{"rt_cd":"2","msg_cd":"OPSQ2001","msg1":"ERROR INPUT FIELD NOT FOUND [FID_ORG_ADJ_PRC]"}
+
+No daily bars found — file contains an error response.

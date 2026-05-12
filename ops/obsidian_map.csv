@@ -1,0 +1,49 @@
+date,file,tickers,signals,errors
+2026-03-25,2026-03-25/REDACTED.md,KRW-TEST,BUY,
+2026-03-26,2026-03-26/REDACTED.md,KRW-TEST,BUY,
+2026-03-27,2026-03-27/REDACTED.md,KRW-TEST,BUY,
+2026-04-04,2026-04-04/KRW-TEST-BUY-32.md,KRW-TEST,BUY,
+2026-04-05,2026-04-05/KRW-TEST-BUY-31.md,KRW-TEST,BUY,
+2026-04-06,2026-04-06/KRW-TEST-BUY-30.md,KRW-TEST,BUY,
+2026-04-06,2026-04-06/hist_loss_TEST2.md,KRW-TEST,BUY,
+2026-04-16,2026-04-16/Rocinante 이거 기억나.md,,,"error,ERROR"
+2026-04-17,2026-04-17/Rocinante 내 SUV를 세차하고 싶어. 세차장이 집에서 딱.md,,"SELL,BUY",
+2026-04-17,2026-04-17/Rocinante 텔레그램 그룹 대화.md,,"SELL,BUY","Exception,Error"
+2026-04-18,2026-04-18/Rocinante 어제 했던거 기억해.md,,"SELL,BUY",
+2026-04-18,2026-04-18/웹챗 대화.md,KRW-BTC,SELL,error
+2026-04-18,2026-04-18/크론 작업.md,KRW-BTC,SELL,
+2026-04-19,2026-04-19/Rocinante 이렇게 하라고.md,,"SELL,BUY","traceback,Error"
+2026-04-19,2026-04-19/Rocinante 텔레그램 그룹 대화.md,,"SELL,BUY","traceback,Error"
+2026-04-19,2026-04-19/웹챗 대화.md,KRW-BTC,"SELL,BUY","error,exception"
+2026-04-19,2026-04-19/크론 작업.md,KRW-BTC,"SELL,BUY",error
+2026-04-20,2026-04-20/Rocinante Pre-compaction memory flush..md,KRW-BTC,"SELL,BUY","Exception,error,Traceback,Error"
+2026-04-20,2026-04-20/Rocinante 텔레그램 그룹 대화.md,KRW-BTC,"SELL,BUY","Exception,error,Traceback,Error"
+2026-04-20,2026-04-20/텔레그램 DM.md,KRW-BTC,,Traceback
+2026-04-21,2026-04-21/Rocinante 텔레그램 그룹 대화.md,KRW-BTC,"SELL,BUY","Exception,error,Traceback,Error"
+2026-04-21,2026-04-21/Rocinante 홀든 오복에게 7일 데이타를 주고 백테스트 실시하게.md,KRW-BTC,"SELL,BUY","Exception,error,Traceback,Error"
+2026-04-22,2026-04-22/Rocinante @Openclaw_obok_bot 6시간 보고.md,,,
+2026-04-22,2026-04-22/Rocinante 텔레그램 그룹 대화.md,,,
+2026-04-22,2026-04-22/크론 작업.md,KRW-BTC,,error
+2026-04-23,2026-04-23/Rocinante 나오미가 6시간 리포트 생성해서 보고하기로 했잖아.md,,BUY,
+2026-04-23,2026-04-23/Rocinante 왜 자동으로 보내지 않지.md,,BUY,
+2026-04-23,2026-04-23/크론 작업.md,,,error
+2026-04-24,2026-04-24/Rocinante 밤사이 매매 건수 있어.md,"KRW-ETH,KRW-BTC,KRW-SOL","SELL,BUY","error,ERROR,Error"
+2026-04-27,2026-04-27/크론 작업.md,,,error
+2026-04-28,2026-04-28/@Openclaw_obok_bot hi.md,,,
+2026-04-28,2026-04-28/A new session was started via new or.md,,,
+2026-04-28,2026-04-28/Rocinante @Openclaw_obok_bot hi.md,,"SELL,BUY",Error
+2026-04-28,2026-04-28/obok에이전트가 텔레그램에 연결이 잘 안되었어 과거 로그를 분석해서.md,KRW-SOL,,
+2026-04-28,2026-04-28/start.md,,,
+2026-04-28,2026-04-28/크론 작업.md,,,
+2026-04-29,2026-04-29/크론 작업.md,,,
+2026-04-30,2026-04-30/크론 작업.md,,,
+2026-05-01,2026-05-01/크론 작업.md,,,error
+2026-05-02,2026-05-02/웹챗 대화.md,,,
+2026-05-02,2026-05-02/크론 작업.md,,,"error,ERROR,traceback"
+2026-05-06,2026-05-06/auto_saved.md,"KRW-LINEA,KRW-ETH,KRW-TOKAMAK,KRW-BTC,KRW-SOL","SELL,BUY","Traceback,ERROR,traceback,Exception,error,exception,Error"
+2026-05-06,2026-05-06/REDACTED.md,KRW-TEST,BUY,
+2026-05-06,2026-05-06/REDACTED.md,KRW-TEST,BUY,
+2026-05-06,2026-05-06/REDACTED.md,KRW-TEST,BUY,
+2026-05-06,2026-05-06/REDACTED.md,KRW-TEST,BUY,
+2026-05-06,2026-05-06/REDACTED.md,KRW-TEST,BUY,
+2026-05-06,2026-05-06/REDACTED.md,KRW-TEST,BUY,

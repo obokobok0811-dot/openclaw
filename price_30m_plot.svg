@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400">
+<rect width="100%" height="100%" fill="#0b0b0b"/>
+<g font-family="Arial" font-size="12" fill="#ccc">
+<text x="50" y="20" fill="#fff">Last 30 min prices (BTC blue, ETH orange)</text>
+</g>
+<path d="M 50 50 L 685 203 L 719 283 L 749 350" stroke="#4aa3ff" stroke-width="2" fill="none" />
+<text x="600" y="40" fill="#4aa3ff">BTC 120,026,000</text>
+<path d="M 50 50 L 115 208 L 685 191 L 719 279 L 750 350" stroke="#ff9f4a" stroke-width="2" fill="none" />
+<text x="600" y="60" fill="#ff9f4a">ETH 3,524,000</text>
+<line x1="50" y1="350" x2="50" y2="356" stroke="#666"/>
+<text x="30" y="370" fill="#888">22:53</text>
+<line x1="190" y1="350" x2="190" y2="356" stroke="#666"/>
+<text x="170" y="370" fill="#888">22:57</text>
+<line x1="330" y1="350" x2="330" y2="356" stroke="#666"/>
+<text x="310" y="370" fill="#888">23:01</text>
+<line x1="470" y1="350" x2="470" y2="356" stroke="#666"/>
+<text x="450" y="370" fill="#888">23:06</text>
+<line x1="610" y1="350" x2="610" y2="356" stroke="#666"/>
+<text x="590" y="370" fill="#888">23:10</text>
+<line x1="750" y1="350" x2="750" y2="356" stroke="#666"/>
+<text x="730" y="370" fill="#888">23:15</text>
+</svg>

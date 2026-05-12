@@ -1,0 +1,8 @@
+No valid daily-bar data extracted for any ticker. Probe files saved for each JSON input:
+- REDACTED.txt
+- REDACTED.txt
+- REDACTED.txt
+- REDACTED.txt
+- REDACTED.txt
+
+Reason: each JSON contains an error response indicating missing field FID_ORG_ADJ_PRC. Please provide correct JSONs with daily bars, or allow extraction from alternate fields/paths.
