@@ -1,0 +1,57 @@
+Note: Unnecessary use of -X or --request, POST is already inferred.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Host openapivts.koreainvestment.com:29443 was resolved.
+* IPv6: (none)
+* IPv4: 210.107.75.32
+*   Trying 210.107.75.32:29443...
+* Connected to openapivts.koreainvestment.com (210.107.75.32) port 29443
+* ALPN: curl offers h2,http/1.1
+* (304) (OUT), TLS handshake, Client hello (1):
+} [335 bytes data]
+*  CAfile: /etc/ssl/cert.pem
+*  CApath: none
+* (304) (IN), TLS handshake, Server hello (2):
+{ [122 bytes data]
+* (304) (IN), TLS handshake, Unknown (8):
+{ [10 bytes data]
+* (304) (IN), TLS handshake, Certificate (11):
+{ [4940 bytes data]
+* (304) (IN), TLS handshake, CERT verify (15):
+{ [264 bytes data]
+* (304) (IN), TLS handshake, Finished (20):
+{ [52 bytes data]
+* (304) (OUT), TLS handshake, Finished (20):
+} [52 bytes data]
+* SSL connection using TLSv1.3 / REDACTED / [blank] / UNDEF
+* ALPN: server did not agree on a protocol. Uses default.
+* Server certificate:
+*  subject: C=KR; ST=Seoul; O=Korea Investment & Securities Co.,Ltd.; CN=openapivts.koreainvestment.com
+*  start date: Jan 28 00:00:00 2026 GMT
+*  expire date: Feb 19 23:59:59 2027 GMT
+*  subjectAltName: host "openapivts.koreainvestment.com" matched cert's "openapivts.koreainvestment.com"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Organization Validation Secure Server CA
+*  SSL certificate verify ok.
+* using HTTP/1.x
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0> POST /oauth2/tokenP HTTP/1.1
+> Host: openapivts.koreainvestment.com:29443
+> User-Agent: curl/8.7.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 278
+> 
+} [278 bytes data]
+* upload completely sent off: 278 bytes
+< HTTP/1.1 200 OK
+< Date: Mon, 11 May 2026 11:21:31 GMT
+< REDACTED: nosniff
+< Content-Length: 457
+< X-ORACLE-DMS-ECID: REDACTED
+< X-ORACLE-DMS-RID: 0:1
+< X-XSS-Protection: 1; mode=block
+< Content-Type: application/json
+< 
+{ [457 bytes data]
+100   735  100   457  100   278   1622    986 --:--:-- --:--:-- --:--:--  2606
+* Connection #0 to host openapivts.koreainvestment.com left intact
+{"access_token":"REDACTED.REDACTED.REDACTED","REDACTED":"2026-05-12 18:49:38","token_type":"Bearer","expires_in":86400}

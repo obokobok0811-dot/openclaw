@@ -1,0 +1,11 @@
+flask
+google-auth
+REDACTED
+REDACTED
+boxsdk
+REDACTED
+faiss-cpu
+sqlalchemy
+python-dotenv
+requests
+python-telegram-bot

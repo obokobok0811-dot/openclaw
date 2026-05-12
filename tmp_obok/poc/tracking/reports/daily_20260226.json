@@ -1,0 +1,31 @@
+{
+  "period": "daily",
+  "since": "2026-02-26T00:00:00",
+  "until": "2026-02-26T23:55:02.218431",
+  "total_calls": 31,
+  "total_cost_usd": 1.0237,
+  "total_input_tokens": 341232,
+  "total_output_tokens": 85308,
+  "by_provider": {
+    "github": {
+      "calls": 31,
+      "cost_usd": 1.0237,
+      "tokens": 426540
+    }
+  },
+  "by_model": {
+    "gpt-5-mini": {
+      "calls": 31,
+      "cost_usd": 1.0237,
+      "input_tokens": 341232,
+      "output_tokens": 85308
+    }
+  },
+  "by_task": {
+    "chat": {
+      "calls": 31,
+      "cost_usd": 1.0237,
+      "tokens": 426540
+    }
+  }
+}

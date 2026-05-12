@@ -1,0 +1,64 @@
+#!/usr/bin/env python3
+import os
+from pathlib import Path
+import requests
+
+# load .env.kis
+env_path = Path(__file__).parent / '.env.kis'
+if not env_path.exists():
+    raise SystemExit('Missing .env.kis')
+with open(env_path) as f:
+    for line in f:
+        if '=' in line:
+            k,v = line.strip().split('=',1)
+            os.environ[k]=v.strip('"')
+
+APP_KEY = os.getenv('KIS_APP_KEY')
+APP_SECRET = os.getenv('KIS_APP_SECRET')
+CANO = os.getenv('KIS_ACCOUNT')
+if not (APP_KEY and APP_SECRET and CANO):
+    raise SystemExit('KIS_APP_KEY/KIS_APP_SECRET/KIS_ACCOUNT must be set')
+
+# get token
+TOKEN_URL = 'https://openapivts.koreainvestment.com:29443/oauth2/token'
+payload = {'grant_type':'client_credentials','appkey':APP_KEY,'appsecret':APP_SECRET}
+resp = requests.post(TOKEN_URL, data=payload, timeout=10)
+resp.raise_for_status()
+token = resp.json().get('access_token')
+if not token:
+    print('NO_TOKEN', resp.text)
+    raise SystemExit(1)
+
+headers = {
+    'appkey': APP_KEY,
+    'appsecret': APP_SECRET,
+    'Authorization': 'Bearer ' + token,
+    'Content-Type': 'application/json; charset=utf-8',
+    # corrected reservation TR ID for cash buy
+    'tr_id': 'CTTC0802U'
+}
+
+ORDER_URL = 'https://openapivts.koreainvestment.com:29443/uapi/domestic-stock/v1/trading/order-resv'
+# Build payload per spec with required reservation fields
+payload = {
+    'CANO': CANO,
+    'ACNT_PRDT_CD': '01',
+    'PDNO': '028260',
+    'RSV_ORD_UNPR': '0',
+    'RSV_ORD_DVSN': '01',
+    'ORD_OBJ_DVSN': '0',
+    'SVR_RECV_TIME': '',
+    'ORD_QTY': '1',
+    'BNS_DVSN': '2'
+}
+
+# domain check
+if not ORDER_URL.startswith('https://openapivts.koreainvestment.com:29443'):
+    raise SystemExit('ORDER_URL domain mismatch')
+
+r = requests.post(ORDER_URL, json=payload, headers=headers, timeout=10)
+print('STATUS', r.status_code)
+try:
+    print(r.json())
+except Exception:
+    print(r.text)

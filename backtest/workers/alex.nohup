@@ -1,0 +1,6 @@
+/Users/andy/.openclaw/workspace/backtest/workers/alex_worker.py:38: SyntaxWarning: "\s" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\s"? A raw string is also an option.
+  'share_cancel':'(자사주\s*소각|자사주\s*취득|주주환원)',
+/Users/andy/.openclaw/workspace/backtest/workers/alex_worker.py:39: SyntaxWarning: "\s" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\s"? A raw string is also an option.
+  'board_resolution':'(이사회\s*결의|이사회\s*결정)',
+/Users/andy/.openclaw/workspace/backtest/workers/alex_worker.py:40: SyntaxWarning: "\s" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\s"? A raw string is also an option.
+  'take_or_pay':'(Take[-\s]?or[-\s]?Pay|최소\s*물량\s*보장|최소\s*발주)'

@@ -1,0 +1,44 @@
+---
+title: "Memory — 2026-02-22"
+date: 2026-02-22
+tags: [memory, auto-converted]
+source: MEMORY.md
+---
+
+Generated from daily notes: 2026-02-22
+
+# MEMORY (auto-updated)
+Generated: Sun Feb 22 02:55:26 UTC 2026
+
+## From: 2026-02-22
+## Decisions (#decision)
+- 
+
+## Todos (#todo)
+## Todos (#todo)
+- 
+
+
+
+# Previous MEMORY content
+# MEMORY.md
+
+이 파일은 Clawd의 장기 기억 저장소입니다. 중요한 결정, 선호도, 지속적으로 기억할 가치가 있는 사실들을 여기에 정리하세요.
+
+예시 항목:
+- 사용자 이름: Andy
+- 선호 언어: 한국어
+- Telegram user id: 5510621427
+- 주요 프로젝트: Telegram-OpenClaw 통합, itinerary generation
+
+작성 규칙:
+- 날짜별로 짧게 정리하세요(요점 위주).
+- 민감한 정보는 저장 금지(비밀번호, 토큰 등).
+- 중요한 결정이나 장기 할당은 별도 태그로 표시하세요: #decision #preference
+
+---
+
+# Recent
+
+- 2026-02-21: Remote Mouse 설치 및 권한 하드닝 작업 수행.
+- 2026-02-21: Telegram bot tokens 및 google_oauth_client.json 처리 필요(백업 완료).

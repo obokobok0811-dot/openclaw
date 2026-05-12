@@ -1,0 +1,69 @@
+# === OS / IDE ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# === Secrets / Credentials ===
+.env
+.env.*
+credentials/
+*.key
+*.pem
+*.p12
+*.pfx
+*.token
+*_token.json
+backup_passphrase.key
+
+# === Python ===
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# === Browser / Session Data ===
+*.cookies
+*.cookie
+cookies.sqlite
+cookies.json
+session_tokens.*
+chrome_profile/
+firefox_profile/
+**/Default/Cookies
+**/Default/Login Data
+**/Default/Web Data
+**/Session Storage/
+**/Local Storage/
+
+# === Backup artifacts ===
+backups/db/staging_*/
+
+# === Logs (optional: keep if you want history) ===
+*.log
+
+# === Large / binary files ===
+*.dmg
+*.iso
+*.tar.gz.enc
+
+# === Workspace runtime ===
+workspace/forwarded_messages.jsonl
+workspace/tasks.jsonl
+pending_commands.jsonl
+
+# Inbound session data (may contain secrets)
+workspace/inbound/
+
+# Security scan reports (contain matched secrets)
+poc/security/run_latest_report.json
+poc/security/*_latest.json
+poc/security/*.log
+poc/security/repo_size_history.jsonl

@@ -1,0 +1,1449 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html
+  lang="en"
+  
+  data-color-mode="auto" data-light-theme="light" data-dark-theme="dark"
+  REDACTED="system" REDACTED="true"
+  
+  >
+
+
+
+
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+  <link rel="preconnect" href="https://github.githubassets.com" crossorigin>
+  <link rel="preconnect" href="https://avatars.githubusercontent.com">
+
+      <link crossorigin="anonymous" rel="preload" as="script" href="https://github.githubassets.com/assets/REDACTED.js" />
+
+  <link rel="preload" href="https://github.githubassets.com/assets/REDACTED.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/REDACTED.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/REDACTED.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/REDACTED.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/REDACTED.css" /><link data-color-theme="light" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/REDACTED.css" /><link data-color-theme="light_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/REDACTED.css" /><link data-color-theme="light_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/REDACTED.css" /><link data-color-theme="REDACTED" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/REDACTED.css" /><link data-color-theme="light_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/REDACTED.css" /><link data-color-theme="REDACTED" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/REDACTED.css" /><link data-color-theme="dark" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/REDACTED.css" /><link data-color-theme="dark_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/REDACTED.css" /><link data-color-theme="dark_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/REDACTED.css" /><link data-color-theme="REDACTED" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/REDACTED.css" /><link data-color-theme="dark_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/REDACTED.css" /><link data-color-theme="REDACTED" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/REDACTED.css" /><link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/REDACTED.css" /><link data-color-theme="REDACTED" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/REDACTED.css" />
+
+  <style type="text/css">
+    :root {
+      REDACTED: 4;
+    }
+
+    pre, code {
+      tab-size: var(REDACTED);
+    }
+  </style>
+
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/REDACTED.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/REDACTED.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/REDACTED.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/REDACTED.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/REDACTED.css" />
+
+  
+
+  <script type="application/json" id="client-env">{"locale":"en","featureFlags":["REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","copilot_spaces_ga","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","dom_node_counts","REDACTED","REDACTED","REDACTED","flex_cta_groups_mvp","global_nav_react","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","REDACTED","viewscreen_sandbox","webp_support","REDACTED"],"REDACTED":"https://api.githubcopilot.com"}</script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+  
+
+  <title>Page not found · GitHub · GitHub</title>
+
+
+
+  <meta name="route-pattern" content="/:user_id/:repository/raw/*name(/*path)" REDACTED>
+  <meta name="route-controller" content="blob" REDACTED>
+  <meta name="route-action" content="raw" REDACTED>
+  <meta name="fetch-nonce" content="v2:REDACTED">
+
+    
+  <meta name="REDACTED" content="REDACTED">
+
+
+  <meta name="request-id" content="CF2D:37ACAB:10A55FD:14D1B3A:698D83EA" REDACTED="true" /><meta name="html-safe-nonce" content="REDACTED" REDACTED="true" /><meta name="visitor-payload" content="REDACTED=" REDACTED="true" /><meta name="visitor-hmac" content="REDACTED" REDACTED="true" />
+
+
+    <meta name="REDACTED" content="repository:30675533" REDACTED>
+
+
+  <meta name="REDACTED" content="copilot" REDACTED="true" />
+  
+
+  <meta name="selected-link" value="/google/fonts/raw/main/ofl/notosanskr/NotoSansKR-Regular.otf" REDACTED>
+  <link rel="assets" href="https://github.githubassets.com/">
+
+    <meta name="REDACTED" content="REDACTED">
+
+<meta name="octolytics-url" content="https://collector.github.com/github/collect" />
+
+  
+
+  
+
+
+
+
+    <meta name="user-login" content="">
+
+  
+
+    <meta name="viewport" content="width=device-width">
+
+    
+
+      <meta name="description" content="GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.">
+
+      <link rel="search" type="application/REDACTED+xml" href="/opensearch.xml" title="GitHub">
+
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <meta property="fb:app_id" content="1401488693436528">
+    <meta name="apple-itunes-app" content="app-id=1477376905, app-argument=https://github.com/google/fonts/raw/main/ofl/notosanskr/NotoSansKR-Regular.otf" />
+
+      <meta property="og:url" content="https://github.com">
+  <meta property="og:site_name" content="GitHub">
+  <meta property="og:title" content="Build software better, together">
+  <meta property="og:description" content="GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.">
+  <meta property="og:image" content="https://github.githubassets.com/assets/REDACTED.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="1200">
+  <meta property="og:image" content="https://github.githubassets.com/assets/REDACTED.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="620">
+  <meta property="og:image" content="https://github.githubassets.com/assets/REDACTED.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="620">
+
+  <meta property="twitter:site" content="github">
+  <meta property="twitter:site:id" content="13334762">
+  <meta property="twitter:creator" content="github">
+  <meta property="twitter:creator:id" content="13334762">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="GitHub">
+  <meta property="twitter:description" content="GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.">
+  <meta property="twitter:image" content="https://github.githubassets.com/assets/REDACTED.png">
+  <meta property="twitter:image:width" content="1200">
+  <meta property="twitter:image:height" content="1200">
+
+
+
+
+      <meta name="hostname" content="github.com">
+
+
+
+        <meta name="expected-hostname" content="github.com">
+
+
+  <meta http-equiv="x-pjax-version" content="REDACTED" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-csp-version" content="REDACTED" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-css-version" content="REDACTED" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-js-version" content="REDACTED" data-turbo-track="reload">
+
+  <meta name="turbo-cache-control" content="no-preview" REDACTED="">
+
+      <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/REDACTED.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/REDACTED.css" />
+  <meta name="is_logged_out_page" content="true">
+  <meta name="REDACTED" content="marketing">
+  
+
+  
+
+
+
+      <link rel="canonical" href="https://github.com/google/fonts/raw/main/ofl/notosanskr/NotoSansKR-Regular.otf" REDACTED>
+
+
+    <meta name="turbo-body-classes" content="logged-out env-production page-responsive min-height-full d-flex flex-column">
+  <meta name="disable-turbo" content="false">
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <meta name="release" content="REDACTED">
+  <meta name="ui-target" content="full">
+
+  <link rel="mask-icon" href="https://github.githubassets.com/assets/REDACTED.svg" color="#000000">
+  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
+  <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg" data-base-href="https://github.githubassets.com/favicons/favicon">
+
+<meta name="theme-color" content="#1e2327">
+<meta name="color-scheme" content="light dark" />
+
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production page-responsive min-height-full d-flex flex-column" style="word-wrap: break-word;" >
+    <div data-turbo-body class="logged-out env-production page-responsive min-height-full d-flex flex-column" style="word-wrap: break-word;" >
+      <div id="REDACTED" role="region" style="z-index: 1000; position: absolute; width: 100%;" REDACTED></div>
+      
+
+    <div class="position-relative header-wrapper js-header-wrapper ">
+      <a href="#start-of-content" REDACTED="false" class="px-2 py-4 REDACTED REDACTED show-on-focus js-skip-to-content">Skip to content</a>
+
+      <span data-view-component="true" class="REDACTED Progress position-fixed width-full">
+    <span style="width: 0%;" data-view-component="true" class="Progress-item REDACTED left-0 top-0 REDACTED"></span>
+</span>      
+      
+      <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react.8372a93633fbe1a5.module.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/REDACTED.2ff65a9060a75215.module.css" />
+
+<react-partial
+  partial-name="REDACTED"
+  data-ssr="false"
+  data-attempted-ssr="false"
+  REDACTED="true"
+>
+  
+  <script type="application/json" data-target="react-partial.embeddedData">{"props":{"docsUrl":"https://docs.github.com/get-started/accessibility/keyboard-shortcuts"}}</script>
+  <div data-target="react-partial.reactRoot"></div>
+</react-partial>
+
+
+
+
+
+      
+
+          
+
+              
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+<script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/REDACTED.js" defer="defer"></script>
+
+<style>
+  /* Override primer focus outline color for marketing header dropdown links for better contrast */
+  [data-color-mode="light"] .REDACTED:focus-visible,
+  [data-color-mode="light"] .REDACTED a:focus-visible {
+    outline-color: var(--color-accent-fg);
+  }
+</style>
+
+<header class="HeaderMktg header-logged-out REDACTED js-header Details f4 py-3" role="banner" data-is-top="true" data-color-mode=auto data-light-theme=light data-dark-theme=dark>
+  <h2 class="sr-only">Navigation Menu</h2>
+
+  <button type="button" class="HeaderMktg-backdrop d-lg-none border-0 position-fixed top-0 left-0 width-full height-full js-details-target" aria-label="Toggle navigation">
+    <span class="d-none">Toggle navigation</span>
+  </button>
+
+  <div class="d-flex flex-column flex-lg-row flex-items-center px-3 px-md-4 px-lg-5 height-full position-relative z-1">
+    <div class="d-flex REDACTED flex-items-center width-full width-lg-auto">
+      <div class="flex-1">
+        <button aria-label="Toggle navigation" aria-expanded="false" type="button" data-view-component="true" class="js-details-target REDACTED REDACTED Button--link Button--medium Button d-lg-none color-fg-inherit p-1">  <span class="Button-content">
+    <span class="Button-label"><div class="REDACTED rounded my-1"></div>
+            <div class="REDACTED rounded my-1"></div>
+            <div class="REDACTED rounded my-1"></div></span>
+  </span>
+</button>
+      </div>
+
+      <a class="mr-lg-3 color-fg-inherit flex-order-2 REDACTED"
+        href="/"
+        aria-label="Homepage"
+        REDACTED="{&quot;category&quot;:&quot;Marketing nav&quot;,&quot;action&quot;:&quot;click to go to homepage&quot;,&quot;label&quot;:&quot;ref_page:Marketing;ref_cta:Logomark;ref_loc:Header&quot;}">
+        <svg height="32" aria-hidden="true" viewBox="0 0 24 24" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github">
+    <path d="M12 1C5.923 1 1 5.923 1 12c0 4.867 3.149 8.979 7.521 10.436.55.096.756-.233.756-.522 0-.262-.013-1.128-.013-2.049-2.764.509-3.479-.674-3.699-1.292-.124-.317-.66-1.293-1.127-1.554-.385-.207-.936-.715-.014-.729.866-.014 1.485.797 1.691 1.128.99 1.663 2.571 1.196 3.204.907.096-.715.385-1.196.701-1.471-2.448-.275-5.005-1.224-5.005-5.432 0-1.196.426-2.186 1.128-2.956-.111-.275-.496-1.402.11-2.915 0 0 .921-.288 3.024 1.128a10.193 10.193 0 0 1 2.75-.371c.936 0 1.871.123 2.75.371 2.104-1.43 3.025-1.128 3.025-1.128.605 1.513.221 2.64.111 2.915.701.77 1.127 1.747 1.127 2.956 0 4.222-2.571 5.157-5.019 5.432.399.344.743 1.004.743 2.035 0 1.471-.014 2.654-.014 3.025 0 .289.206.632.756.522C19.851 20.979 23 16.854 23 12c0-6.077-4.922-11-11-11Z"></path>
+</svg>
+      </a>
+
+      <div class="d-flex flex-1 flex-order-2 text-right d-lg-none gap-2 flex-justify-end">
+          <a
+            href="/login?return_to=https%3A%2F%2Fgithub.com%2Fgoogle%2Ffonts%2Fraw%2Fmain%2Fofl%2Fnotosanskr%REDACTED.otf"
+            class="HeaderMenu-link HeaderMenu-button d-inline-flex f5 no-underline border REDACTED rounded-2 px-2 py-1 color-fg-inherit REDACTED"
+            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/google/fonts/raw/main/ofl/notosanskr/NotoSansKR-Regular.otf&quot;,&quot;user_id&quot;:null}}" REDACTED="REDACTED"
+            REDACTED="{&quot;category&quot;:&quot;Marketing nav&quot;,&quot;action&quot;:&quot;click to Sign in&quot;,&quot;label&quot;:&quot;ref_page:Marketing;ref_cta:Sign in;ref_loc:Header&quot;}"
+          >
+            Sign in
+          </a>
+              <div class="REDACTED">
+    <REDACTED>
+      <button data-target="REDACTED.anchor" id="REDACTED" aria-labelledby="REDACTED" type="button" disabled="disabled" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium AppHeader-button HeaderMenu-link border cursor-wait">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-sliders Button-visual">
+    <path d="M15 2.75a.75.75 0 0 1-.75.75h-4a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 .75.75Zm-8.5.75v1.25a.75.75 0 0 0 1.5 0v-4a.75.75 0 0 0-1.5 0V2H1.75a.75.75 0 0 0 0 1.5H6.5Zm1.25 5.25a.75.75 0 0 0 0-1.5h-6a.75.75 0 0 0 0 1.5h6ZM15 8a.75.75 0 0 1-.75.75H11.5V10a.75.75 0 1 1-1.5 0V6a.75.75 0 0 1 1.5 0v1.25h2.75A.75.75 0 0 1 15 8Zm-9 5.25v-2a.75.75 0 0 0-1.5 0v1.25H1.75a.75.75 0 0 0 0 1.5H4.5v1.25a.75.75 0 0 0 1.5 0v-2Zm9 0a.75.75 0 0 1-.75.75h-6a.75.75 0 0 1 0-1.5h6a.75.75 0 0 1 .75.75Z"></path>
+</svg>
+</button><tool-tip id="REDACTED" for="REDACTED" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Appearance settings</tool-tip>
+
+      <template data-target="REDACTED.template">
+        <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react.8372a93633fbe1a5.module.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/appearance-settings.c211d1d0e650ca39.module.css" />
+
+<react-partial
+  partial-name="appearance-settings"
+  data-ssr="false"
+  data-attempted-ssr="false"
+  REDACTED="true"
+>
+  
+  <script type="application/json" data-target="react-partial.embeddedData">{"props":{}}</script>
+  <div data-target="react-partial.reactRoot"></div>
+</react-partial>
+
+
+      </template>
+    </REDACTED>
+  </div>
+
+      </div>
+    </div>
+
+
+    <div class="HeaderMenu js-header-menu height-fit REDACTED d-lg-flex flex-column flex-auto top-0">
+      <div class="HeaderMenu-wrapper d-flex flex-column flex-self-start flex-lg-row flex-auto rounded rounded-lg-0">
+            <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react.8372a93633fbe1a5.module.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/REDACTED.f5c1c58cfd19bdc0.module.css" />
+
+<react-partial
+  partial-name="REDACTED"
+  data-ssr="true"
+  data-attempted-ssr="true"
+  REDACTED="true"
+>
+  
+  <script type="application/json" data-target="react-partial.embeddedData">{"props":{"REDACTED":true}}</script>
+  <div data-target="react-partial.reactRoot"><nav class="REDACTED" aria-label="Global"><ul class="REDACTED"><li><div class="REDACTED REDACTED js-header-menu-item"><button type="button" class="REDACTED js-details-target" aria-expanded="false">Platform<svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg></button><div class="REDACTED"><ul class="REDACTED"><li><div class="REDACTED"><span class="REDACTED">AI CODE CREATION</span><ul class="REDACTED"><li><a href="https://github.com/features/copilot" REDACTED="{&quot;action&quot;:&quot;github_copilot&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><div class="REDACTED"><svg aria-hidden="true" focusable="false" class="octicon octicon-copilot REDACTED" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M23.922 16.992c-.861 1.495-5.859 5.023-11.922 5.023-6.063 0-11.061-3.528-11.922-5.023A.641.641 0 0 1 0 16.736v-2.869a.841.841 0 0 1 .053-.22c.372-.935 1.347-2.292 2.605-2.656.167-.429.414-1.055.644-1.517a10.195 10.195 0 0 1-.052-1.086c0-1.331.282-2.499 1.132-3.368.397-.406.89-.717 1.474-.952 1.399-1.136 3.392-2.093 6.122-2.093 2.731 0 4.767.957 6.166 2.093.584.235 1.077.546 1.474.952.85.869 1.132 2.037 1.132 3.368 0 .368-.014.733-.052 1.086.23.462.477 1.088.644 1.517 1.258.364 2.233 1.721 2.605 2.656a.832.832 0 0 1 .053.22v2.869a.641.641 0 0 1-.078.256ZM12.172 11h-.344a4.323 4.323 0 0 1-.355.508C10.703 12.455 9.555 13 7.965 13c-1.725 0-2.989-.359-3.782-1.259a2.005 2.005 0 0 1-.085-.104L4 11.741v6.585c1.435.779 4.514 2.179 8 2.179 3.486 0 6.565-1.4 8-2.179v-6.585l-.098-.104s-.033.045-.085.104c-.793.9-2.057 1.259-3.782 1.259-1.59 0-2.738-.545-3.508-1.492a4.323 4.323 0 0 1-.355-.508h-.016.016Zm.641-2.935c.136 1.057.403 1.913.878 2.497.442.544 1.134.938 2.344.938 1.573 0 2.292-.337 2.657-.751.384-.435.558-1.15.558-2.361 0-1.14-.243-1.847-.705-2.319-.477-.488-1.319-.862-2.824-1.025-1.487-.161-2.192.138-2.533.529-.269.307-.437.808-.438 1.578v.021c0 .265.021.562.063.893Zm-1.626 0c.042-.331.063-.628.063-.894v-.02c-.001-.77-.169-1.271-.438-1.578-.341-.391-1.046-.69-2.533-.529-1.505.163-2.347.537-2.824 1.025-.462.472-.705 1.179-.705 2.319 0 1.211.175 1.926.558 2.361.365.414 1.084.751 2.657.751 1.21 0 1.902-.394 2.344-.938.475-.584.742-1.44.878-2.497Z"></path><path d="M14.5 14.25a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0v-2a1 1 0 0 1 1-1Zm-5 0a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0v-2a1 1 0 0 1 1-1Z"></path></svg><span class="REDACTED">GitHub Copilot</span><span class="REDACTED">Write better code with AI</span></div></a></li><li><a href="https://github.com/features/spark" REDACTED="{&quot;action&quot;:&quot;github_spark&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><div class="REDACTED"><svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M11.296 1.924c.24-.656 1.168-.656 1.408 0l.717 1.958a11.25 11.25 0 0 0 6.697 6.697l1.958.717c.657.24.657 1.168 0 1.408l-1.958.717a11.25 11.25 0 0 0-6.697 6.697l-.717 1.958c-.24.657-1.168.657-1.408 0l-.717-1.958a11.25 11.25 0 0 0-6.697-6.697l-1.958-.717c-.656-.24-.656-1.168 0-1.408l1.958-.717a11.25 11.25 0 0 0 6.697-6.697l.717-1.958Z"></path></svg><span class="REDACTED">GitHub Spark</span><span class="REDACTED">Build and deploy intelligent apps</span></div></a></li><li><a href="https://github.com/features/models" REDACTED="{&quot;action&quot;:&quot;github_models&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><div class="REDACTED"><svg aria-hidden="true" focusable="false" class="octicon octicon-ai-model REDACTED" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M19.375 8.5a3.25 3.25 0 1 1-3.163 4h-3a3.252 3.252 0 0 1-4.443 2.509L7.214 17.76a3.25 3.25 0 1 1-1.342-.674l1.672-2.957A3.238 3.238 0 0 1 6.75 12c0-.907.371-1.727.97-2.316L6.117 6.846A3.253 3.253 0 0 1 1.875 3.75a3.25 3.25 0 1 1 5.526 2.32l1.603 2.836A3.25 3.25 0 0 1 13.093 11h3.119a3.252 3.252 0 0 1 3.163-2.5ZM10 10.25a1.75 1.75 0 1 0-.001 3.499A1.75 1.75 0 0 0 10 10.25ZM5.125 2a1.75 1.75 0 1 0 0 3.5 1.75 1.75 0 0 0 0-3.5Zm12.5 9.75a1.75 1.75 0 1 0 3.5 0 1.75 1.75 0 0 0-3.5 0Zm-14.25 8.5a1.75 1.75 0 1 0 3.501-.001 1.75 1.75 0 0 0-3.501.001Z"></path></svg><span class="REDACTED">GitHub Models</span><span class="REDACTED">Manage and compare prompts</span></div></a></li><li><a href="https://github.com/mcp" REDACTED="{&quot;action&quot;:&quot;mcp_registry&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><div class="REDACTED"><svg aria-hidden="true" focusable="false" class="octicon octicon-mcp REDACTED" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M9.795 1.694a4.287 4.287 0 0 1 6.061 0 4.28 4.28 0 0 1 1.181 3.819 4.282 4.282 0 0 1 3.819 1.181 4.287 4.287 0 0 1 0 6.061l-6.793 6.793a.249.249 0 0 0 0 .353l2.617 2.618a.75.75 0 1 1-1.061 1.061l-2.617-2.618a1.75 1.75 0 0 1 0-2.475l6.793-6.793a2.785 2.785 0 1 0-3.939-3.939l-5.9 5.9a.734.734 0 0 1-.249.165.749.749 0 0 1-.812-1.225l5.9-5.901a2.785 2.785 0 1 0-3.939-3.939L2.931 10.68A.75.75 0 1 1 1.87 9.619l7.925-7.925Z"></path><path d="M12.42 4.069a.752.752 0 0 1 1.061 0 .752.752 0 0 1 0 1.061L7.33 11.28a2.788 2.788 0 0 0 0 3.94 2.788 2.788 0 0 0 3.94 0l6.15-6.151a.752.752 0 0 1 1.061 0 .752.752 0 0 1 0 1.061l-6.151 6.15a4.285 4.285 0 1 1-6.06-6.06l6.15-6.151Z"></path></svg><span class="REDACTED">MCP Registry<sup class="REDACTED">New</sup></span><span class="REDACTED">Integrate external tools</span></div></a></li></ul></div></li><li><div class="REDACTED"><span class="REDACTED">DEVELOPER WORKFLOWS</span><ul class="REDACTED"><li><a href="https://github.com/features/actions" REDACTED="{&quot;action&quot;:&quot;actions&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><div class="REDACTED"><svg aria-hidden="true" focusable="false" class="octicon octicon-workflow REDACTED" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M1 3a2 2 0 0 1 2-2h6.5a2 2 0 0 1 2 2v6.5a2 2 0 0 1-2 2H7v4.063C7 16.355 7.644 17 8.438 17H12.5v-2.5a2 2 0 0 1 2-2H21a2 2 0 0 1 2 2V21a2 2 0 0 1-2 2h-6.5a2 2 0 0 1-2-2v-2.5H8.437A2.939 2.939 0 0 1 5.5 15.562V11.5H3a2 2 0 0 1-2-2Zm2-.5a.5.5 0 0 0-.5.5v6.5a.5.5 0 0 0 .5.5h6.5a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5ZM14.5 14a.5.5 0 0 0-.5.5V21a.5.5 0 0 0 .5.5H21a.5.5 0 0 0 .5-.5v-6.5a.5.5 0 0 0-.5-.5Z"></path></svg><span class="REDACTED">Actions</span><span class="REDACTED">Automate any workflow</span></div></a></li><li><a href="https://github.com/features/codespaces" REDACTED="{&quot;action&quot;:&quot;codespaces&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><div class="REDACTED"><svg aria-hidden="true" focusable="false" class="octicon octicon-codespaces REDACTED" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M3.5 3.75C3.5 2.784 4.284 2 5.25 2h13.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 18.75 13H5.25a1.75 1.75 0 0 1-1.75-1.75Zm-2 12c0-.966.784-1.75 1.75-1.75h17.5c.966 0 1.75.784 1.75 1.75v4a1.75 1.75 0 0 1-1.75 1.75H3.25a1.75 1.75 0 0 1-1.75-1.75ZM5.25 3.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h13.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Zm-2 12a.25.25 0 0 0-.25.25v4c0 .138.112.25.25.25h17.5a.25.25 0 0 0 .25-.25v-4a.25.25 0 0 0-.25-.25Z"></path><path d="M10 17.75a.75.75 0 0 1 .75-.75h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1-.75-.75Zm-4 0a.75.75 0 0 1 .75-.75h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1-.75-.75Z"></path></svg><span class="REDACTED">Codespaces</span><span class="REDACTED">Instant dev environments</span></div></a></li><li><a href="https://github.com/features/issues" REDACTED="{&quot;action&quot;:&quot;issues&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><div class="REDACTED"><svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"></path></svg><span class="REDACTED">Issues</span><span class="REDACTED">Plan and track work</span></div></a></li><li><a href="https://github.com/features/code-review" REDACTED="{&quot;action&quot;:&quot;code_review&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><div class="REDACTED"><svg aria-hidden="true" focusable="false" class="octicon octicon-code REDACTED" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M15.22 4.97a.75.75 0 0 1 1.06 0l6.5 6.5a.75.75 0 0 1 0 1.06l-6.5 6.5a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L21.19 12l-5.97-5.97a.75.75 0 0 1 0-1.06Zm-6.44 0a.75.75 0 0 1 0 1.06L2.81 12l5.97 5.97a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-6.5-6.5a.75.75 0 0 1 0-1.06l6.5-6.5a.75.75 0 0 1 1.06 0Z"></path></svg><span class="REDACTED">Code Review</span><span class="REDACTED">Manage code changes</span></div></a></li></ul></div></li><li><div class="REDACTED"><span class="REDACTED">APPLICATION SECURITY</span><ul class="REDACTED"><li><a href="https://github.com/security/advanced-security" REDACTED="{&quot;action&quot;:&quot;REDACTED&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><div class="REDACTED"><svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M16.53 9.78a.75.75 0 0 0-1.06-1.06L11 13.19l-1.97-1.97a.75.75 0 0 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5-5Z"></path><path d="m12.54.637 8.25 2.675A1.75 1.75 0 0 1 22 4.976V10c0 6.19-3.771 10.704-9.401 12.83a1.704 1.704 0 0 1-1.198 0C5.77 20.705 2 16.19 2 10V4.976c0-.758.489-1.43 1.21-1.664L11.46.637a1.748 1.748 0 0 1 1.08 0Zm-.617 1.426-8.25 2.676a.249.249 0 0 0-.173.237V10c0 5.46 3.28 9.483 8.43 11.426a.199.199 0 0 0 .14 0C17.22 19.483 20.5 15.461 20.5 10V4.976a.25.25 0 0 0-.173-.237l-8.25-2.676a.253.253 0 0 0-.154 0Z"></path></svg><span class="REDACTED">GitHub Advanced Security</span><span class="REDACTED">Find and fix vulnerabilities</span></div></a></li><li><a href="https://github.com/security/advanced-security/code-security" REDACTED="{&quot;action&quot;:&quot;code_security&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><div class="REDACTED"><svg aria-hidden="true" focusable="false" class="octicon octicon-code-square REDACTED" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M10.3 8.24a.75.75 0 0 1-.04 1.06L7.352 12l2.908 2.7a.75.75 0 1 1-1.02 1.1l-3.5-3.25a.75.75 0 0 1 0-1.1l3.5-3.25a.75.75 0 0 1 1.06.04Zm3.44 1.06a.75.75 0 1 1 1.02-1.1l3.5 3.25a.75.75 0 0 1 0 1.1l-3.5 3.25a.75.75 0 1 1-1.02-1.1l2.908-2.7-2.908-2.7Z"></path><path d="M2 3.75C2 2.784 2.784 2 3.75 2h16.5c.966 0 1.75.784 1.75 1.75v16.5A1.75 1.75 0 0 1 20.25 22H3.75A1.75 1.75 0 0 1 2 20.25Zm1.75-.25a.25.25 0 0 0-.25.25v16.5c0 .138.112.25.25.25h16.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25Z"></path></svg><span class="REDACTED">Code security</span><span class="REDACTED">Secure your code as you build</span></div></a></li><li><a href="https://github.com/security/advanced-security/secret-protection" REDACTED="{&quot;action&quot;:&quot;secret_protection&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><div class="REDACTED"><svg aria-hidden="true" focusable="false" class="octicon octicon-lock REDACTED" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M6 9V7.25C6 3.845 8.503 1 12 1s6 2.845 6 6.25V9h.5a2.5 2.5 0 0 1 2.5 2.5v8a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 19.5v-8A2.5 2.5 0 0 1 5.5 9Zm-1.5 2.5v8a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1h-13a1 1 0 0 0-1 1Zm3-4.25V9h9V7.25c0-2.67-1.922-4.75-4.5-4.75-2.578 0-4.5 2.08-4.5 4.75Z"></path></svg><span class="REDACTED">Secret protection</span><span class="REDACTED">Stop leaks before they start</span></div></a></li></ul></div></li><li><div class="REDACTED REDACTED"><span class="REDACTED">EXPLORE</span><ul class="REDACTED"><li><a href="https://github.com/why-github" REDACTED="{&quot;action&quot;:&quot;why_github&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">Why GitHub</span></a></li><li><a href="https://docs.github.com" REDACTED="{&quot;action&quot;:&quot;documentation&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED" target="_blank" rel="noreferrer"><span class="REDACTED">Documentation</span><svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></a></li><li><a href="https://github.blog" REDACTED="{&quot;action&quot;:&quot;blog&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED" target="_blank" rel="noreferrer"><span class="REDACTED">Blog</span><svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></a></li><li><a href="https://github.blog/changelog" REDACTED="{&quot;action&quot;:&quot;changelog&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED" target="_blank" rel="noreferrer"><span class="REDACTED">Changelog</span><svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></a></li><li><a href="https://github.com/marketplace" REDACTED="{&quot;action&quot;:&quot;marketplace&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">Marketplace</span></a></li></ul></div></li></ul><div class="REDACTED"><a href="https://github.com/features" REDACTED="{&quot;action&quot;:&quot;view_all_features&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">View all features</span><svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg></a></div></div></div></li><li><div class="REDACTED REDACTED js-header-menu-item"><button type="button" class="REDACTED js-details-target" aria-expanded="false">Solutions<svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg></button><div class="REDACTED"><ul class="REDACTED"><li><div class="REDACTED"><span class="REDACTED">BY COMPANY SIZE</span><ul class="REDACTED"><li><a href="https://github.com/enterprise" REDACTED="{&quot;action&quot;:&quot;enterprises&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">Enterprises</span></a></li><li><a href="https://github.com/team" REDACTED="{&quot;action&quot;:&quot;REDACTED&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">Small and medium teams</span></a></li><li><a href="https://github.com/enterprise/startups" REDACTED="{&quot;action&quot;:&quot;startups&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">Startups</span></a></li><li><a href="https://github.com/solutions/industry/nonprofits" REDACTED="{&quot;action&quot;:&quot;nonprofits&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">Nonprofits</span></a></li></ul></div></li><li><div class="REDACTED"><span class="REDACTED">BY USE CASE</span><ul class="REDACTED"><li><a href="https://github.com/solutions/use-case/app-modernization" REDACTED="{&quot;action&quot;:&quot;app_modernization&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">App Modernization</span></a></li><li><a href="https://github.com/solutions/use-case/devsecops" REDACTED="{&quot;action&quot;:&quot;devsecops&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">DevSecOps</span></a></li><li><a href="https://github.com/solutions/use-case/devops" REDACTED="{&quot;action&quot;:&quot;devops&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">DevOps</span></a></li><li><a href="https://github.com/solutions/use-case/ci-cd" REDACTED="{&quot;action&quot;:&quot;ci/cd&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;ci/REDACTED&quot;}" class="REDACTED"><span class="REDACTED">CI/CD</span></a></li><li><a href="https://github.com/solutions/use-case" REDACTED="{&quot;action&quot;:&quot;view_all_use_cases&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">View all use cases</span><svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg></a></li></ul></div></li><li><div class="REDACTED"><span class="REDACTED">BY INDUSTRY</span><ul class="REDACTED"><li><a href="https://github.com/solutions/industry/healthcare" REDACTED="{&quot;action&quot;:&quot;healthcare&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">Healthcare</span></a></li><li><a href="https://github.com/solutions/industry/financial-services" REDACTED="{&quot;action&quot;:&quot;financial_services&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">Financial services</span></a></li><li><a href="https://github.com/solutions/industry/manufacturing" REDACTED="{&quot;action&quot;:&quot;manufacturing&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">Manufacturing</span></a></li><li><a href="https://github.com/solutions/industry/government" REDACTED="{&quot;action&quot;:&quot;government&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">Government</span></a></li><li><a href="https://github.com/solutions/industry" REDACTED="{&quot;action&quot;:&quot;view_all_industries&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">View all industries</span><svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg></a></li></ul></div></li></ul><div class="REDACTED"><a href="https://github.com/solutions" REDACTED="{&quot;action&quot;:&quot;view_all_solutions&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;solutions&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">View all solutions</span><svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg></a></div></div></div></li><li><div class="REDACTED REDACTED js-header-menu-item"><button type="button" class="REDACTED js-details-target" aria-expanded="false">Resources<svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg></button><div class="REDACTED"><ul class="REDACTED"><li><div class="REDACTED"><span class="REDACTED">EXPLORE BY TOPIC</span><ul class="REDACTED"><li><a href="https://github.com/resources/articles?topic=ai" REDACTED="{&quot;action&quot;:&quot;ai&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">AI</span></a></li><li><a href="https://github.com/resources/articles?topic=REDACTED" REDACTED="{&quot;action&quot;:&quot;REDACTED&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">Software Development</span></a></li><li><a href="https://github.com/resources/articles?topic=devops" REDACTED="{&quot;action&quot;:&quot;devops&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">DevOps</span></a></li><li><a href="https://github.com/resources/articles?topic=security" REDACTED="{&quot;action&quot;:&quot;security&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">Security</span></a></li><li><a href="https://github.com/resources/articles" REDACTED="{&quot;action&quot;:&quot;view_all_topics&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">View all topics</span><svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg></a></li></ul></div></li><li><div class="REDACTED"><span class="REDACTED">EXPLORE BY TYPE</span><ul class="REDACTED"><li><a href="https://github.com/customer-stories" REDACTED="{&quot;action&quot;:&quot;customer_stories&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">Customer stories</span></a></li><li><a href="https://github.com/resources/events" REDACTED="{&quot;action&quot;:&quot;events__webinars&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">Events &amp; webinars</span></a></li><li><a href="https://github.com/resources/whitepapers" REDACTED="{&quot;action&quot;:&quot;ebooks__reports&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">Ebooks &amp; reports</span></a></li><li><a href="https://github.com/solutions/executive-insights" REDACTED="{&quot;action&quot;:&quot;business_insights&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">Business insights</span></a></li><li><a href="https://skills.github.com" REDACTED="{&quot;action&quot;:&quot;github_skills&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED" target="_blank" rel="noreferrer"><span class="REDACTED">GitHub Skills</span><svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></a></li></ul></div></li><li><div class="REDACTED"><span class="REDACTED">SUPPORT &amp; SERVICES</span><ul class="REDACTED"><li><a href="https://docs.github.com" REDACTED="{&quot;action&quot;:&quot;documentation&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED" target="_blank" rel="noreferrer"><span class="REDACTED">Documentation</span><svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></a></li><li><a href="https://support.github.com" REDACTED="{&quot;action&quot;:&quot;customer_support&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED" target="_blank" rel="noreferrer"><span class="REDACTED">Customer support</span><svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></a></li><li><a href="https://github.com/orgs/community/discussions" REDACTED="{&quot;action&quot;:&quot;community_forum&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">Community forum</span></a></li><li><a href="https://github.com/trust-center" REDACTED="{&quot;action&quot;:&quot;trust_center&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">Trust center</span></a></li><li><a href="https://github.com/partners" REDACTED="{&quot;action&quot;:&quot;partners&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;resources&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">Partners</span></a></li></ul></div></li></ul></div></div></li><li><div class="REDACTED REDACTED js-header-menu-item"><button type="button" class="REDACTED js-details-target" aria-expanded="false">Open Source<svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg></button><div class="REDACTED"><ul class="REDACTED"><li><div class="REDACTED"><span class="REDACTED">COMMUNITY</span><ul class="REDACTED"><li><a href="https://github.com/sponsors" REDACTED="{&quot;action&quot;:&quot;github_sponsors&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><div class="REDACTED"><svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M16.004 1.25C18.311 1.25 20 3.128 20 5.75c0 2.292-1.23 4.464-3.295 6.485-.481.47-.98.909-1.482 1.31l.265 1.32 1.375 7.5a.75.75 0 0 1-.982.844l-3.512-1.207a.75.75 0 0 0-.488 0L8.37 23.209a.75.75 0 0 1-.982-.844l1.378-7.512.261-1.309c-.5-.4-1-.838-1.481-1.31C5.479 10.215 4.25 8.043 4.25 5.75c0-2.622 1.689-4.5 3.996-4.5 1.55 0 2.947.752 3.832 1.967l.047.067.047-.067a4.726 4.726 0 0 1 3.612-1.962l.22-.005ZM13.89 14.531c-.418.285-.828.542-1.218.77l-.18.103a.75.75 0 0 1-.734 0l-.071-.04-.46-.272c-.282-.173-.573-.36-.868-.562l-.121.605-1.145 6.239 2.3-.79a2.248 2.248 0 0 1 1.284-.054l.18.053 2.299.79-1.141-6.226-.125-.616ZM16.004 2.75c-1.464 0-2.731.983-3.159 2.459-.209.721-1.231.721-1.44 0-.428-1.476-1.695-2.459-3.16-2.459-1.44 0-2.495 1.173-2.495 3 0 1.811 1.039 3.647 2.844 5.412a19.624 19.624 0 0 0 3.734 2.84l-.019-.011-.184-.111.147-.088a19.81 19.81 0 0 0 3.015-2.278l.37-.352C17.46 9.397 18.5 7.561 18.5 5.75c0-1.827-1.055-3-2.496-3Z"></path></svg><span class="REDACTED">GitHub Sponsors</span><span class="REDACTED">Fund open source developers</span></div></a></li></ul></div></li><li><div class="REDACTED"><span class="REDACTED">PROGRAMS</span><ul class="REDACTED"><li><a href="https://securitylab.github.com" REDACTED="{&quot;action&quot;:&quot;security_lab&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED" target="_blank" rel="noreferrer"><span class="REDACTED">Security Lab</span><svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></a></li><li><a href="https://maintainers.github.com" REDACTED="{&quot;action&quot;:&quot;REDACTED&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED" target="_blank" rel="noreferrer"><span class="REDACTED">Maintainer Community</span><svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></a></li><li><a href="https://github.com/accelerator" REDACTED="{&quot;action&quot;:&quot;accelerator&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">Accelerator</span></a></li><li><a href="https://archiveprogram.github.com" REDACTED="{&quot;action&quot;:&quot;archive_program&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED" target="_blank" rel="noreferrer"><span class="REDACTED">Archive Program</span><svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></a></li></ul></div></li><li><div class="REDACTED"><span class="REDACTED">REPOSITORIES</span><ul class="REDACTED"><li><a href="https://github.com/topics" REDACTED="{&quot;action&quot;:&quot;topics&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">Topics</span></a></li><li><a href="https://github.com/trending" REDACTED="{&quot;action&quot;:&quot;trending&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">Trending</span></a></li><li><a href="https://github.com/collections" REDACTED="{&quot;action&quot;:&quot;collections&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;open_source&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><span class="REDACTED">Collections</span></a></li></ul></div></li></ul></div></div></li><li><div class="REDACTED REDACTED js-header-menu-item"><button type="button" class="REDACTED js-details-target" aria-expanded="false">Enterprise<svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg></button><div class="REDACTED"><ul class="REDACTED"><li><div class="REDACTED"><span class="REDACTED">ENTERPRISE SOLUTIONS</span><ul class="REDACTED"><li><a href="https://github.com/enterprise" REDACTED="{&quot;action&quot;:&quot;enterprise_platform&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;enterprise&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><div class="REDACTED"><svg aria-hidden="true" focusable="false" class="octicon octicon-stack REDACTED" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M11.063 1.456a1.749 1.749 0 0 1 1.874 0l8.383 5.316a1.751 1.751 0 0 1 0 2.956l-8.383 5.316a1.749 1.749 0 0 1-1.874 0L2.68 9.728a1.751 1.751 0 0 1 0-2.956Zm1.071 1.267a.25.25 0 0 0-.268 0L3.483 8.039a.25.25 0 0 0 0 .422l8.383 5.316a.25.25 0 0 0 .268 0l8.383-5.316a.25.25 0 0 0 0-.422Z"></path><path d="M1.867 12.324a.75.75 0 0 1 1.035-.232l8.964 5.685a.25.25 0 0 0 .268 0l8.964-5.685a.75.75 0 0 1 .804 1.267l-8.965 5.685a1.749 1.749 0 0 1-1.874 0l-8.965-5.685a.75.75 0 0 1-.231-1.035Z"></path><path d="M1.867 16.324a.75.75 0 0 1 1.035-.232l8.964 5.685a.25.25 0 0 0 .268 0l8.964-5.685a.75.75 0 0 1 .804 1.267l-8.965 5.685a1.749 1.749 0 0 1-1.874 0l-8.965-5.685a.75.75 0 0 1-.231-1.035Z"></path></svg><span class="REDACTED">Enterprise platform</span><span class="REDACTED">AI-powered developer platform</span></div></a></li></ul></div></li><li><div class="REDACTED"><span class="REDACTED">AVAILABLE ADD-ONS</span><ul class="REDACTED"><li><a href="https://github.com/security/advanced-security" REDACTED="{&quot;action&quot;:&quot;REDACTED&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;enterprise&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><div class="REDACTED"><svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M16.53 9.78a.75.75 0 0 0-1.06-1.06L11 13.19l-1.97-1.97a.75.75 0 0 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5-5Z"></path><path d="m12.54.637 8.25 2.675A1.75 1.75 0 0 1 22 4.976V10c0 6.19-3.771 10.704-9.401 12.83a1.704 1.704 0 0 1-1.198 0C5.77 20.705 2 16.19 2 10V4.976c0-.758.489-1.43 1.21-1.664L11.46.637a1.748 1.748 0 0 1 1.08 0Zm-.617 1.426-8.25 2.676a.249.249 0 0 0-.173.237V10c0 5.46 3.28 9.483 8.43 11.426a.199.199 0 0 0 .14 0C17.22 19.483 20.5 15.461 20.5 10V4.976a.25.25 0 0 0-.173-.237l-8.25-2.676a.253.253 0 0 0-.154 0Z"></path></svg><span class="REDACTED">GitHub Advanced Security</span><span class="REDACTED">Enterprise-grade security features</span></div></a></li><li><a href="https://github.com/features/copilot/copilot-business" REDACTED="{&quot;action&quot;:&quot;REDACTED&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;enterprise&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><div class="REDACTED"><svg aria-hidden="true" focusable="false" class="octicon octicon-copilot REDACTED" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M23.922 16.992c-.861 1.495-5.859 5.023-11.922 5.023-6.063 0-11.061-3.528-11.922-5.023A.641.641 0 0 1 0 16.736v-2.869a.841.841 0 0 1 .053-.22c.372-.935 1.347-2.292 2.605-2.656.167-.429.414-1.055.644-1.517a10.195 10.195 0 0 1-.052-1.086c0-1.331.282-2.499 1.132-3.368.397-.406.89-.717 1.474-.952 1.399-1.136 3.392-2.093 6.122-2.093 2.731 0 4.767.957 6.166 2.093.584.235 1.077.546 1.474.952.85.869 1.132 2.037 1.132 3.368 0 .368-.014.733-.052 1.086.23.462.477 1.088.644 1.517 1.258.364 2.233 1.721 2.605 2.656a.832.832 0 0 1 .053.22v2.869a.641.641 0 0 1-.078.256ZM12.172 11h-.344a4.323 4.323 0 0 1-.355.508C10.703 12.455 9.555 13 7.965 13c-1.725 0-2.989-.359-3.782-1.259a2.005 2.005 0 0 1-.085-.104L4 11.741v6.585c1.435.779 4.514 2.179 8 2.179 3.486 0 6.565-1.4 8-2.179v-6.585l-.098-.104s-.033.045-.085.104c-.793.9-2.057 1.259-3.782 1.259-1.59 0-2.738-.545-3.508-1.492a4.323 4.323 0 0 1-.355-.508h-.016.016Zm.641-2.935c.136 1.057.403 1.913.878 2.497.442.544 1.134.938 2.344.938 1.573 0 2.292-.337 2.657-.751.384-.435.558-1.15.558-2.361 0-1.14-.243-1.847-.705-2.319-.477-.488-1.319-.862-2.824-1.025-1.487-.161-2.192.138-2.533.529-.269.307-.437.808-.438 1.578v.021c0 .265.021.562.063.893Zm-1.626 0c.042-.331.063-.628.063-.894v-.02c-.001-.77-.169-1.271-.438-1.578-.341-.391-1.046-.69-2.533-.529-1.505.163-2.347.537-2.824 1.025-.462.472-.705 1.179-.705 2.319 0 1.211.175 1.926.558 2.361.365.414 1.084.751 2.657.751 1.21 0 1.902-.394 2.344-.938.475-.584.742-1.44.878-2.497Z"></path><path d="M14.5 14.25a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0v-2a1 1 0 0 1 1-1Zm-5 0a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0v-2a1 1 0 0 1 1-1Z"></path></svg><span class="REDACTED">Copilot for Business</span><span class="REDACTED">Enterprise-grade AI features</span></div></a></li><li><a href="https://github.com/premium-support" REDACTED="{&quot;action&quot;:&quot;premium_support&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;enterprise&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED"><div class="REDACTED"><svg aria-hidden="true" focusable="false" class="octicon REDACTED REDACTED" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" display="inline-block" overflow="visible" style="vertical-align:text-bottom"><path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"></path><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"></path></svg><span class="REDACTED">Premium Support</span><span class="REDACTED">Enterprise-grade 24/7 support</span></div></a></li></ul></div></li></ul></div></div></li><li><a href="https://github.com/pricing" REDACTED="{&quot;action&quot;:&quot;pricing&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;context&quot;:&quot;pricing&quot;,&quot;location&quot;:&quot;navbar&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" class="REDACTED REDACTED"><span class="REDACTED">Pricing</span></a></li></ul></nav><script type="application/json" id="REDACTED">{"REDACTED":"day"}</script></div>
+</react-partial>
+
+
+
+        <div class="d-flex flex-column flex-lg-row width-full flex-justify-end REDACTED text-center mt-3 mt-lg-0 text-lg-left ml-lg-3">
+                
+
+
+<qbsearch-input class="search-input" data-scope="" REDACTED="/search/custom_scopes" REDACTED="REDACTED" REDACTED="10" REDACTED="false" data-initial-value="" REDACTED="/search/suggestions" REDACTED="/_graphql/REDACTED" REDACTED="" data-current-org="" data-current-owner="" data-logged-in="false" REDACTED="false" REDACTED="false" REDACTED="true">
+  <div
+    class="REDACTED search-with-dialog position-relative d-flex flex-row flex-items-center mr-4 rounded"
+    data-action="click:qbsearch-input#REDACTED"
+  >
+      <button
+        type="button"
+        class="REDACTED placeholder  input-button form-control d-flex flex-1 flex-self-stretch flex-items-center no-wrap width-full py-0 pl-2 pr-0 text-left border-0 box-shadow-none"
+        data-target="qbsearch-input.inputButton"
+        aria-label="Search or jump to…"
+        aria-haspopup="dialog"
+        placeholder="Search or jump to..."
+        data-hotkey=s,/
+        autocapitalize="off"
+        REDACTED="{&quot;location&quot;:&quot;navbar&quot;,&quot;action&quot;:&quot;searchbar&quot;,&quot;context&quot;:&quot;global&quot;,&quot;tag&quot;:&quot;input&quot;,&quot;label&quot;:&quot;REDACTED&quot;}"
+        data-action="click:qbsearch-input#handleExpand"
+      >
+        <div class="mr-2 color-fg-muted">
+          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search">
+    <path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path>
+</svg>
+        </div>
+        <span class="flex-1" data-target="qbsearch-input.inputButtonText">Search or jump to...</span>
+          <div class="d-flex" data-target="qbsearch-input.hotkeyIndicator">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
+          </div>
+      </button>
+
+    <input type="hidden" name="type" class="REDACTED">
+
+    
+<div class="Overlay--hidden " REDACTED>
+  <modal-dialog data-action="close:qbsearch-input#handleClose cancel:qbsearch-input#handleClose" data-target="qbsearch-input.REDACTED" role="dialog" id="REDACTED" aria-modal="true" aria-labelledby="REDACTED" data-view-component="true" class="Overlay REDACTED REDACTED">
+      <h1 id="REDACTED" class="sr-only">Search code, repositories, users, issues, pull requests...</h1>
+    <div class="Overlay-body REDACTED">
+      
+          <div data-view-component="true">        <div class="search-suggestions position-fixed width-full color-shadow-large border color-fg-default color-bg-default overflow-hidden d-flex flex-column REDACTED"
+          style="border-radius: 12px;"
+          data-target="qbsearch-input.REDACTED"
+          hidden
+        >
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="REDACTED" action="" accept-charset="UTF-8" method="get">
+  <query-builder data-target="qbsearch-input.queryBuilder" id="REDACTED" data-filter-key=":" data-view-component="true" class="QueryBuilder REDACTED">
+    <div class="FormControl REDACTED">
+      <label id="REDACTED" for="query-builder-test" class="FormControl-label sr-only">
+        Search
+      </label>
+      <div
+        class="REDACTED width-fit "
+        data-target="query-builder.styledInput"
+      >
+          <span id="REDACTED" class="REDACTED REDACTED">
+            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search REDACTED">
+    <path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path>
+</svg>
+          </span>
+        <div data-target="query-builder.REDACTED" class="REDACTED">
+          <div
+            aria-hidden="true"
+            class="REDACTED"
+            data-target="query-builder.styledInputContent"
+          ></div>
+          <div class="REDACTED">
+            <div aria-hidden="true" class="QueryBuilder-Sizer" data-target="query-builder.sizer"></div>
+            <input id="query-builder-test" name="query-builder-test" value="" autocomplete="off" type="text" role="combobox" spellcheck="false" aria-expanded="false" aria-describedby="REDACTED" data-target="query-builder.input" data-action="
+          input:query-builder#inputChange
+          blur:query-builder#inputBlur
+          keydown:query-builder#inputKeydown
+          focus:query-builder#inputFocus
+        " data-view-component="true" class="FormControl-input QueryBuilder-Input FormControl-medium" />
+          </div>
+        </div>
+          <span class="sr-only" id="REDACTED">Clear</span>
+          <button role="button" id="REDACTED" aria-labelledby="REDACTED REDACTED" data-target="query-builder.clearButton" data-action="
+                click:query-builder#clear
+                focus:query-builder#clearButtonFocus
+                blur:query-builder#clearButtonBlur
+              " variant="small" hidden="hidden" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium mr-1 px-2 py-0 d-flex flex-items-center rounded-1 color-fg-muted">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon REDACTED Button-visual">
+    <path d="M2.343 13.657A8 8 0 1 1 13.658 2.343 8 8 0 0 1 2.343 13.657ZM6.03 4.97a.751.751 0 0 0-1.042.018.751.751 0 0 0-.018 1.042L6.94 8 4.97 9.97a.749.749 0 0 0 .326 1.275.749.749 0 0 0 .734-.215L8 9.06l1.97 1.97a.749.749 0 0 0 1.275-.326.749.749 0 0 0-.215-.734L9.06 8l1.97-1.97a.749.749 0 0 0-.326-1.275.749.749 0 0 0-.734.215L8 6.94Z"></path>
+</svg>
+</button>
+
+      </div>
+      <template id="search-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search">
+    <path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path>
+</svg>
+</template>
+
+<template id="code-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
+    <path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+</template>
+
+<template id="file-code-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file-code">
+    <path d="M4 1.75C4 .784 4.784 0 5.75 0h5.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v8.586A1.75 1.75 0 0 1 14.25 15h-9a.75.75 0 0 1 0-1.5h9a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 10 4.25V1.5H5.75a.25.25 0 0 0-.25.25v2.5a.75.75 0 0 1-1.5 0Zm1.72 4.97a.75.75 0 0 1 1.06 0l2 2a.75.75 0 0 1 0 1.06l-2 2a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734l1.47-1.47-1.47-1.47a.75.75 0 0 1 0-1.06ZM3.28 7.78 1.81 9.25l1.47 1.47a.751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018l-2-2a.75.75 0 0 1 0-1.06l2-2a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Zm8.22-6.218V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path>
+</svg>
+</template>
+
+<template id="history-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-history">
+    <path d="m.427 1.927 1.215 1.215a8.002 8.002 0 1 1-1.6 5.685.75.75 0 1 1 1.493-.154 6.5 6.5 0 1 0 1.18-4.458l1.358 1.358A.25.25 0 0 1 3.896 6H.25A.25.25 0 0 1 0 5.75V2.104a.25.25 0 0 1 .427-.177ZM7.75 4a.75.75 0 0 1 .75.75v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5A.75.75 0 0 1 7.75 4Z"></path>
+</svg>
+</template>
+
+<template id="repo-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo">
+    <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"></path>
+</svg>
+</template>
+
+<template id="bookmark-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bookmark">
+    <path d="M3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 0 1-1.227.579L8 11.722l-3.773 3.107A.751.751 0 0 1 3 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.91l3.023-2.489a.75.75 0 0 1 .954 0l3.023 2.49V2.75a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+</template>
+
+<template id="plus-circle-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus-circle">
+    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm7.25-3.25v2.5h2.5a.75.75 0 0 1 0 1.5h-2.5v2.5a.75.75 0 0 1-1.5 0v-2.5h-2.5a.75.75 0 0 1 0-1.5h2.5v-2.5a.75.75 0 0 1 1.5 0Z"></path>
+</svg>
+</template>
+
+<template id="circle-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-dot-fill">
+    <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"></path>
+</svg>
+</template>
+
+<template id="trash-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-trash">
+    <path d="M11 1.75V3h2.25a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1 0-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75ZM4.496 6.675l.66 6.6a.25.25 0 0 0 .249.225h5.19a.25.25 0 0 0 .249-.225l.66-6.6a.75.75 0 0 1 1.492.149l-.66 6.6A1.748 1.748 0 0 1 10.595 15h-5.19a1.75 1.75 0 0 1-1.741-1.575l-.66-6.6a.75.75 0 1 1 1.492-.15ZM6.5 1.75V3h3V1.75a.25.25 0 0 0-.25-.25h-2.5a.25.25 0 0 0-.25.25Z"></path>
+</svg>
+</template>
+
+<template id="team-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-people">
+    <path d="M2 5.5a3.5 3.5 0 1 1 5.898 2.549 5.508 5.508 0 0 1 3.034 4.084.75.75 0 1 1-1.482.235 4 4 0 0 0-7.9 0 .75.75 0 0 1-1.482-.236A5.507 5.507 0 0 1 3.102 8.05 3.493 3.493 0 0 1 2 5.5ZM11 4a3.001 3.001 0 0 1 2.22 5.018 5.01 5.01 0 0 1 2.56 3.012.749.749 0 0 1-.885.954.752.752 0 0 1-.549-.514 3.507 3.507 0 0 0-2.522-2.372.75.75 0 0 1-.574-.73v-.352a.75.75 0 0 1 .416-.672A1.5 1.5 0 0 0 11 5.5.75.75 0 0 1 11 4Zm-5.5-.5a2 2 0 1 0-.001 3.999A2 2 0 0 0 5.5 3.5Z"></path>
+</svg>
+</template>
+
+<template id="project-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-project">
+    <path d="M1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25V1.75C0 .784.784 0 1.75 0ZM1.5 1.75v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25ZM11.75 3a.75.75 0 0 1 .75.75v7.5a.75.75 0 0 1-1.5 0v-7.5a.75.75 0 0 1 .75-.75Zm-8.25.75a.75.75 0 0 1 1.5 0v5.5a.75.75 0 0 1-1.5 0ZM8 3a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 8 3Z"></path>
+</svg>
+</template>
+
+<template id="pencil-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pencil">
+    <path d="M11.013 1.427a1.75 1.75 0 0 1 2.474 0l1.086 1.086a1.75 1.75 0 0 1 0 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 0 1-.927-.928l.929-3.25c.081-.286.235-.547.445-.758l8.61-8.61Zm.176 4.823L9.75 4.81l-6.286 6.287a.253.253 0 0 0-.064.108l-.558 1.953 1.953-.558a.253.253 0 0 0 .108-.064Zm1.238-3.763a.25.25 0 0 0-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 0 0 0-.354Z"></path>
+</svg>
+</template>
+
+<template id="copilot-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copilot">
+    <path d="M7.998 15.035c-4.562 0-7.873-2.914-7.998-3.749V9.338c.085-.628.677-1.686 1.588-2.065.013-.07.024-.143.036-.218.029-.183.06-.384.126-.612-.201-.508-.254-1.084-.254-1.656 0-.87.128-1.769.693-2.484.579-.733 1.494-1.124 2.724-1.261 1.206-.134 2.262.034 2.944.765.05.053.096.108.139.165.044-.057.094-.112.143-.165.682-.731 1.738-.899 2.944-.765 1.23.137 2.145.528 2.724 1.261.566.715.693 1.614.693 2.484 0 .572-.053 1.148-.254 1.656.066.228.098.429.126.612.012.076.024.148.037.218.924.385 1.522 1.471 1.591 2.095v1.872c0 .766-3.351 3.795-8.002 3.795Zm0-1.485c2.28 0 4.584-1.11 5.002-1.433V7.862l-.023-.116c-.49.21-1.075.291-1.727.291-1.146 0-2.059-.327-2.71-.991A3.222 3.222 0 0 1 8 6.303a3.24 3.24 0 0 1-.544.743c-.65.664-1.563.991-2.71.991-.652 0-1.236-.081-1.727-.291l-.023.116v4.255c.419.323 2.722 1.433 5.002 1.433ZM6.762 2.83c-.193-.206-.637-.413-1.682-.297-1.019.113-1.479.404-1.713.7-.247.312-.369.789-.369 1.554 0 .793.129 1.171.308 1.371.162.181.519.379 1.442.379.853 0 1.339-.235 1.638-.54.315-.322.527-.827.617-1.553.117-.935-.037-1.395-.241-1.614Zm4.155-.297c-1.044-.116-1.488.091-1.681.297-.204.219-.359.679-.242 1.614.091.726.303 1.231.618 1.553.299.305.784.54 1.638.54.922 0 1.28-.198 1.442-.379.179-.2.308-.578.308-1.371 0-.765-.123-1.242-.37-1.554-.233-.296-.693-.587-1.713-.7Z"></path><path d="M6.25 9.037a.75.75 0 0 1 .75.75v1.501a.75.75 0 0 1-1.5 0V9.787a.75.75 0 0 1 .75-.75Zm4.25.75v1.501a.75.75 0 0 1-1.5 0V9.787a.75.75 0 0 1 1.5 0Z"></path>
+</svg>
+</template>
+
+<template id="copilot-error-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon REDACTED">
+    <path d="M16 11.24c0 .112-.072.274-.21.467L13 9.688V7.862l-.023-.116c-.49.21-1.075.291-1.727.291-.198 0-.388-.009-.571-.029L6.833 5.226a4.01 4.01 0 0 0 .17-.782c.117-.935-.037-1.395-.241-1.614-.193-.206-.637-.413-1.682-.297-.683.076-1.115.231-1.395.415l-1.257-.91c.579-.564 1.413-.877 2.485-.996 1.206-.134 2.262.034 2.944.765.05.053.096.108.139.165.044-.057.094-.112.143-.165.682-.731 1.738-.899 2.944-.765 1.23.137 2.145.528 2.724 1.261.566.715.693 1.614.693 2.484 0 .572-.053 1.148-.254 1.656.066.228.098.429.126.612.012.076.024.148.037.218.924.385 1.522 1.471 1.591 2.095Zm-5.083-8.707c-1.044-.116-1.488.091-1.681.297-.204.219-.359.679-.242 1.614.091.726.303 1.231.618 1.553.299.305.784.54 1.638.54.922 0 1.28-.198 1.442-.379.179-.2.308-.578.308-1.371 0-.765-.123-1.242-.37-1.554-.233-.296-.693-.587-1.713-.7Zm2.511 11.074c-1.393.776-3.272 1.428-5.43 1.428-4.562 0-7.873-2.914-7.998-3.749V9.338c.085-.628.677-1.686 1.588-2.065.013-.07.024-.143.036-.218.029-.183.06-.384.126-.612-.18-.455-.241-.963-.252-1.475L.31 4.107A.747.747 0 0 1 0 3.509V3.49a.748.748 0 0 1 .625-.73c.156-.026.306.047.435.139l14.667 10.578a.592.592 0 0 1 .227.264.752.752 0 0 1 .046.249v.022a.75.75 0 0 1-1.19.596Zm-1.367-.991L5.635 7.964a5.128 5.128 0 0 1-.889.073c-.652 0-1.236-.081-1.727-.291l-.023.116v4.255c.419.323 2.722 1.433 5.002 1.433 1.539 0 3.089-.505 4.063-.934Z"></path>
+</svg>
+</template>
+
+<template id="workflow-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-workflow">
+    <path d="M0 1.75C0 .784.784 0 1.75 0h3.5C6.216 0 7 .784 7 1.75v3.5A1.75 1.75 0 0 1 5.25 7H4v4a1 1 0 0 0 1 1h4v-1.25C9 9.784 9.784 9 10.75 9h3.5c.966 0 1.75.784 1.75 1.75v3.5A1.75 1.75 0 0 1 14.25 16h-3.5A1.75 1.75 0 0 1 9 14.25v-.75H5A2.5 2.5 0 0 1 2.5 11V7h-.75A1.75 1.75 0 0 1 0 5.25Zm1.75-.25a.25.25 0 0 0-.25.25v3.5c0 .138.112.25.25.25h3.5a.25.25 0 0 0 .25-.25v-3.5a.25.25 0 0 0-.25-.25Zm9 9a.25.25 0 0 0-.25.25v3.5c0 .138.112.25.25.25h3.5a.25.25 0 0 0 .25-.25v-3.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+</template>
+
+<template id="book-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-book">
+    <path d="M0 1.75A.75.75 0 0 1 .75 1h4.253c1.227 0 2.317.59 3 1.501A3.743 3.743 0 0 1 11.006 1h4.245a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75h-4.507a2.25 2.25 0 0 0-1.591.659l-.622.621a.75.75 0 0 1-1.06 0l-.622-.621A2.25 2.25 0 0 0 5.258 13H.75a.75.75 0 0 1-.75-.75Zm7.251 10.324.004-5.073-.002-2.253A2.25 2.25 0 0 0 5.003 2.5H1.5v9h3.757a3.75 3.75 0 0 1 1.994.574ZM8.755 4.75l-.004 7.322a3.752 3.752 0 0 1 1.992-.572H14.5v-9h-3.495a2.25 2.25 0 0 0-2.25 2.25Z"></path>
+</svg>
+</template>
+
+<template id="code-review-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code-review">
+    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 13H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25v-8.5C0 1.784.784 1 1.75 1ZM1.5 2.75v8.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Zm5.28 1.72a.75.75 0 0 1 0 1.06L5.31 7l1.47 1.47a.751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018l-2-2a.75.75 0 0 1 0-1.06l2-2a.75.75 0 0 1 1.06 0Zm2.44 0a.75.75 0 0 1 1.06 0l2 2a.75.75 0 0 1 0 1.06l-2 2a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L10.69 7 9.22 5.53a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+</template>
+
+<template id="codespaces-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-codespaces">
+    <path d="M0 11.25c0-.966.784-1.75 1.75-1.75h12.5c.966 0 1.75.784 1.75 1.75v3A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25Zm2-9.5C2 .784 2.784 0 3.75 0h8.5C13.216 0 14 .784 14 1.75v5a1.75 1.75 0 0 1-1.75 1.75h-8.5A1.75 1.75 0 0 1 2 6.75Zm1.75-.25a.25.25 0 0 0-.25.25v5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-5a.25.25 0 0 0-.25-.25Zm-2 9.5a.25.25 0 0 0-.25.25v3c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-3a.25.25 0 0 0-.25-.25Z"></path><path d="M7 12.75a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75Zm-4 0a.75.75 0 0 1 .75-.75h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1-.75-.75Z"></path>
+</svg>
+</template>
+
+<template id="comment-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-comment">
+    <path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+</template>
+
+<template id="REDACTED">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon REDACTED">
+    <path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z"></path>
+</svg>
+</template>
+
+<template id="organization-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon REDACTED">
+    <path d="M1.75 16A1.75 1.75 0 0 1 0 14.25V1.75C0 .784.784 0 1.75 0h8.5C11.216 0 12 .784 12 1.75v12.5c0 .085-.006.168-.018.25h2.268a.25.25 0 0 0 .25-.25V8.285a.25.25 0 0 0-.111-.208l-1.055-.703a.749.749 0 1 1 .832-1.248l1.055.703c.487.325.779.871.779 1.456v5.965A1.75 1.75 0 0 1 14.25 16h-3.5a.766.766 0 0 1-.197-.026c-.099.017-.2.026-.303.026h-3a.75.75 0 0 1-.75-.75V14h-1v1.25a.75.75 0 0 1-.75.75Zm-.25-1.75c0 .138.112.25.25.25H4v-1.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 .75.75v1.25h2.25a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25ZM3.75 6h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1 0-1.5ZM3 3.75A.75.75 0 0 1 3.75 3h.5a.75.75 0 0 1 0 1.5h-.5A.75.75 0 0 1 3 3.75Zm4 3A.75.75 0 0 1 7.75 6h.5a.75.75 0 0 1 0 1.5h-.5A.75.75 0 0 1 7 6.75ZM7.75 3h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1 0-1.5ZM3 9.75A.75.75 0 0 1 3.75 9h.5a.75.75 0 0 1 0 1.5h-.5A.75.75 0 0 1 3 9.75ZM7.75 9h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1 0-1.5Z"></path>
+</svg>
+</template>
+
+<template id="rocket-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-rocket">
+    <path d="M14.064 0h.186C15.216 0 16 .784 16 1.75v.186a8.752 8.752 0 0 1-2.564 6.186l-.458.459c-.314.314-.641.616-.979.904v3.207c0 .608-.315 1.172-.833 1.49l-2.774 1.707a.749.749 0 0 1-1.11-.418l-.954-3.102a1.214 1.214 0 0 1-.145-.125L3.754 9.816a1.218 1.218 0 0 1-.124-.145L.528 8.717a.749.749 0 0 1-.418-1.11l1.71-2.774A1.748 1.748 0 0 1 3.31 4h3.204c.288-.338.59-.665.904-.979l.459-.458A8.749 8.749 0 0 1 14.064 0ZM8.938 3.623h-.002l-.458.458c-.76.76-1.437 1.598-2.02 2.5l-1.5 2.317 2.143 2.143 2.317-1.5c.902-.583 1.74-1.26 2.499-2.02l.459-.458a7.25 7.25 0 0 0 2.123-5.127V1.75a.25.25 0 0 0-.25-.25h-.186a7.249 7.249 0 0 0-5.125 2.123ZM3.56 14.56c-.732.732-2.334 1.045-3.005 1.148a.234.234 0 0 1-.201-.064.234.234 0 0 1-.064-.201c.103-.671.416-2.273 1.15-3.003a1.502 1.502 0 1 1 2.12 2.12Zm6.94-3.935c-.088.06-.177.118-.266.175l-2.35 1.521.548 1.783 1.949-1.2a.25.25 0 0 0 .119-.213ZM3.678 8.116 5.2 5.766c.058-.09.117-.178.176-.266H3.309a.25.25 0 0 0-.213.119l-1.2 1.95ZM12 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+</template>
+
+<template id="shield-check-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon REDACTED">
+    <path d="m8.533.133 5.25 1.68A1.75 1.75 0 0 1 15 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.697 1.697 0 0 1-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 0 1 1.217-1.667l5.25-1.68a1.748 1.748 0 0 1 1.066 0Zm-.61 1.429.001.001-5.25 1.68a.251.251 0 0 0-.174.237V7c0 1.36.275 2.666 1.057 3.859.784 1.194 2.121 2.342 4.366 3.298a.196.196 0 0 0 .154 0c2.245-.957 3.582-2.103 4.366-3.297C13.225 9.666 13.5 8.358 13.5 7V3.48a.25.25 0 0 0-.174-.238l-5.25-1.68a.25.25 0 0 0-.153 0ZM11.28 6.28l-3.5 3.5a.75.75 0 0 1-1.06 0l-1.5-1.5a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l.97.97 2.97-2.97a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
+</svg>
+</template>
+
+<template id="heart-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-heart">
+    <path d="m8 14.25.345.666a.75.75 0 0 1-.69 0l-.008-.004-.018-.01a7.152 7.152 0 0 1-.31-.17 22.055 22.055 0 0 1-3.434-2.414C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.045 5.231-3.885 6.818a22.066 22.066 0 0 1-3.744 2.584l-.018.01-.006.003h-.002ZM4.25 2.5c-1.336 0-2.75 1.164-2.75 3 0 2.15 1.58 4.144 3.365 5.682A20.58 20.58 0 0 0 8 13.393a20.58 20.58 0 0 0 3.135-2.211C12.92 9.644 14.5 7.65 14.5 5.5c0-1.836-1.414-3-2.75-3-1.373 0-2.609.986-3.029 2.456a.749.749 0 0 1-1.442 0C6.859 3.486 5.623 2.5 4.25 2.5Z"></path>
+</svg>
+</template>
+
+<template id="server-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-server">
+    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v4c0 .372-.116.717-.314 1 .198.283.314.628.314 1v4a1.75 1.75 0 0 1-1.75 1.75H1.75A1.75 1.75 0 0 1 0 12.75v-4c0-.358.109-.707.314-1a1.739 1.739 0 0 1-.314-1v-4C0 1.784.784 1 1.75 1ZM1.5 2.75v4c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-4a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Zm.25 5.75a.25.25 0 0 0-.25.25v4c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-4a.25.25 0 0 0-.25-.25ZM7 4.75A.75.75 0 0 1 7.75 4h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 7 4.75ZM7.75 10h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM3 4.75A.75.75 0 0 1 3.75 4h.5a.75.75 0 0 1 0 1.5h-.5A.75.75 0 0 1 3 4.75ZM3.75 10h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1 0-1.5Z"></path>
+</svg>
+</template>
+
+<template id="globe-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-globe">
+    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM5.78 8.75a9.64 9.64 0 0 0 1.363 4.177c.255.426.542.832.857 1.215.245-.296.551-.705.857-1.215A9.64 9.64 0 0 0 10.22 8.75Zm4.44-1.5a9.64 9.64 0 0 0-1.363-4.177c-.307-.51-.612-.919-.857-1.215a9.927 9.927 0 0 0-.857 1.215A9.64 9.64 0 0 0 5.78 7.25Zm-5.944 1.5H1.543a6.507 6.507 0 0 0 4.666 5.5c-.123-.181-.24-.365-.352-.552-.715-1.192-1.437-2.874-1.581-4.948Zm-2.733-1.5h2.733c.144-2.074.866-3.756 1.58-4.948.12-.197.237-.381.353-.552a6.507 6.507 0 0 0-4.666 5.5Zm10.181 1.5c-.144 2.074-.866 3.756-1.58 4.948-.12.197-.237.381-.353.552a6.507 6.507 0 0 0 4.666-5.5Zm2.733-1.5a6.507 6.507 0 0 0-4.666-5.5c.123.181.24.365.353.552.714 1.192 1.436 2.874 1.58 4.948Z"></path>
+</svg>
+</template>
+
+<template id="issue-opened-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon REDACTED">
+    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"></path>
+</svg>
+</template>
+
+<template id="device-mobile-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon REDACTED">
+    <path d="M3.75 0h8.5C13.216 0 14 .784 14 1.75v12.5A1.75 1.75 0 0 1 12.25 16h-8.5A1.75 1.75 0 0 1 2 14.25V1.75C2 .784 2.784 0 3.75 0ZM3.5 1.75v12.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25ZM8 13a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path>
+</svg>
+</template>
+
+<template id="package-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-package">
+    <path d="m8.878.392 5.25 3.045c.54.314.872.89.872 1.514v6.098a1.75 1.75 0 0 1-.872 1.514l-5.25 3.045a1.75 1.75 0 0 1-1.756 0l-5.25-3.045A1.75 1.75 0 0 1 1 11.049V4.951c0-.624.332-1.201.872-1.514L7.122.392a1.75 1.75 0 0 1 1.756 0ZM7.875 1.69l-4.63 2.685L8 7.133l4.755-2.758-4.63-2.685a.248.248 0 0 0-.25 0ZM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432Zm6.25 8.271 4.625-2.683a.25.25 0 0 0 .125-.216V5.677L8.75 8.432Z"></path>
+</svg>
+</template>
+
+<template id="credit-card-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-credit-card">
+    <path d="M10.75 9a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5h-1.5Z"></path><path d="M0 3.75C0 2.784.784 2 1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14H1.75A1.75 1.75 0 0 1 0 12.25ZM14.5 6.5h-13v5.75c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25Zm0-2.75a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25V5h13Z"></path>
+</svg>
+</template>
+
+<template id="play-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-play">
+    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm4.879-2.773 4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559V5.442a.25.25 0 0 1 .379-.215Z"></path>
+</svg>
+</template>
+
+<template id="gift-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-gift">
+    <path d="M2 2.75A2.75 2.75 0 0 1 4.75 0c.983 0 1.873.42 2.57 1.232.268.318.497.668.68 1.042.183-.375.411-.725.68-1.044C9.376.42 10.266 0 11.25 0a2.75 2.75 0 0 1 2.45 4h.55c.966 0 1.75.784 1.75 1.75v2c0 .698-.409 1.301-1 1.582v4.918A1.75 1.75 0 0 1 13.25 16H2.75A1.75 1.75 0 0 1 1 14.25V9.332C.409 9.05 0 8.448 0 7.75v-2C0 4.784.784 4 1.75 4h.55c-.192-.375-.3-.8-.3-1.25ZM7.25 9.5H2.5v4.75c0 .138.112.25.25.25h4.5Zm1.5 0v5h4.5a.25.25 0 0 0 .25-.25V9.5Zm0-4V8h5.5a.25.25 0 0 0 .25-.25v-2a.25.25 0 0 0-.25-.25Zm-7 0a.25.25 0 0 0-.25.25v2c0 .138.112.25.25.25h5.5V5.5h-5.5Zm3-4a1.25 1.25 0 0 0 0 2.5h2.309c-.233-.818-.542-1.401-.878-1.793-.43-.502-.915-.707-1.431-.707ZM8.941 4h2.309a1.25 1.25 0 0 0 0-2.5c-.516 0-1 .205-1.43.707-.337.392-.646.975-.879 1.793Z"></path>
+</svg>
+</template>
+
+<template id="code-square-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code-square">
+    <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25Zm7.47 3.97a.75.75 0 0 1 1.06 0l2 2a.75.75 0 0 1 0 1.06l-2 2a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L10.69 8 9.22 6.53a.75.75 0 0 1 0-1.06ZM6.78 6.53 5.31 8l1.47 1.47a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-2-2a.75.75 0 0 1 0-1.06l2-2a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
+</svg>
+</template>
+
+<template id="device-desktop-icon">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon REDACTED">
+    <path d="M14.25 1c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 14.25 12h-3.727c.099 1.041.52 1.872 1.292 2.757A.752.752 0 0 1 11.25 16h-6.5a.75.75 0 0 1-.565-1.243c.772-.885 1.192-1.716 1.292-2.757H1.75A1.75 1.75 0 0 1 0 10.25v-7.5C0 1.784.784 1 1.75 1ZM1.75 2.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25ZM9.018 12H6.982a5.72 5.72 0 0 1-.765 2.5h3.566a5.72 5.72 0 0 1-.765-2.5Z"></path>
+</svg>
+</template>
+
+        <div class="position-relative">
+                        <ul
+              role="listbox"
+              class="ActionListWrap REDACTED"
+              aria-label="Suggestions"
+              data-action="
+                combobox-commit:query-builder#comboboxCommit
+                mousedown:query-builder#resultsMousedown
+              "
+              data-target="query-builder.resultsList"
+              data-persist-list=false
+              id="REDACTED"
+              tabindex="-1"
+            ></ul>
+
+        </div>
+      <div class="REDACTED" id="REDACTED" hidden="hidden">
+        <span class="REDACTED">
+          <svg aria-hidden="true" height="12" viewBox="0 0 12 12" version="1.1" width="12" data-view-component="true" class="octicon octicon-alert-fill">
+    <path d="M4.855.708c.5-.896 1.79-.896 2.29 0l4.675 8.351a1.312 1.312 0 0 1-1.146 1.954H1.33A1.313 1.313 0 0 1 .183 9.058ZM7 7V3H5v4Zm-1 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"></path>
+</svg>
+        </span>
+        <span></span>
+</div>    </div>
+    <div data-target="query-builder.REDACTED" aria-live="polite" aria-atomic="true" class="sr-only"></div>
+</query-builder></form>
+          <div class="d-flex flex-row color-fg-muted px-3 text-small color-bg-default REDACTED">
+            <a target="_blank" href="https://docs.github.com/search-github/github-code-search/REDACTED" data-view-component="true" class="Link color-fg-accent text-normal ml-2">Search syntax tips</a>            <div class="d-flex flex-1"></div>
+          </div>
+        </div>
+</div>
+
+    </div>
+</modal-dialog></div>
+  </div>
+  <div data-action="click:qbsearch-input#retract" class="dark-backdrop position-fixed" hidden data-target="qbsearch-input.darkBackdrop"></div>
+  <div class="color-fg-default">
+    
+<dialog-helper>
+  <dialog data-target="qbsearch-input.feedbackDialog" data-action="close:qbsearch-input#handleDialogClose cancel:qbsearch-input#handleDialogClose" id="feedback-dialog" aria-modal="true" aria-labelledby="REDACTED" aria-describedby="REDACTED" data-view-component="true" class="Overlay Overlay-whenNarrow REDACTED REDACTED REDACTED">
+    <div data-view-component="true" class="Overlay-header">
+  <div class="REDACTED">
+    <div class="Overlay-titleWrap">
+      <h1 class="Overlay-title " id="REDACTED">
+        Provide feedback
+      </h1>
+        
+    </div>
+    <div class="Overlay-actionWrap">
+      <button REDACTED="feedback-dialog" aria-label="Close" aria-label="Close" type="button" data-view-component="true" class="close-button Overlay-closeButton"><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg></button>
+    </div>
+  </div>
+  
+</div>
+      <scrollable-region data-labelled-by="REDACTED">
+        <div data-view-component="true" class="Overlay-body">        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="REDACTED" data-turbo="false" action="/search/feedback" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="REDACTED" />
+          <p>We read every piece of feedback, and take your input very seriously.</p>
+          <textarea name="feedback" class="form-control width-full mb-2" style="height: 120px" id="feedback"></textarea>
+          <input name="include_email" id="include_email" aria-label="Include my email address so I can be contacted" class="form-control mr-2" type="checkbox">
+          <label for="include_email" style="font-weight: normal">Include my email address so I can be contacted</label>
+</form></div>
+      </scrollable-region>
+      <div data-view-component="true" class="Overlay-footer REDACTED">          <button REDACTED="feedback-dialog" type="button" data-view-component="true" class="btn">    Cancel
+</button>
+          <button form="REDACTED" data-action="click:qbsearch-input#submitFeedback" type="submit" data-view-component="true" class="btn-primary btn">    Submit feedback
+</button>
+</div>
+</dialog></dialog-helper>
+
+    <custom-scopes data-target="qbsearch-input.customScopesManager">
+    
+<dialog-helper>
+  <dialog data-target="custom-scopes.REDACTED" data-action="close:qbsearch-input#handleDialogClose cancel:qbsearch-input#handleDialogClose" id="REDACTED" aria-modal="true" aria-labelledby="REDACTED" aria-describedby="REDACTED" data-view-component="true" class="Overlay Overlay-whenNarrow REDACTED REDACTED REDACTED">
+    <div data-view-component="true" class="Overlay-header REDACTED">
+  <div class="REDACTED">
+    <div class="Overlay-titleWrap">
+      <h1 class="Overlay-title " id="REDACTED">
+        Saved searches
+      </h1>
+        <h2 id="REDACTED" class="Overlay-description">Use saved searches to filter your results more quickly</h2>
+    </div>
+    <div class="Overlay-actionWrap">
+      <button REDACTED="REDACTED" aria-label="Close" aria-label="Close" type="button" data-view-component="true" class="close-button Overlay-closeButton"><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg></button>
+    </div>
+  </div>
+  
+</div>
+      <scrollable-region data-labelled-by="REDACTED">
+        <div data-view-component="true" class="Overlay-body">        <div data-target="custom-scopes.REDACTED"></div>
+
+        <div hidden class="REDACTED" data-target="custom-scopes.REDACTED">
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="REDACTED" data-turbo="false" action="/search/custom_scopes" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="REDACTED" />
+          <div data-target="custom-scopes.REDACTED"></div>
+
+          <input type="hidden" id="custom_scope_id" name="custom_scope_id" data-target="custom-scopes.customScopesIdField">
+
+          <div class="form-group">
+            <label for="custom_scope_name">Name</label>
+            <auto-check src="/search/custom_scopes/check_name" required>
+              <input
+                type="text"
+                name="custom_scope_name"
+                id="custom_scope_name"
+                data-target="custom-scopes.REDACTED"
+                class="form-control"
+                autocomplete="off"
+                placeholder="github-ruby"
+                required
+                maxlength="50">
+              <input type="hidden" value="REDACTED" data-csrf="true" />
+            </auto-check>
+          </div>
+
+          <div class="form-group">
+            <label for="custom_scope_query">Query</label>
+            <input
+              type="text"
+              name="custom_scope_query"
+              id="custom_scope_query"
+              data-target="custom-scopes.REDACTED"
+              class="form-control"
+              autocomplete="off"
+              placeholder="(repo:mona/a OR repo:mona/b) AND lang:python"
+              required
+              maxlength="500">
+          </div>
+
+          <p class="text-small color-fg-muted">
+            To see all available qualifiers, see our <a class="Link--inTextBlock" href="https://docs.github.com/search-github/github-code-search/REDACTED">documentation</a>.
+          </p>
+</form>        </div>
+
+        <div data-target="custom-scopes.REDACTED">
+          <div data-target="custom-scopes.list"></div>
+        </div>
+
+</div>
+      </scrollable-region>
+      <div data-view-component="true" class="Overlay-footer REDACTED REDACTED">          <button data-action="click:custom-scopes#customScopesCancel" type="button" data-view-component="true" class="btn">    Cancel
+</button>
+          <button form="REDACTED" data-action="click:custom-scopes#customScopesSubmit" data-target="custom-scopes.REDACTED" type="submit" data-view-component="true" class="btn-primary btn">    Create saved search
+</button>
+</div>
+</dialog></dialog-helper>
+    </custom-scopes>
+  </div>
+</qbsearch-input>
+
+
+            <div class="position-relative REDACTED d-lg-inline-block">
+              <a
+                href="/login?return_to=https%3A%2F%2Fgithub.com%2Fgoogle%2Ffonts%2Fraw%2Fmain%2Fofl%2Fnotosanskr%REDACTED.otf"
+                class="HeaderMenu-link REDACTED HeaderMenu-button flex-shrink-0 no-underline d-none d-lg-inline-flex border border-lg-0 rounded px-2 py-1"
+                style="margin-left: 12px;"
+                data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/google/fonts/raw/main/ofl/notosanskr/NotoSansKR-Regular.otf&quot;,&quot;user_id&quot;:null}}" REDACTED="REDACTED"
+                REDACTED="{&quot;category&quot;:&quot;Marketing nav&quot;,&quot;action&quot;:&quot;click to go to homepage&quot;,&quot;label&quot;:&quot;ref_page:Marketing;ref_cta:Sign in;ref_loc:Header&quot;}"
+              >
+                Sign in
+              </a>
+                <div style="right: -30%; background-color: transparent; border: none" data-view-component="true" class="auth-form-body Popover position-absolute d-none d-sm-none d-md-none d-lg-block">
+  <div style="width: 300px" data-view-component="true" class="Popover-message Box REDACTED color-fg-default p-4 mt-2 mx-auto text-left">
+    <h4 data-view-component="true" class="color-fg-default mb-2">                    Sign in to GitHub
+</h4>
+                        
+<!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/session" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="REDACTED" />  <input type="hidden" name="add_account" id="add_account" autocomplete="off" class="form-control" />
+
+    <label for="login_field">
+      Username or email address
+    </label>
+    <input type="text" name="login" id="login_field" class="form-control input-block js-login-field" autocapitalize="off" autocorrect="off" autocomplete="username" autofocus="autofocus" required="required" />
+
+  <div class="position-relative">
+    <label for="password">
+      Password
+    </label>
+    <input type="password" name="password" id="password" class="form-control form-control input-block js-password-field" autocomplete="current-password" required="required" />
+    <a class="label-link position-absolute top-0 right-0" id="forgot-password" href="/password_reset">Forgot password?</a>
+    
+<input type="hidden" name="REDACTED" value="undefined">
+<input type="hidden" class="js-support" name="javascript-support" value="unknown">
+<input type="hidden" class="js-webauthn-support" name="webauthn-support" value="unknown">
+<input type="hidden" class="REDACTED" name="REDACTED" value="unknown">
+<input type="hidden" name="return_to" id="return_to" value="https://github.com/google/fonts/raw/main/ofl/notosanskr/NotoSansKR-Regular.otf" autocomplete="off" class="form-control" />
+<input type="hidden" name="allow_signup" id="allow_signup" autocomplete="off" class="form-control" />
+<input type="hidden" name="client_id" id="client_id" autocomplete="off" class="form-control" />
+<input type="hidden" name="integration" id="integration" autocomplete="off" class="form-control" />
+<input type="text" name="required_field_3d09" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1770882027019" autocomplete="off" class="form-control" /><input type="hidden" name="timestamp_secret" value="REDACTED" autocomplete="off" class="form-control" />
+
+    <input type="submit" name="commit" value="Sign in" class="btn btn-primary btn-block js-sign-in-button" data-disable-with="Signing in…" data-signin-label="Sign in" data-sso-label="Sign in with your identity provider" development="false" disable-emu-sso="false" />
+  </div>
+</form>  <webauthn-status class="REDACTED">
+        <div data-target="webauthn-status.partial" class="d-flex REDACTED flex-column mt-3 mb-0" hidden>
+          <a href="/login?return_to=https%3A%2F%2Fgithub.com%2Fgoogle%2Ffonts%2Fraw%2Fmain%2Fofl%2Fnotosanskr%REDACTED.otf" REDACTED="{&quot;category&quot;:&quot;passkey_404_login&quot;,&quot;action&quot;:&quot;clicked&quot;,&quot;label&quot;:null}" data-view-component="true" class="Button--link Button--medium Button">  <span class="Button-content">
+    <span class="Button-label">or continue with other methods</span>
+  </span>
+</a>
+        </div>
+  </webauthn-status>
+
+
+</div></div>            </div>
+
+              <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2Fgoogle%2Ffonts%2Fraw%2Fmain%2Fofl%2Fnotosanskr%REDACTED.otf&amp;source=header"
+                class="HeaderMenu-link REDACTED HeaderMenu-button flex-shrink-0 d-flex d-lg-inline-flex no-underline border REDACTED rounded px-2 py-1"
+                data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/google/fonts/raw/main/ofl/notosanskr/NotoSansKR-Regular.otf&quot;,&quot;user_id&quot;:null}}" REDACTED="REDACTED"
+                REDACTED="{&quot;category&quot;:&quot;Sign up&quot;,&quot;action&quot;:&quot;click to sign up for account&quot;,&quot;label&quot;:&quot;ref_page:/google/fonts/raw/main/ofl/notosanskr/NotoSansKR-Regular.otf;ref_cta:Sign up;ref_loc:header logged out&quot;}"
+              >
+                Sign up
+              </a>
+
+                <div class="REDACTED">
+    <REDACTED>
+      <button data-target="REDACTED.anchor" id="REDACTED" aria-labelledby="REDACTED" type="button" disabled="disabled" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium AppHeader-button HeaderMenu-link border cursor-wait">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-sliders Button-visual">
+    <path d="M15 2.75a.75.75 0 0 1-.75.75h-4a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 .75.75Zm-8.5.75v1.25a.75.75 0 0 0 1.5 0v-4a.75.75 0 0 0-1.5 0V2H1.75a.75.75 0 0 0 0 1.5H6.5Zm1.25 5.25a.75.75 0 0 0 0-1.5h-6a.75.75 0 0 0 0 1.5h6ZM15 8a.75.75 0 0 1-.75.75H11.5V10a.75.75 0 1 1-1.5 0V6a.75.75 0 0 1 1.5 0v1.25h2.75A.75.75 0 0 1 15 8Zm-9 5.25v-2a.75.75 0 0 0-1.5 0v1.25H1.75a.75.75 0 0 0 0 1.5H4.5v1.25a.75.75 0 0 0 1.5 0v-2Zm9 0a.75.75 0 0 1-.75.75h-6a.75.75 0 0 1 0-1.5h6a.75.75 0 0 1 .75.75Z"></path>
+</svg>
+</button><tool-tip id="REDACTED" for="REDACTED" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Appearance settings</tool-tip>
+
+      <template data-target="REDACTED.template">
+        <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react.8372a93633fbe1a5.module.css" />
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/appearance-settings.c211d1d0e650ca39.module.css" />
+
+<react-partial
+  partial-name="appearance-settings"
+  data-ssr="false"
+  data-attempted-ssr="false"
+  REDACTED="true"
+>
+  
+  <script type="application/json" data-target="react-partial.embeddedData">{"props":{}}</script>
+  <div data-target="react-partial.reactRoot"></div>
+</react-partial>
+
+
+      </template>
+    </REDACTED>
+  </div>
+
+          <button type="button" class="sr-only REDACTED d-block d-lg-none">Resetting focus</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div hidden="hidden" data-view-component="true" class="REDACTED stale-session-flash flash flash-warn flash-full">
+  
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+        <span class="REDACTED" hidden>You signed in with another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
+        <span class="REDACTED" hidden>You signed out in another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
+        <span class="REDACTED" hidden>You switched accounts on another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
+
+    <button id="REDACTED" aria-labelledby="REDACTED" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium flash-close js-flash-close">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x Button-visual">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+</button><tool-tip id="REDACTED" for="REDACTED" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Dismiss alert</tool-tip>
+
+
+  
+</div>
+    </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+
+
+
+
+
+
+
+    <div id="js-flash-container" class="flash-container" data-turbo-replace>
+
+
+
+
+  <template class="js-flash-template">
+    
+<div class="flash flash-full   {{ className }}">
+  <div >
+    <button autofocus class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+    </button>
+    <div aria-atomic="true" role="alert" class="js-flash-alert">
+      
+      <div>{{ message }}</div>
+
+    </div>
+  </div>
+</div>
+  </template>
+</div>
+
+
+    
+
+
+
+
+
+
+  <div
+    class="application-main d-flex flex-auto flex-column"
+    REDACTED
+    REDACTED
+    REDACTED
+    REDACTED
+  >
+        <main class="font-mktg " >
+    
+
+
+  <div class="position-relative" style="z-index: 0; transition: all 0.25s ease-in">
+    <div class="position-absolute overflow-hidden width-full top-0 left-0" style="height: 370px" data-hpc>
+      <img alt="" class="position-absolute" height="415" width="940" style="top: -20px; left: -20px; z-index: 1; width: 110%; height: 425px"
+      src="data:image/jpeg;base64,/9j/REDACTED/REDACTED/+REDACTED/REDACTED/REDACTED/REDACTED/REDACTED/2gAMAwEAAhEDEQA/APmt+REDACTED+REDACTED/REDACTED/REDACTED/TQ/3BghW+REDACTED/REDACTED/REDACTED+md0yYyP0yhW+REDACTED+REDACTED/REDACTED/REDACTED/REDACTED/REDACTED+REDACTED+REDACTED+REDACTED+REDACTED+REDACTED+REDACTED+REDACTED+REDACTED+REDACTED/REDACTED/TQKfTUC/REDACTED/REDACTED+REDACTED+mSipmzdRUzZ+REDACTED/REDACTED+nioB9PhDGQPp+REDACTED+REDACTED/4v/REDACTED+REDACTED+REDACTED+REDACTED/REDACTED+REDACTED/REDACTED/REDACTED/REDACTED/REDACTED/wBH+pvfD9P6t7VAsJ+REDACTED+uuLW/o/XuJoB6dz+5Yzxmxxi/79PThccJts5n+zV0ZdNv7T+5a/t36n/ur/ALFj/IcNvNHax1t/0PEbvV2c9TpH7H+8Q37R+sO3+g9T/NWf8rwm+REDACTED++3h7P2X9fcN7f03qn/mrGfOeB08+REDACTED+/kgf7j/Xh9T+n9QDxNqmfPOAx+vs+3p61x5Nx+eT/o2nY1dS4/lb+YtP2T9b1+jf8AYs/5/wAv3+z7WGseRcfuNfZyvZ/KP8yXBx+y/qu/pl/Bc8/cXl2P19HS6Y+3/MM/o6+hf0/5O/REDACTED/X09K6ftzzHP6OpUfyX/M/wD+n9aObf8AOWfVHlm+0/j1NemfMtzq/DrX/wD+F/mqv+6L+/qel/REDACTED/Nl/5f2g/wDG9b0R4P6gWdX3h5Vp/REDACTED/AObf/wBT1/0/6f8A1iz6y8p33d1+FfSPmm572jxK/wBu/wCbGH/l1k6fW9L/ADlz9a+REDACTED/wBOv5pN2J/Q+nbvcfW9Nh4XEqZ+9vK8Y5Npns6uox9m+Z5/Jjtaetb+2/8ANAj/AGb0B/21qx638sz+bV2cunozzL5dPawpZ/TX+Z73f0/REDACTED/wCtp/7Kz688t/59n+K+iPMP+PT/AAXH9Lv5ih/V/RAmtp9W5x4WFYz9/wDl2PhtOzjxN+huPz8dHTnqNb/S/wDmEkf6b9CJbI+rf8PTdTP7geXY/LtOjHiXH2Lx+fjs+nPhUH9LP5gf/wC8/bwJn6nqtH/ZLn7heX/REDACTED+lf74Tdn+u/QWgNS71bnf/swpq/REDACTED+1X7yB/6h+iPQ+p/mLPuHwe72nd62s/YPGbzR3uow/pX+7v8AN+4/o7RoR9Qv/wCwFM/uJwnw2Wvu9a4+weL+O00d7qV/tT+5mn7n+mivy3+9mWPcTht1r6cNe3/E73R0ZEf0p/ciQ/7p+mAJqLbyZUz+REDACTED/Sj9XT/fHo/91d/nLHuLsdzq7WOpv2/22+09Geth/Sn9Wf8A8t6L7fSu+1PcXY7nV046j2+22+09Geta3+lHrn/81YNx9Ax/8xc/cbRuM9r6XT2+17/HZ+pj/Sn1nA/31YQYf6Br/wB4nuNo3Ge19J7fa9/js/UsP6TXMH/fQCaj/ZoH/wA0LGf3HxeTh+/REDACTED+1n/AMLp/wB8p7j/ANv3/oPb3+47n1ns/pPY5+p+/XNo36YW+/1Ss6v3Hz8OH7/0taf29x8dv3PqP/aj0XP/AJ3fVv8AoB/REDACTED/Rdj+9+pGv+zj/WJ7ja9xjtfSvt9o3+ez9TD+k/oBif3u8iMh9ADzzKZ/REDACTED/ip/aj9G//REDACTED/sd9q6MdYj+lH6N2P7v64f/REDACTED/8ACtf3p7jbbc6enPUe3+x32rox1rf2q/bP/wBn+qdtrPcy5+4vE7rR05b9AcPvdXRhj/Sr9rH/AOT/REDACTED+jDf2p/a2/9U/UvwLNOye4nE7rR+PWegOH3urowpb/Sz9mxe79w/W3Xat9MeWBWM/uHxl5Nns+91t4+weEnLtNfd6h/tZ+yn/8Av/rXff092/wKe4fGbvZ97xL6C4Tea+71B/az9llv3D9aSKT6f+REDACTED/pZ+ymn7h+REDACTED/ZiW/2/9a+k+n3/AIE9w+N3ez73WegeE3mvu9Qn+lv7LbX9w/WePp9/4FPcPjd3s+94j0Dwm8193qE/0s/ZRP8AvD9aQefT1/4ie4fGbvZ97xL6B4Tea+71B/a/9lkH9f8ArQ38T+REDACTED+137BAP6z9eCQ7/AFPS930viuef3C4/REDACTED/5fdj+s/cAYLfU9L/Uqe4XmHybLo1eNfQXA/PtOnT4W/tf/LzT+s/cGP8A1npcf9SnuDx/ybLo1eM9BcD8+06dPhEf0t/YCx/2v9wD0+f0v9UnuFx/ybLo1eM9BcD8+06dPhb+1/8AL7Fv1f7if+09L/VJ7hcf8my6NXjPQXA/PtOnT4S/2u/YWP8A4z9f0Pqel/qk9weP+REDACTED/y+xP+1/uMf9Z6X+qT3B4/REDACTED/wDL/cHnH/Selp/2Se4PH/JsujV4z0HwPz7Tp0+El39Lv2Nhj+u/XWlpe/0i9Kf6MLWn9wuO+REDACTED/8AYfreC/p+REDACTED/wBLv2bT9f8ArCWkP6df+REDACTED/Zm/8Av/1zyCx9P/REDACTED/td+zMT/ALf+tOon0/REDACTED/td+ys/8At/63kP6f+ZKe4fGbvZ97xJ6C4Tea+71N/a79lj/x/wCt8fTo3/REDACTED+P/Wks7g+REDACTED+5bx+4nFfHZaPx62M/YPDfDa6/wAOov8Aa39rr/REDACTED+ln7aW/8ANP1Lk/REDACTED/QP8v7t+oAOh9Own3hbx+REDACTED/av9EI/wB7+u//REDACTED+lX6KP/REDACTED/AEp/Tv8AJ+8+raG/i9G0z/REDACTED/pV6JD/wC+7+f9AC3/AMxX3F17jHaz4U9v9G/z2fqN/aj0CP8A1y/p9Af6xPcXXuMdr6T2/wBG/wA9n6k7v6U2FhZ++EA6n9OC/T/SBax+42r48P3/AKcs5/b7Hw2/c+op/pQQP/Xf/wDV+z1lr3H/ALfv/Qz7ff3Hc+sp/pUZb9+n+REDACTED/cdz6if2q9aP/OrOf9Af9Yt+4ujcZ7X0se3+vf47P1E/tX6pp+9enR/+hLf++r7i6NxntfSnt/r3+Oz9SX9q/wBZP/m/ouP+ru+REDACTED/REDACTED/pb+5v/AOpfpuuN/wBi6e4fDbrX+DHoHiN7p/EP7XfuLOf3P9MOcb/REDACTED/td+8EOP1/6PHSfU/REDACTED/a395dh+v/AEQ0r6n+REDACTED/ph+/B2/WfoCB/l+qD/8AS5W8fuDwHx0bTo0+Jzz9icbjm17Pp1eED/S/9/FpP+0/t5Oto9T1X/8ApK4/cHy/REDACTED/wCl/RQf/i3/AOrXT195d/ptOjHiZ9Dcf/ro6c9SV/8ATX+Y7aH9JeBU2+qY8bQtafvzy7Pz4/l/ixq+yPMMfJn/REDACTED/AMVX115b/wA+z/FPRXmH/Dp/ggf6efzMH/8AD+jczuR6tq6et/REDACTED+nf8zin6X0rz/hHrWfEhax97+WZ/Pns5Zz9m+ZY/JjtYSP9Pv5pgH9BZx/pvT/AM5b9a+V7zPZ1dTPo/zPd47WnrSu/kH+REDACTED/6z+XX4Wc/aPmeM/wDl3tPiSu/kL+awD/REDACTED+FM/afmeOX/q72jxIn+SP5pH/AOIvH/ael/REDACTED/ADMCRd+0eq9uxsPmLlrH3R5Znl/7tP49TGftrzHGf/HV+HWlf/KH8yWs/wCz+uXowB9xW9P3N5bq/X0/j1M5+3PMdP6Or8Otzn+VP5jf/wBH/Vf8ha9R+Xb/AEdKen/MNzq6ET/LP8wiv7L+s/7m/wCxb/z3l+/0drDH+D4/ca+zlG/+XP3604n9k/XE7D9P6h91q1jzvgM/r7Pt6etnPk3HY/Q2nZ1dTnv/REDACTED/REDACTED/tX6wAVP0PU/zVr/KcJnm22jtaetn/G8Vj9LX2c9Tmu/av3Gf/L/1P/dX/Yt/1/REDACTED+h/WAn/wnrBoI+REDACTED/0vr2lr/REDACTED+REDACTED/SPp/tH7Vbc9v7Z+lt0j0fTH/NXwPV5jxWccu115/mz1vuWny/REDACTED/Q/REDACTED+yei4m35A76aLnnitrn8+rpy3jhtlj8uOjDut/T+jH+isfX5RHkuf/br/ANc9LeNlp/REDACTED+REDACTED+REDACTED/REDACTED/REDACTED+REDACTED/togaJLkBnGygNA80l+REDACTED/uVGa4EDF4kjR/wUAZ2Jky+REDACTED/REDACTED+REDACTED+REDACTED/03oXZA+jZc/REDACTED+MdDjv/AEP6Mv8A+F9FjX/R208FvHFbbH59XTlz/ptln8mnow5P92ftzt/REDACTED/REDACTED+REDACTED+REDACTED/AJnLdISguzyAR+REDACTED+REDACTED/REDACTED+REDACTED+REDACTED+REDACTED+REDACTED/REDACTED++REDACTED+REDACTED+ZVqEbcM/wCY/REDACTED/ZKJs/REDACTED+REDACTED/sVaOe8aHsERz4F+REDACTED+REDACTED+REDACTED/MJ+REDACTED/iuckioPDoC5MhiN+REDACTED/M+REDACTED/zAG6oIdigLkknR3fp+REDACTED+REDACTED+REDACTED+REDACTED+REDACTED/REDACTED+CAFyHf/gzrp5oQDeRDl9+REDACTED/REDACTED+REDACTED+REDACTED+1DVEct4Jnw6LQhc/2BEc/REDACTED+REDACTED+REDACTED/REDACTED+DRAMQWBOXB+REDACTED+ytBjJjXaWZQYsHf3+REDACTED+9AA/REDACTED+/REDACTED+REDACTED+REDACTED/REDACTED+REDACTED+REDACTED+REDACTED/REDACTED/YoMTJxECkxuEBoSD/REDACTED+REDACTED/REDACTED+Y1CAwYAYCG5QAuTIoe+REDACTED+REDACTED/AJTS/REDACTED/w6g/REDACTED+REDACTED+REDACTED+CmRa1hyNKfBFdFgh3AO+REDACTED/REDACTED+REDACTED+6I1rULPby+pCZCuwh4OnxBVDgsw/CaKAQWMbgAPPvQakEBh+REDACTED+8qhpnUjTR+REDACTED/REDACTED/REDACTED/REDACTED/REDACTED+REDACTED/REDACTED+REDACTED+REDACTED+REDACTED+Gqgd2LggAbqKUXUa1m/REDACTED+REDACTED/REDACTED/blIACA/REDACTED+REDACTED+REDACTED+REDACTED/REDACTED/REDACTED/REDACTED++2zqRQyIeDdrb76qwHL+REDACTED+REDACTED+REDACTED+VUcdkiRGlw+REDACTED/REDACTED+REDACTED+REDACTED+REDACTED+YyGcFkqC/Zy/wBxUUQ7k0c/dKUAPUOZo+REDACTED+REDACTED/KJmg8EoBD3B5LOB1Sgt/REDACTED+REDACTED+REDACTED/REDACTED+REDACTED/REDACTED+TVVqEGRL+REDACTED+REDACTED+REDACTED+CCo3kCg196DOB/REDACTED+REDACTED/REDACTED/REDACTED+REDACTED+REDACTED/vRSs4tdiBQDy8EQTbI/REDACTED+LIgxR8W/REDACTED+REDACTED+REDACTED+EgIHzQwADAIoSLon/REDACTED+REDACTED/REDACTED+REDACTED/REDACTED+REDACTED/REDACTED/REDACTED/REDACTED+REDACTED+REDACTED+REDACTED+REDACTED+REDACTED+REDACTED+Zneo9/REDACTED/REDACTED/REDACTED/yd2+REDACTED+REDACTED/ADM/REDACTED+REDACTED+REDACTED/REDACTED+Kg0FnIkBh8FQJ+ZyBsdkG+UuCKnmS26DNBe0R+REDACTED/REDACTED+REDACTED+2iig4IeNiQ/REDACTED+KDbwK1G/QoA5cVj8zeVEB/REDACTED/REDACTED/REDACTED+REDACTED/REDACTED+REDACTED/REDACTED+REDACTED+REDACTED+REDACTED+REDACTED/REDACTED+REDACTED+ioN18Aij+REDACTED/REDACTED/REDACTED+eyqRs3JZ+REDACTED/REDACTED+REDACTED+aQ+REDACTED+REDACTED+REDACTED+REDACTED+REDACTED+URuKboF/REDACTED/REDACTED+REDACTED+nwQYOzsa0130QYORc/zA0OjICwJ+ZwQ7z8UGL6FoqgBud+REDACTED/MSTDEtp0KA/REDACTED/CYbRAHB+REDACTED/RBtw4/REDACTED/REDACTED/Dvp0NEAeh/NsX1VG5brb0QDn+REDACTED+REDACTED/REDACTED/REDACTED+bZ1AXB/REDACTED+REDACTED/REDACTED/REDACTED+/uQCks+MjfmUoYuDVqv0QD/J0L4ilPNBh/REDACTED/REDACTED/REDACTED+h4Sgh+REDACTED/REDACTED/REDACTED/REDACTED+X8FQLrgYIcB/REDACTED+REDACTED+REDACTED/lsqy57yJ02TAg/z/REDACTED+REDACTED/REDACTED/BATBNG9nUDC4EVJ/REDACTED+REDACTED+yA5W3DsenZAWaP4Wk/Ygwc1YNBG+REDACTED/REDACTED/l37skGdyYYj+J/REDACTED+KAM2nzXVQGCKV1E0/REDACTED+REDACTED/yQGg/REDACTED+UkPq+REDACTED+R2/REDACTED+sVJVgQzSYUoW+REDACTED+REDACTED+1FXtuIDbwoL23O/REDACTED/g/REDACTED/REDACTED/ABBARdTnWnigwFdrvE+REDACTED+27IA/YwCO2iAQZIm6gd/REDACTED/mUAFwdn/REDACTED+nXlA2RYvtDlICDA/REDACTED/REDACTED/+REDACTED/LOjyNuUGJo7R+REDACTED/REDACTED+REDACTED/wAp7h7UQTuI+REDACTED+REDACTED/REDACTED+REDACTED/REDACTED/REDACTED/REDACTED+REDACTED+REDACTED+ujeaQEmBE+REDACTED+REDACTED+REDACTED/FAM+REDACTED/REDACTED+sdlRs7JGrUSDG+REDACTED/REDACTED+bZUTN476+REDACTED/REDACTED+REDACTED+REDACTED+/REDACTED/LOw6+REDACTED+REDACTED/REDACTED/REDACTED+REDACTED+REDACTED/ABGnt5oGYQ/REDACTED+REDACTED/REDACTED+REDACTED+REDACTED/ckREkihd6KhDeN+REDACTED+Kiumy6k+REDACTED/uUVYXmN9HhQXF/n+REDACTED+REDACTED+5A+REDACTED+REDACTED+REDACTED+REDACTED+aiDGK6b76JQXOhrpy/REDACTED/REDACTED+REDACTED++9H+1KACTr2bfdKCSWqHA1+REDACTED/REDACTED/NUTN/REDACTED/REDACTED+REDACTED/CVQz/REDACTED+REDACTED/REDACTED/REDACTED+REDACTED/REDACTED/REDACTED+REDACTED+R8zcIJm8ikA1/REDACTED+/REDACTED+9BYXCJp+YKKoLqcGQyUVtvpyJ+REDACTED+W6VTj1HPtRQP9QPa/YGsoHF8hy7nr5oKG+REDACTED+REDACTED+EocXB93NW1ClGegd+ffCBsyBPn+REDACTED+REDACTED+REDACTED/REDACTED/REDACTED+REDACTED+6VYTKmwepUoU+REDACTED/REDACTED+REDACTED/kNuguLxBBHI0UgsLoo/REDACTED+REDACTED/egGRaC++REDACTED/REDACTED+REDACTED/REDACTED+REDACTED+REDACTED+REDACTED+KBxdcB+ZpUB+REDACTED+Z+REDACTED+REDACTED+REDACTED+REDACTED+REDACTED+WhQdFt/lopBa2/Yu+REDACTED+REDACTED+REDACTED+REDACTED/REDACTED+4oXQK5G25QF6FjB1QZ/yiAUAButHxHvQF+REDACTED/REDACTED+REDACTED+REDACTED+REDACTED+REDACTED/4KKvbe/REDACTED+REDACTED+REDACTED/REDACTED+REDACTED+REDACTED+REDACTED+REDACTED+u5VCG6ZPmgmb/NBG6/REDACTED/REDACTED+REDACTED+kzsoKi/Sr6aIKi+REDACTED/BFNbc+REDACTED+KgOQHQGSgL1Y61VqmN/Nd1CiLoZ+REDACTED+REDACTED+REDACTED+KI31KAGtaIoi4/REDACTED+REDACTED/hAv1GhzyUgQ36CvG/REDACTED/REDACTED/REDACTED/ZVEbr+REDACTED+REDACTED/dmr7FMiovBgyNlA+REDACTED+REDACTED+REDACTED/REDACTED+REDACTED+8oM+REDACTED+REDACTED+REDACTED/REDACTED/REDACTED+6BTedQPgkC5GtTuUCm/REDACTED/REDACTED+jqwSuvl9kwJm+uvKQSNwI3V5ghu+8IlSuuhiUEbvU+REDACTED/REDACTED/REDACTED+pRVLb5rRQUF+lSB7kFReDL0UD56+CBxc+REDACTED/REDACTED+REDACTED/CoDmw7oGyB6/agOes1+REDACTED+REDACTED+REDACTED+REDACTED/REDACTED/REDACTED/REDACTED/REDACTED+REDACTED/V+REDACTED+REDACTED+REDACTED+yBDe+uqBTcaaIhTewLTurAhv/REDACTED/SiCZvcmqQIfUZ/REDACTED+REDACTED+REDACTED+REDACTED+mqQUF+REDACTED/REDACTED/KgOQ+REDACTED+UOUgOTbxQ/REDACTED/REDACTED/REDACTED+REDACTED/BqqEN0l/FAmb8oEN+REDACTED+CRErr9lRI3+REDACTED/70FRf+Kgpbed/FBQXjwRacXa+REDACTED+REDACTED+REDACTED/REDACTED+REDACTED+REDACTED/REDACTED+REDACTED/LtRSCRvfnzVCG/REDACTED/REDACTED/REDACTED+XUDi/zQUFw35KBxfO/CgcX7w+REDACTED+REDACTED/REDACTED/REDACTED/REDACTED/Kg5wVUUFygZA+UJFUF1FA4u/REDACTED+kud0Di+REDACTED+8IG+REDACTED+REDACTED/REDACTED+REDACTED/UJbVIjZ7l3oisb/REDACTED/REDACTED/REDACTED/ugQ3+REDACTED/wBqIQ3oJm8VVCG/REDACTED/REDACTED+REDACTED+REDACTED+REDACTED/REDACTED/2Q==">
+    </div>
+    <div class="position-relative d-block my-0 mx-auto overflow-hidden" style="width: 940px; height: 370px; clear: both">
+      <img alt="404 &ldquo;This is not the web page you are looking for&rdquo;" class="position-absolute" height="249" width="271" style="z-index: 10; left: 72px; top: 72px"
+      src="data:image/png;base64,REDACTED/gAAABDlBMVEX////REDACTED+REDACTED/REDACTED+/m5ube3t7W1tbv7+/m5ube3t739/fx9Pbv8vTv7+/m5ub////39/fx9Pbv8vTv7+/j6e3i6Ozf5ejV3+TU3uHR2+REDACTED+REDACTED/REDACTED///////////////////////////////////////////REDACTED+w4MSHx7v7//REDACTED/REDACTED+fj4AsrOg6cvtdbKFv/x8tmDnc/NV6/ymLDvv64gws7eIe8olP/bW6G/xypjbCW++REDACTED+/REDACTED+REDACTED+2e/CF2gfN7cfXSmXXEyQD+7CPWt4+wLohuA507+REDACTED+nL0r0t2+0zooBdfq5VtBoel/l0Ptdw51JnYNABhv/REDACTED+Pd9+REDACTED+REDACTED/efl+REDACTED/qfe/REDACTED/FdWgNcQ/BxOxLz2gn8Lz/REDACTED+REDACTED/kd2pIG13QhE+REDACTED/Hk/v1v79y//9fvj5SSVEc/7xzquxKUy/O1cnlKCLq/lw8+REDACTED/REDACTED+jMqHqz/REDACTED//0o9MIOul836H8u7jX/REDACTED+REDACTED/REDACTED+bD9jZwybFBIbD+REDACTED+REDACTED+m651bMMefK1c9oli9A0+REDACTED/REDACTED+V9JvlDtC4Jq/REDACTED+REDACTED/w/REDACTED/tzLbz/gSxjS4L9WW1hDXEXxk++qq3ynlXcqx/XhSxmOP66LB8aFU+REDACTED+elIcxTjDI/REDACTED+REDACTED/K9w4wA/hLwuE3sxP0fFwGDbD4U+Fqt4OAyrMHjJE/REDACTED+ELT/REDACTED+REDACTED+27/uxbz4X2N2pDI/4K/REDACTED/REDACTED+kSHpragFnAd+REDACTED/fJN6nqQD5OEBw/REDACTED/REDACTED+REDACTED/REDACTED+REDACTED/REDACTED+4br5/REDACTED+REDACTED+REDACTED+REDACTED/3qDzWoHuHhlJV+REDACTED+cOkrVEqHkqEo7X/REDACTED+REDACTED/REDACTED+fDsXiyZ//REDACTED+ERB/REDACTED+REDACTED/JI2Dex4BFTQxv/mswgByR0cpXEE3soA+REDACTED+REDACTED+REDACTED/FZ8Lhs5+xeywezHnpNMJNmsJC+f5Qrsr+0/8HQlkxI5I3T3cQcBv/sSX2KC/nMcW3aQlCc6P1Lh1GRt/SDemdFCzOC6nO5daTx/+REDACTED+j5nbJ+REDACTED/y+REDACTED+SqrBIUllY3YC+IxV2iRATYOh3iIUIvD/QeDwfbWYLC7/REDACTED+AASuojkee7yFSj5Psz+REDACTED+O3+5Q4liYWgCzO3QnR+REDACTED+RmB18l/orrmVXx2Nq6tbjcz/REDACTED/W5/REDACTED+0D53nCm8o/REDACTED+REDACTED/YOuv+REDACTED+ONlQGm6ETrovu/UWbBZeSm93xl5zdIbIU+REDACTED+FwxoZ9doL9nuYTfd/REDACTED/RjyohAvo/REDACTED/fwGywAT1UuNw40//REDACTED/3QfQrs0FjnwcAsv/CLnG9DuXHr4XO+RE4fzx+uH1UPyNPd1+k/6BAvS/eGWWI8eZGv8F88ub+RNcYgG6brwWN78O/3WVmS7o2bRuo79x8+ieXh/Tt+REDACTED+uT4Y6/K1JuGs9Gx+M5aeTT8pX1/L1/K1fC1fy9fytXwt11/u7h+REDACTED/REDACTED/REDACTED/6qhbucSJI722LJ+46Vkf4sl2gv/REDACTED+eETfI4rkCHCbFOCj+ryijey+REDACTED/Jbzq/REDACTED+EVEaG8Jbjz692OR77GY/chRWsv+SxsipFb7hikkwar+REDACTED/REDACTED/REDACTED+PIFXWDzqiRSeEnQv+kQ0AYiy2/REDACTED/REDACTED/REDACTED+bjH8PjNrtUE/jAXsd97XD/REDACTED/REDACTED+REDACTED/REDACTED+REDACTED+REDACTED/REDACTED+REDACTED+5x76R+REDACTED+REDACTED/REDACTED/REDACTED+REDACTED+gXvJn37izTKKh7Z+REDACTED/N/REDACTED/REDACTED/OO3Y6Fc/REDACTED+REDACTED/+REDACTED+REDACTED/ZXJ5+bJyDfQ1Q2CFsgwm/REDACTED/REDACTED+REDACTED+pdGOibm+MPgka0B2Qdx/REDACTED/REDACTED+REDACTED+REDACTED/MGtqJH9QHm+A/REDACTED/REDACTED+3FTH60v/DitUOswcmMb77ezyU+REDACTED/REDACTED/NGkKNVIEXQ3+REDACTED/eSr8+REDACTED/REDACTED/REDACTED/KpNPtF5IOtHnAVG/ai9P609Wc+9VRvPQ+REDACTED++REDACTED+REDACTED/7nk9t/REDACTED+otpB4g9dyAmaOB85cz/NWrvGqM7d6sqGX/REDACTED+REDACTED+REDACTED/REDACTED/REDACTED/REDACTED+REDACTED/+UB32IvQ1W8/REDACTED+REDACTED/REDACTED+CPkO7cx3aTq/8l0qtxFm/h/REDACTED+REDACTED+p2VVb1/OZNp9NMz+REDACTED+REDACTED/YvTdd+j3yJiRxKLv1Dpv5div+/FhBHokfG6h0+REDACTED/FbgEb2lHrjogn/nNsPo+UPbJrJqNhPGwB/zEcjdLhCzSHU4BRNXx/REDACTED/REDACTED+4hni6c+REDACTED/REDACTED+V/a43ma6NWNtzUU7IdpLZ/REDACTED/G/REDACTED+A8/1wc63Z8pZj3LCNNY/REDACTED/REDACTED/REDACTED/REDACTED/REDACTED+REDACTED+BV/REDACTED+REDACTED+TWoK13CoTZnwub4jrB/REDACTED+REDACTED+Hvz/Qw/REDACTED/REDACTED/REDACTED+dN86v+sGxf8Ywz01dvA/52y4+REDACTED/REDACTED+k3iAPz96/REDACTED+REDACTED/UaUkIuU3K4Hn8AdbgYe/6OpmaN83Fi10+REDACTED/sD+VfSnpLbYFH1Q/REDACTED/REDACTED+0EfTwuWAE8r+kn6IjTC/HvYR34DzZlLFkSsqyiy/yCCrAt5+D50ws6or8QA+gzDiyMkCPfZI/REDACTED+REDACTED/AA9FtUILPgUzW/REDACTED/SFnHjGfa4JrvLILk/kSRPddLa0ni+cQCg/REDACTED+pGM/REDACTED/EIKlbrq99C/REDACTED+8jYJ3xlP6RLuGZBKTe/REDACTED/REDACTED/FJwP1q5fa/REDACTED/Xlqd3+REDACTED/Pwb70LV7hBSi/Hoy+di2l+G5ItfSnYv7+aRyCRBuyh5/sJtMF3avCtYAH0/REDACTED+mEE/REDACTED+mvs9tNrupcJeYg14+REDACTED+D5lxwWpVu/AexeSXHsyTV2j+91G1mZxkg8nKxO6/REDACTED+REDACTED/nZ26Z/f07/REDACTED++bmJUVR9ckoPXDz/REDACTED+REDACTED+REDACTED/REDACTED/REDACTED+TechJM47U97zad/9B+REDACTED/REDACTED+REDACTED/AB2Fp9sdoZjgGTfx+REDACTED+A1kq+3P00QpZDw06SS+REDACTED+REDACTED/EtsPbIItEwIahiK/1sn/REDACTED/L4ODFFEl5AJpehgDqx/g3U2528B/REDACTED/REDACTED+DnCBLoU3hXiK2iNNQg+L/REDACTED//5LACDfgJ7XJvqthpV/xY+REDACTED+M6NSy0bH7x/REDACTED+REDACTED/CRw+REDACTED/REDACTED/CkiT6Bf8yPyvs2yu/REDACTED+bLDMbo5+llE/REDACTED/RnpQNrmiNU0i0/REDACTED+REDACTED+REDACTED+REDACTED/REDACTED+x0dDmEDn0+REDACTED/REDACTED/REDACTED/REDACTED+REDACTED/3XO3lZU8KefS10F0jq/REDACTED+REDACTED+AL2/7AXza9/VF8P8zv1FwWvB+XMZWzTW0n1MSV+YDkN/REDACTED/REDACTED+REDACTED+eNoQTcc2ZURCfqCVEo9+clx2Nfkd+REDACTED/scj13cyW/SIiKs0jJtl+Pxhx8okUL/zH5+REDACTED+REDACTED+uxKCRhtUjhV75r+REDACTED+5k+REDACTED/REDACTED/REDACTED">
+
+      <img alt="" class="position-absolute" height="230" width="188" style="top: 94px; left: 356px; z-index: 9;"
+      src="data:image/png;base64,REDACTED/gAAABgFBMVEX///9SOCxSOjH/wp8AAAD+wJ4ICAhWPjL/7tDMQjj////66834vZuZmZmVcl+bdmN7KCIxIRr39/REDACTED/REDACTED/+PQpHhpSOjFSOjH87+REDACTED/1r//0bAaEg9UQjqHZFL/REDACTED/05+REDACTED+bFwZLSlWPjL358v/REDACTED+REDACTED/REDACTED////////////////////////RBH///8i///////uZv//d4j/3f+q/1WZ////Zrv/////IjN3////M////zPM//8RM/////8RiP////8R////EUTM7v////+7/////////yL/////RGa73f////+q7u7///8id5mq//////+REDACTED/feFfXOe/q84on/+REDACTED/r8zMl2TXrsTSNrny2/z8+PBgZX/REDACTED+TI+REDACTED++REDACTED/q+P145saNgrdJWmcKeV/REDACTED/hf+c3Xvc763/REDACTED+zfke5ILnvoNZ/+BH3mSeGqboCHV8RE2R/REDACTED+REDACTED+qJGgu1iC+Radebfwz+REDACTED/q11N1/REDACTED+qIREZv+qzq+REDACTED+PCyadHT//REDACTED+GJgUNIIfF/YO5aV9f+REDACTED/REDACTED+REDACTED+LSPeEj8muiSc/APgswkR+REDACTED+vZtbqidrhvH+REDACTED+REDACTED/REDACTED+REDACTED/wUOxT5weqJuA0mYYGZt+REDACTED/REDACTED+LKazXTG80EP+d9Bxv/REDACTED/REDACTED+REDACTED+REDACTED/REDACTED+REDACTED/huAzs3jE/REDACTED+gwytzs8msiaOTDVZYIf/REDACTED/XcLq6uxsP+sJvV+REDACTED+Bbke0ESet381DBVy86Y/qPfV2SUGCWvkNdeYe/ktC/w3u7U+VpU3HO+vorjNa0g/REDACTED/REDACTED/okDXX+REDACTED/usMs/uSS9z+vEJx6slr1+REDACTED/DVg7bpsmZFvasLW6/REDACTED+REDACTED+REDACTED+fQ+REDACTED+REDACTED+X/Wa++REDACTED+3o74RgrV+plc4qbO+REDACTED+REDACTED/REDACTED+KV+REDACTED+REDACTED+REDACTED+REDACTED+NRQ6MAjgrzqEETJ/f4jaXX/sJ+9+REDACTED/REDACTED+REDACTED+CKVWrj3nX26Gl+REDACTED/dNXvWmbexagPlcrSNO+gE9o+REDACTED+REDACTED/nUl6a1Cb93NTXEXO+REDACTED+REDACTED+REDACTED+REDACTED+REDACTED++S8jyB/kaYBPlty+Sh4/REDACTED/izpEoXxU5koXmaQA/REDACTED/Wp2oWtkdi/REDACTED+a5I0TcbKazDEg+REDACTED+REDACTED+REDACTED+x/REDACTED+REDACTED+REDACTED+Dt+MUWs2U6YcMtA16fe+ZgGQwON+vM2aIhRWKpb2/REDACTED+soUp0m+REDACTED+REDACTED+Xw9hRsEa07/t2/REDACTED/RutyhX/REDACTED/REDACTED+REDACTED/REDACTED+REDACTED+REDACTED/REDACTED/BXY/REDACTED+irHpzGkl+REDACTED/LZgqlBja+/oaj1uSI2njb+AzId2sy0GZ5WZv/XcvsaYdRH+REDACTED+Q70Rtpu17GyJ2asE+REDACTED+REDACTED/vZpjb2PVE3yZl+REDACTED/ZRoGLmM4Cs3EfKF1wE/40zi/REDACTED/B4z/REDACTED/xl4J/ikVtjXbIi/REDACTED/REDACTED/REDACTED+GfM+Rrz8yQanNfg+REDACTED+REDACTED+REDACTED/REDACTED/vYYxEAN9BAXvwdcg+GLeSs6QnZKhsS/REDACTED/QK5laNO/7gtYN+jZgn+dN/REDACTED+91j/tQvwjYt57/REDACTED+REDACTED/REDACTED/REDACTED+REDACTED+ZJj7UzanH1qyuftEQ29/REDACTED/VUuh6gpytbWP+VJj/REDACTED/REDACTED+W+REDACTED+CCRw1Q/REDACTED+REDACTED/REDACTED/REDACTED/rW+REDACTED/REDACTED//+wBdoyCB4G5uXC2L3D+/btO/xW/PRFJh+8Z+REDACTED+JF3VogA41imADjA+kPlM6xh/REDACTED+RBeVyEB+5BC9UworLWTci02hx+REDACTED+REDACTED/LCjzfpHo6cjfg1BFayC/kP0XaJ5vtNOSuOXcfG+REDACTED/BzKES3TjE7nGn+I1uq5f/REDACTED/REDACTED+REDACTED/REDACTED/REDACTED+VBmfcBUQQfEB+/Lw0rnH/GACs7o2z/REDACTED/REDACTED/REDACTED+REDACTED/REDACTED+REDACTED/P9eAAv2Re5PvDxTAMZ+REDACTED+ehHRxWhHe6oKbi+YSu6VN+GnhDE+REDACTED/dK2BzOP5+REDACTED+REDACTED/oPhFfb06kz+REDACTED++pqtAq18/fQ230zSXNaAyPM/REDACTED+REDACTED/A6v481wJb/vOSdB/tXZ+ZcL77W5klVs6/REDACTED/SNJv2FwAM1Rq2ECpd/REDACTED/REDACTED+REDACTED/REDACTED+8Xu3d0tvT09vb31gD+J18iHxZhFPLtlcN/5+PLjnV/REDACTED+REDACTED+rstzoejHeyaK7g//g1SSefflB3T/REDACTED+GLxkxsbE4/1LzXpmbT9/olcqMWZp0x+REDACTED+REDACTED+REDACTED+REDACTED/REDACTED/yYb/QhDYwEcOg/REDACTED+REDACTED/Gs8zxjtHN+IQ/REDACTED+bAHD8uRn2qb+REDACTED+I9fKFFY0xBBEJk8/REDACTED+REDACTED+REDACTED+k6DtdZHirr9SfJQpn/FmdECGlBnCyRt8+sJ+REDACTED+REDACTED+UPyqYVTd+REDACTED+hs1XYL275Vpx8/K7Ek9dYQGxfAxoty2/REDACTED+REDACTED/REDACTED/xKraE67jxP2yJvItD0+heGxoWc2UqW5VBX9BN/+REDACTED/A7dQFY61+JXk5KVAthp+zsWva/REDACTED+1uh3f+z8qh1rzhkqnlKPp+REDACTED/Or8LYbPV01wW+REDACTED/Xt+JnhH7ex6P+cgaBC442T+jlXEr+REDACTED+sPeShQrKrOx0s+em4mPhRtFvh2X93m8+rKQILVxx/REDACTED+e0IiMtYMc/+REDACTED/REDACTED/REDACTED+K5ga7+Ns2+APAGo+gUmn63PiN5tXQh/nKCv2odbkdnvvUr/uRqnX+REDACTED/REDACTED/Z+REDACTED+REDACTED+nQY3Q9FObR1EZcge+LWJgJpcFbSPr+REDACTED/Vi77wLDV314NzxudZ5x/REDACTED+rpzo9d3c+REDACTED/REDACTED/REDACTED+REDACTED/REDACTED/TI8z37psc/REDACTED/Uzre6vqPgaTAUc/REDACTED+HRhbme/U+Uq5zgKHH+B3DLB+REDACTED+h9mqOhImdqh0GUhWB+Aqk/REDACTED+XkPolQMtwayq9/Zcg3D1sRMzwim+REDACTED+1JAW2sqSnbYBN6IB/REDACTED+REDACTED/muq0D+REDACTED/J8v+REDACTED+REDACTED+c7jOKiUkqk/REDACTED/REDACTED/JsMPsYF3W+REDACTED/REDACTED/REDACTED/SGB5dPP29vb5z6/REDACTED/REDACTED/REDACTED+5f6u0d+REDACTED/hwaofUjMIT27h9fj/JrIc5bPObv/1da2rsE9um1T+REDACTED=">
+
+      <img alt="" class="position-absolute" height="156" width="440" style="top: 150px; left: 432px; z-index: 8;"
+      src="data:image/png;base64,REDACTED/gAAADAFBMVEX///REDACTED+REDACTED+FAquM9quM/REDACTED+REDACTED+REDACTED+sk3a0kW6yj3CvkG+REDACTED+REDACTED+REDACTED+REDACTED/REDACTED////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////REDACTED+/REDACTED+f/REDACTED+5LKyH5R+fkah969oZptx0jnf/YUlMcl+REDACTED/Ho8YU+REDACTED/REDACTED+/REDACTED/NzZ4binB+REDACTED+REDACTED+O3RUUINnOXIcFz/REDACTED/LfRBTQbLodsEg+REDACTED+vA7VGyjkF4m9sSK5UA+REDACTED++REDACTED/REDACTED/UOupO5eONC/REDACTED/REDACTED+REDACTED/REDACTED++XJbuQ2svLzMZvv+5d/86meK+REDACTED/REDACTED/REDACTED/REDACTED/MlXiz4zC7szLXC+jL/G6+DPngWgyiuQvIjGsKsko+REDACTED+3RGGz34xK8jjVE+REDACTED+REDACTED+REDACTED/hhK7+BSA7sm8VYl4FdlB64+REDACTED/REDACTED/REDACTED+REDACTED+REDACTED+HpgrP2lcecJUoyBK+REDACTED+REDACTED/kEgHpx7x+pWyM3k+REDACTED+REDACTED/6+ju/sfjqxYu/REDACTED/REDACTED+REDACTED/Y3Fi+9+REDACTED+REDACTED+REDACTED/REDACTED+REDACTED/vnPp/+REDACTED+REDACTED++5FjvQXB+t1D+O93Dz30u4f/z2D/AIL3gPZWrFi+REDACTED+CGyYJnle53rcMz61uj/REDACTED+++eafPYzVhoAp+P55z93Id06CPpTps+REDACTED/REDACTED+REDACTED/0oJr+WQ6+iiCBg/K72ky+REDACTED+REDACTED/vbkk//4F9jLr776+qvw//quXbv60X//q6++8carL7/80r/+BZ7yack4xj+REDACTED/OQdsFMcYsO7i0ZX7G+QYyac91vH3gYDAF4+OEHefJoYQ/REDACTED+xhsvv/wybAB85ZNPIxU+REDACTED+REDACTED/REDACTED/f2vv/HyS/REDACTED/I9DN99bOF+REDACTED/REDACTED+Bh0vuvPv8o7Zxemm+REDACTED+b0PFI74exbxa6rHs3Y/lkfm+wl0WDlA3/REDACTED+vu5h+xn7IRzZVvY2S/REDACTED+4wHB4+REDACTED/REDACTED+lv5OKqR8vL9FluPvlc+S/rzz/REDACTED/REDACTED+ETfyTtzS/REDACTED+a1tnw39defP4JiGyaeT/REDACTED/+REDACTED+REDACTED+nmExm/btee+2V//x785/Xy+REDACTED/9UYZf4+TkSGSHr/REDACTED++Z/v/jKa//l6cROpipGZKegwtJGlj+qpCXPSJT1Gth//gOsNj/x2GM1bE+Zu+REDACTED/REDACTED/6ESKQ04vwt3nz5r8/REDACTED+1hR/Q+REDACTED/nt8s25/JEutoG09I+REDACTED+Ju3mxYx76QyT1Oz1/He4fYzVJ95UE4/9UaNfFlJ0rd+REDACTED/REDACTED/J20+REDACTED+REDACTED+aeT+REDACTED+REDACTED/REDACTED/REDACTED+WoNe5nkuhKos3e3/IU5+REDACTED/+t/REDACTED/REDACTED/REDACTED+QIDhxlFAQ3gn+db2xvTB/REDACTED/REDACTED/REDACTED+REDACTED+REDACTED/REDACTED/REDACTED+Jyb/REDACTED/jESAQDI7AixhSFTli/REDACTED/REDACTED/REDACTED+REDACTED+DG179K2a/REDACTED/REDACTED+REDACTED+REDACTED+REDACTED+REDACTED+HZNKoz6leopjQHV7/REDACTED/9LHywpmZ0zuOG4/vYY+REDACTED/CCQ+REDACTED+REDACTED+QFocI/aNIgwTCYTwlqsp/REDACTED/REDACTED/REDACTED/IByNRm/6WknJoTmBg/REDACTED/DjG+MkDs4QWqwf/REDACTED/89IxAo3COwAvess/r53MxFi97N3IKIX4+REDACTED/REDACTED+ox+REDACTED+REDACTED/Jhg1yKIq6iI/zKtMliOoaRF2Cq9+rLIH85JsIW+/Pq6o+UlKS+S+REDACTED/REDACTED+REDACTED/REDACTED+REDACTED+REDACTED/+REDACTED+vw/2+jAdpVtnj+REDACTED+mD6IP1+REDACTED+yDqR3Fu6HiaepY0Dk/REDACTED+REDACTED/H9Y7izCzvMd3Q9Vk+zsJAIZJlILx/REDACTED+REDACTED/REDACTED+REDACTED+REDACTED/REDACTED/REDACTED/REDACTED/REDACTED/pES1aZ/Me1YRxylx9MwHIu/REDACTED/REDACTED/1/HljIrDNvuc8WUn/XZ3QI/REDACTED+vvKgvFYZtbmvp2S49sQ/Hh2F7MDX3Syitzw6+REDACTED+REDACTED+a0ktw0jVOIr2+REDACTED+REDACTED+jZ/REDACTED/4QaHX2/K+cfy1m5hTkOEA8UL+REDACTED/Q1tsnkkop7QR+f1l/wPOTkFQr/REDACTED+ObQTz9useLskxadf+REDACTED+REDACTED//YEUa06fveArS65NluwQ+W1qbtvOLzuHxU20WH/REDACTED+qnj0oFTbJD584//REDACTED/REDACTED+nDgh+REDACTED+gC1j2nOTJDpkz/xxwn26ZoNslRtwujz/Q3qN+REDACTED/REDACTED+REDACTED/zomN+REDACTED+REDACTED//UJ1mUpE3g+LvgiW/REDACTED/REDACTED/6+5ws6AnQh81Vz1EP/zBVJ6yyNV7eDC8PR/+s9Ioltx7utjgdpRUMmp+REDACTED/zzl/REDACTED/REDACTED/REDACTED+REDACTED+CS7v9D/91bn50Qfr+REDACTED/vk//qWbdbqY/REDACTED/REDACTED+REDACTED+REDACTED/REDACTED+REDACTED/REDACTED/Y2NG2QvpdeNg8/REDACTED+q7IhNr6kBfW7u3J+REDACTED/REDACTED/VR1cHwqGu9taUwLCtOu/4QjdjwQyKvwt+PJ77FAi34K+3GGQ3UShf+REDACTED+REDACTED/REDACTED+F3LK2VVect/REDACTED/z/REDACTED/REDACTED+++LyFC4/7WNEdHtj2wTwm8v8Pkm+REDACTED=">
+
+      <img alt="" class="position-absolute" height="49" width="166" style="  top: 297px; left: 371px; z-index: 7;"
+      src="data:image/png;base64,REDACTED/Ebld2X2u/REDACTED+19j5vbjx5z/Occ/bZZ++115/f+rP5h6/8KRUSov2j/2cmkUIsQsxVf2X9z8/p//Zjpqr/Ff1vu6bYNVs72/REDACTED+5H7V7Xfhavdsb8Hz+1t/dPXg2s59E/REDACTED/7L3jtMc5fFqv0j/f+l3nvb29+u2Bqr3o9JZeCb+REDACTED+PKSpQJTc+0F0TS+6T9u51k9d1d/REDACTED+1d/u6nUf6t/REDACTED/G8cWfQyq0wmctbnXs+REDACTED+REDACTED/mLsilkYBspLd+CRKKDtNGvAcT18bA7y+hzcFdauj3ipvA+REDACTED/e1o/+REDACTED+600NsS5hXfP3jfQbBj/Nrx+WDJBA/REDACTED+REDACTED/REDACTED/REDACTED/18dP/REDACTED+REDACTED+cJVSdJdNO+REDACTED/exK0eX9PjK3r6ih4/whQHPagZ/REDACTED/REDACTED+K/ZpDIATIVGwIUzn7GM++l+REDACTED+sTv6J/v6wD9qQ++REDACTED+REDACTED+REDACTED+REDACTED+qg+4+v69+vO2eoN/REDACTED+REDACTED/REDACTED/Ex/+4FO+AfURfxY8gWMKzGpBu+UFhwlzIXHmPzrK3+REDACTED/REDACTED/AUcOW9fcPjuC+REDACTED/REDACTED+REDACTED+nLWwi4Ef6+T/REDACTED/Vo3f1vd7VG/REDACTED/+REDACTED+REDACTED+REDACTED+REDACTED/REDACTED+k/99X/REDACTED+cv7ZJBN/REDACTED+REDACTED+KS7g0Z+J5M+mGFsV4B0yiumxJ11t+JE9ccALgEaBy5Z/KhdclYgmwbiw7Rh/HetS9SJgFdv0uZsv/ynH7/oR78Sj9/REDACTED/REDACTED+REDACTED+h3wPOi+OLcB9P3j0jRlucCw/YWEQ16Pcq1uWv9Vm/REDACTED/SSfqF/REDACTED/REDACTED+dFyUs3ov/REDACTED/E/6d//REDACTED+REDACTED+REDACTED/PqDtfk9b/REDACTED+LfBPe/qTd/M+FzuGBIUupd4QBaSFW+REDACTED+REDACTED+DDF9YwAsBZD+RueXLQg6JxseuI3YIXC+HqA8Rsv8+DUvpE82Qhr1ZwsUCFDp+wTP4aBMQHsF+4ggZZzc+REDACTED/REDACTED+REDACTED/+REDACTED+REDACTED/OCMHC4/REDACTED/REDACTED+REDACTED/+QPhVW+REDACTED/REDACTED+REDACTED+REDACTED+uyxPLQ5Z/T4iTFHZaxI/fHv9bLn+REDACTED+REDACTED+J68P+REDACTED/P6RP+eOVnJgh0FSqTDjHyeob+VQh0ruFeWoSJxZUKxF+5p1ycAVH0/REDACTED+REDACTED/fN6VHT35/REDACTED+REDACTED/REDACTED+REDACTED+REDACTED+REDACTED+B6TJYhxws9CO+REDACTED+smNd+LobHoY+REDACTED/TU1tKjCIwO60+REDACTED/REDACTED/IhEwii1N8I8I6Iy9/REDACTED/REDACTED/REDACTED/tQRvhUfRtG+REDACTED+Gig0NKzFSe/TAsi6+REDACTED+dzPvb25JN/REDACTED+REDACTED+kWKT8ygtEyUAJ+REDACTED+REDACTED/REDACTED/REDACTED/REDACTED+REDACTED+REDACTED+zY4IxdkGCd/REDACTED+REDACTED/s98XgVWIJETsIi+REDACTED/REDACTED+Xb+90iLYO3alF/9Ub/REDACTED+REDACTED/JYYFooQAx8VPdZz+wCrujUiePmH/qE19Vf9+REDACTED+REDACTED+REDACTED+REDACTED+WoAMugwFC/UOZ/REDACTED++REDACTED+FBGTh+REDACTED+kWcI+REDACTED/REDACTED+eq+REDACTED/REDACTED+vMnek7pir+o7d1a6/Bm1AKYXDnUCtK/t/X7l7TNb+nx+REDACTED/REDACTED/REDACTED+REDACTED+2qzEAaKsb/3d6/REDACTED+ppTicdLBf1cZ+U899Vf/+eH6L2ZtQFpl4pu+REDACTED+REDACTED+rP6mLyv7byov39Bf/sznfCP1u9XQrEyY1orR/REDACTED+REDACTED/XdfluPf00/REDACTED+0k4/pGGuH+KW+REDACTED+REDACTED///REDACTED+rGe+0P9+REDACTED+Vsx11B3CgWR6Ux/0ph5/W+/REDACTED/HRvM+iZPVdOIiMr0naCQ/REDACTED+REDACTED+REDACTED+Ps+x115/RyXpaZ+REDACTED/REDACTED+dkPn7Ibe9+REDACTED+M9Snr5xS+REDACTED+REDACTED+0+8pmO8Vs6xspc6L+UUDbR/REDACTED/Z3WLg+bmlE3DLV5tc0mep6D/thMptq4/REDACTED+REDACTED+REDACTED/REDACTED/REDACTED/REDACTED+wBQvPK3+OZFltJIS+REDACTED/REDACTED/REDACTED/592KG5LSTxjj70pL/f7rz0Hb3/REDACTED+REDACTED/J74eYwli5t+80ZLhfh/REDACTED//F2AADp/9/REDACTED=">
+
+      <img alt="" class="position-absolute" height="75" width="430" style="top: 263px; left: 442px; z-index: 6;"
+      src="data:image/png;base64,REDACTED/gAAAAXVBMVEX///+znW+znXGznW+znXGznW+znXGznW+znXGznW+znXGznW+znXGznW+znXGznW+znXGznW+znXGznW+znXGznW+znXGznW+znXGznW+znXGznW+znXGznW+REDACTED//REDACTED+/REDACTED+ggg4hYkWne/REDACTED/P0nTFvW//REDACTED+REDACTED+REDACTED+REDACTED+oQ+REDACTED/uT+REDACTED/w5Rg0x5CJCaSgOaVhv4/UwE4WZgc25DgkZxc/rw293+REDACTED/ghWnBAFf3YXety/REDACTED/C+/REDACTED/cOfAo9BGBB/REDACTED/REDACTED/F/REDACTED/DTI8AGQTRhY9yJEgep+oYg9A/REDACTED+REDACTED+ad7MKnsndgIYJX7rXP/1chz/REDACTED/REDACTED+REDACTED+f0OmWalNMqZ1/+Wh9xUfIAq+REDACTED+VDv/ITLOA5bNw+iBG03Wp1Hta3l+wbT56mZpKpz/+REDACTED+X5o7h8s8+REDACTED/REDACTED/REDACTED/z/1nWxBUAk2ugt/3XqlDscnW8Sr+yQ+REDACTED+151az7R7ev+4f5CTrA/eN0qIzaSp3+5+pDB3om6SeQ+/REDACTED+REDACTED/ua9/REDACTED+O0+NVceO7PnklyMwMOiFza+wgrIP/REDACTED/7L/JKEwESJo4o2J0URx4x+27eo/qk+REDACTED/REDACTED+REDACTED/MI21fuX1Q/dgUtk7QVGA+REDACTED/REDACTED/zeKOclthtGIQGP+REDACTED/PU5EI0/REDACTED+REDACTED/AtV9P4/REDACTED/REDACTED+wmbelJN/REDACTED+REDACTED/REDACTED/REDACTED+REDACTED+REDACTED/ojGD+REDACTED+REDACTED+lE87er5N/UbLBX784tUGszJfj+aT6s8R+REDACTED/1j4ka+REDACTED+n5rhaVQPUIlWyjwZ+z7x8DJbrrelJWugja+REDACTED/REDACTED+llmwHkK/REDACTED/REDACTED/weIuYHef42OFmpmm+0eN1F9bFIuGy+J4R6F8tITq8rdr/REDACTED+REDACTED/oP48L/REDACTED=">
+
+      <img alt="" class="position-absolute" height="123" width="304" style="top: 73px; left: 467px; z-index: 5;"
+      src="data:image/png;base64,REDACTED/gAAABgFBMVEX////REDACTED/HsoSekm+REDACTED+vnHalkG6Jf2t/REDACTED////////////////////////////////////////////Ebv//3f//////0Qid////yJE7v//Iu4iRP8iRP//Ecz/M////yJ3d4iqu8zd////d4iqu+REDACTED///REDACTED+REDACTED+REDACTED/5znfvjPiPf2z7+Pe+dp/BpxX/Pv2fdp/REDACTED/REDACTED+/okYkODhx7sOLJN4i+REDACTED/+jRiIi8ftPuUtnesH9+rEZOTQYnY0Fq7z2k7x+REDACTED+8SYINDu2Uyux4LRX/eN/REDACTED/REDACTED/3mW3XWJRqL0OL/REDACTED+z+REDACTED/ui9WXvlhbm563lTCp2+PHzd49Q2+fSU0//Wf7T35LYz5i3O37j+/G0d+f6VDRtjB48DZXRhRVB+4++LZlan/vtWeQiA2OHRCMOz/omO07+Ktpz//REDACTED+VyLMOrHvrb4zU9d+REDACTED/REDACTED/REDACTED+REDACTED/+REDACTED+REDACTED+REDACTED/REDACTED/y+REDACTED+VI5UlCO/REDACTED/+4eaokgjAba3fTW4mlN/REDACTED+aICTOdjr7IVE8V8/vTRU8OnZAyI+REDACTED+REDACTED/REDACTED+REDACTED+j1/y4B0/REDACTED+hZvqrWvBlpawSYL/REDACTED/HR/REDACTED+Lme7nJt/PffR+REDACTED/tSbpkSoxksJTlH+/REDACTED+v+REDACTED+0GyoZ39zOUpctI91ZO/REDACTED/+REDACTED/REDACTED+REDACTED+REDACTED+REDACTED/REDACTED/REDACTED+REDACTED/REDACTED+REDACTED+REDACTED/REDACTED+REDACTED/REDACTED+OksshmrA/REDACTED+REDACTED+REDACTED+REDACTED+REDACTED/REDACTED+Oc/L3Q2EPxI+iIgA1+REDACTED+REDACTED++REDACTED+REDACTED/oTlIyxUW/REDACTED+REDACTED+REDACTED/m8Nbwm2+hateg341onkKW+ZlghL3/y+UKhoJ/REDACTED+REDACTED/REDACTED+REDACTED+w3fBYojAPwS0FcEK+REDACTED+REDACTED/REDACTED+2dOzI+vof6Suj/REDACTED/REDACTED/REDACTED+cb61ixZF9Xm/REDACTED+U/REDACTED+REDACTED+c+REDACTED+REDACTED+B4rMEBcOmIfFpN/REDACTED+CCQNcoTy6sqB1/REDACTED+lUg3WcMs8ByR3dPNA/REDACTED+REDACTED/REDACTED+REDACTED+REDACTED/HoryZRjltfAF/nRRoMULjWUIgVV+REDACTED/REDACTED/REDACTED+REDACTED/DA/REDACTED+REDACTED/REDACTED/a/REDACTED+REDACTED+YesLhjTh1yiz+REDACTED/REDACTED/REDACTED/REDACTED/REDACTED++REDACTED+Rt0bcPx+5EKbJWR7t27+7q6vpq//6Dl6fGvp/dxMm+m5ycWltbW19fP7+REDACTED/7IcWdXzQz+REDACTED+REDACTED/Pzk6urq5eXlB9eunZd/REDACTED/rALaCzDAlNYrhp0WMT4+REDACTED/l4guLy8/REDACTED+REDACTED//+KwcPLo2NjR2bbd9/zzI9P31x7sza0tLy8x9/REDACTED+1+REDACTED+ff1mrDcSghJJ+REDACTED+K4WPF/PT8k7kzt35Yuv/z84c9J17NnHh1T+REDACTED/REDACTED+0+8bbFV1k8EhL0k9Jo6Ru/3b4avdWxH/REDACTED+B+C/REDACTED==">
+
+      <img alt="" class="position-absolute" height="50" width="116" style="top: 113px; left: 762px; z-index: 4;"
+      src="data:image/png;base64,REDACTED/gAAABgFBMVEX////REDACTED+REDACTED+REDACTED+REDACTED+rISck3PArYp/eWl/REDACTED/REDACTED/REDACTED+REDACTED+/MV0AAAAgHRSTlMA////////////////////RP///yJ3/yIR7v9E////RHe7/xEiu///RHfu/////xH/////REDACTED///REDACTED+99+p/REDACTED/wU6929Al/5L6X3nq43f5ud/uf3ZpScARXp/GB/REDACTED/REDACTED+REDACTED/REDACTED+REDACTED+CSIkBCFV/REDACTED+REDACTED+idh+REDACTED+OxkyE2oGlyd+wPP1IfeE6wSeh9B/REDACTED/mi7JyEepTwE0+REDACTED+REDACTED+ItJ96HOZUlohlIei8/REDACTED/maZCJUsNTBGkk9zekUd/vVjoLKKx/REDACTED/REDACTED+REDACTED/REDACTED/REDACTED+l5xZIe9N1Lt+REDACTED/REDACTED+REDACTED+REDACTED+REDACTED+/Sr8TzFH/82bt7t/cMx+87O/Qzcffw8HBPNyTdgP2+e/REDACTED+mvO5+0YjtjUlz56MOPX6B4//NSo/HdnTvf9zY3N3u9/fX19Xv37k9i6JXJ+REDACTED/REDACTED">
+    </div>
+  </div>
+
+<div class="container-lg mt-5 px-3">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form role="search" data-turbo="false" action="/search" accept-charset="UTF-8" method="get">
+    <label for="not-found-search" class="d-block text-normal color-fg-muted mb-1 f4">Find code, projects, and people on GitHub:</label>
+    <div class="d-flex flex-items-center">
+      <input type="text" name="q" id="not-found-search" class="flex-auto input-lg form-control mr-2">
+        <button type="submit" data-view-component="true" class="btn">    Search
+</button>
+    </div>
+</form>
+    <div class="mt-5 color-fg-muted text-center">
+      <a href="https://support.github.com?tags=dotcom-404" class="Link--secondary">Contact Support</a> &mdash;
+      <a href="https://githubstatus.com" class="Link--secondary">GitHub Status</a> &mdash;
+      <a href="https://twitter.com/githubstatus" class="Link--secondary">@githubstatus</a>
+    </div>
+</div>
+
+  </main>
+
+  </div>
+
+            <footer role="contentinfo" class="footer pt-6 position-relative" REDACTED="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;visible&quot;,&quot;label&quot;:&quot;text: Marketing footer&quot;}" >
+  <h2 class="sr-only">Site-wide Links</h2>
+  <div class="container-xl p-responsive">
+    <div class="d-flex flex-wrap py-5 mb-5">
+      <section class="col-12 col-lg-4 mb-5 pr-lg-4">
+        <a href="/" REDACTED="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to home&quot;,&quot;label&quot;:&quot;text:home&quot;}" class="color-fg-default d-inline-block" aria-label="Go to GitHub homepage">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 367.4 90" class="footer-logo-mktg d-block" height="30"><g fill="currentColor"><path d="m46.1 0c-25.5 0-46.1 20.6-46.1 46.1 0 20.4 13.2 37.7 31.5 43.8 2.3.4 3.2-1 3.2-2.2 0-1.1-.1-4.7-.1-8.6-11.6 2.1-14.6-2.8-15.5-5.4-.5-1.3-2.8-5.4-4.7-6.5-1.6-.9-3.9-3-.1-3.1 3.6-.1 6.2 3.3 7.1 4.7 4.2 7 10.8 5 13.4 3.8.4-3 1.6-5 2.9-6.2-10.3-1.2-21-5.1-21-22.8 0-5 1.8-9.2 4.7-12.4-.5-1.2-2.1-5.9.5-12.2 0 0 3.9-1.2 12.7 4.7 3.7-1 7.6-1.6 11.5-1.6s7.8.5 11.5 1.6c8.8-6 12.7-4.7 12.7-4.7 2.5 6.3.9 11.1.5 12.2 2.9 3.2 4.7 7.3 4.7 12.4 0 17.7-10.8 21.6-21.1 22.8 1.7 1.4 3.1 4.2 3.1 8.5 0 6.2-.1 11.1-.1 12.7 0 1.2.9 2.7 3.2 2.2 18.2-6.1 31.4-23.4 31.4-43.8.3-25.4-20.4-46-45.9-46z"></path><path d="m221.6 67.1h-.1zm0 0c-.5 0-1.8.3-3.2.3-4.4 0-5.9-2-5.9-4.6v-17.5h8.9c.5 0 .9-.4.9-1.1v-9.5c0-.5-.4-.9-.9-.9h-8.9v-11.7c0-.4-.3-.7-.8-.7h-12c-.5 0-.8.3-.8.7v12.1s-6.1 1.5-6.5 1.6-.7.5-.7.9v7.6c0 .6.4 1.1.9 1.1h6.2v18.3c0 13.6 9.5 15 16 15 3 0 6.5-.9 7.1-1.2.3-.1.5-.5.5-.9v-8.4c.1-.6-.3-1-.8-1.1zm132.2-12.2c0-10.1-4.1-11.4-8.4-11-3.3.2-6 1.9-6 1.9v19.6s2.7 1.9 6.8 2c5.8.2 7.6-1.9 7.6-12.5zm13.6-.9c0 19.1-6.2 24.6-17 24.6-9.1 0-14.1-4.6-14.1-4.6s-.2 2.6-.5 2.9c-.2.3-.4.4-.8.4h-8.3c-.6 0-1.1-.4-1.1-.9l.1-62c0-.5.4-.9.9-.9h11.9c.5 0 .9.4.9.9l-.1 20.9s4.6-3 11.3-3h.1c6.8-0 16.7 2.5 16.7 21.7zm-48.7-20.2h-11.7c-.6 0-.9.4-.9 1.1v30.3s-3.1 2.2-7.3 2.2-5.4-1.9-5.4-6.1v-26.5c0-.5-.4-.9-.9-.9h-11.9c-.5 0-.9.4-.9.9v28.5c0 12.3 6.9 15.3 16.3 15.3 7.8 0 14.1-4.3 14.1-4.3s.3 2.2.4 2.5.5.5.9.5h7.5c.6 0 .9-.4.9-.9l.1-41.7c-.1-.4-.6-.9-1.2-.9zm-132.2 0h-11.9c-.5 0-.9.5-.9 1.1v40.9c0 1.1.7 1.5 1.7 1.5h10.7c1.1 0 1.4-.5 1.4-1.5v-41.1c0-.5-.5-.9-1-.9zm-5.8-18.9c-4.3 0-7.7 3.4-7.7 7.7s3.4 7.7 7.7 7.7c4.2 0 7.6-3.4 7.6-7.7s-3.4-7.7-7.6-7.7zm92-1.4h-11.8c-.5 0-.9.4-.9.9v22.8h-18.5v-22.7c0-.5-.4-.9-.9-.9h-11.9c-.5 0-.9.4-.9.9v62c0 .5.5.9.9.9h11.9c.5 0 .9-.4.9-.9v-26.6h18.5l-.1 26.5c0 .5.4.9.9.9h11.9c.5 0 .9-.4.9-.9v-62c0-.4-.4-.9-.9-.9zm-105.3 27.5v32c0 .2-.1.6-.3.7 0 0-7 5-18.5 5-13.9 0-30.3-4.4-30.3-33 0-28.7 14.4-34.6 28.4-34.5 12.2 0 17.1 2.7 17.8 3.2.2.3.3.5.3.8l-2.3 9.9c0 .5-.5 1.1-1.1.9-2-.6-5-1.8-12.1-1.8-8.2 0-17 2.3-17 20.8s8.4 20.6 14.4 20.6c5.1 0 7-.6 7-.6v-12.8h-8.2c-.6 0-1.1-.4-1.1-.9v-10.3c0-.5.4-.9 1.1-.9h20.9c.6-.1 1 .4 1 .9z"></path></g></svg>
+        </a>
+
+        <h3 class="h5 mt-4 mb-0" id="REDACTED">Subscribe to our developer newsletter</h3>
+        <p class="f5 color-fg-muted mb-3">Get tips, technical guides, and best practices. Twice a month.</p>
+          <a class="btn-mktg mb-4 btn-muted-mktg" REDACTED="{&quot;category&quot;:&quot;Subscribe&quot;,&quot;action&quot;:&quot;click to Subscribe&quot;,&quot;label&quot;:&quot;ref_cta:Subscribe;&quot;}" href="https://github.com/newsletter">
+  Subscribe
+  
+  
+</a>
+
+      </section>
+
+      <nav class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-lg-0 pl-lg-4" aria-labelledby="REDACTED">
+        <h3 class="h5 mb-3 text-mono color-fg-muted text-normal" id="REDACTED">
+          Platform
+        </h3>
+
+        <ul class="list-style-none color-fg-muted f5">
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;features&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="/features">Features</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;enterprise&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="/enterprise">Enterprise</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;copilot&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="/features/copilot">Copilot</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;ai&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="/features/ai">AI</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;security&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="/security">Security</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;pricing&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="/pricing">Pricing</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;team&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="/team">Team</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;resources&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://resources.github.com">Resources</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;roadmap&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://github.com/github/roadmap">Roadmap</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;compare&quot;,&quot;context&quot;:&quot;platform&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://resources.github.com/devops/tools/compare">Compare GitHub</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-md-0 pl-md-4" aria-labelledby="REDACTED">
+        <h3 class="h5 mb-3 text-mono color-fg-muted text-normal" id="REDACTED">
+          Ecosystem
+        </h3>
+
+        <ul class="list-style-none f5">
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;dev-api&quot;,&quot;context&quot;:&quot;ecosystem&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://docs.github.com/get-started/REDACTED/REDACTED">Developer API</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;partners&quot;,&quot;context&quot;:&quot;ecosystem&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://partner.github.com">Partners</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;edu&quot;,&quot;context&quot;:&quot;ecosystem&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://github.com/edu">Education</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;cli&quot;,&quot;context&quot;:&quot;ecosystem&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://cli.github.com">GitHub CLI</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;desktop&quot;,&quot;context&quot;:&quot;ecosystem&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://desktop.github.com">GitHub Desktop</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;mobile&quot;,&quot;context&quot;:&quot;ecosystem&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://github.com/mobile">GitHub Mobile</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;marketplace&quot;,&quot;context&quot;:&quot;ecosystem&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://github.com/marketplace">GitHub Marketplace</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;mcp_registry&quot;,&quot;context&quot;:&quot;ecosystem&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://github.com/mcp">MCP Registry</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-md-0 pl-md-4" aria-labelledby="REDACTED">
+        <h3 class="h5 mb-3 text-mono color-fg-muted text-normal" id="REDACTED">
+          Support
+        </h3>
+
+        <ul class="list-style-none f5">
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;docs&quot;,&quot;context&quot;:&quot;support&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://docs.github.com">Docs</a>
+          </li>
+
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;community&quot;,&quot;context&quot;:&quot;support&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://github.community">Community Forum</a>
+          </li>
+
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;services&quot;,&quot;context&quot;:&quot;support&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://services.github.com">Professional Services</a>
+          </li>
+
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;premium_support&quot;,&quot;context&quot;:&quot;support&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="/enterprise/premium-support">Premium Support</a>
+          </li>
+
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;skills&quot;,&quot;context&quot;:&quot;support&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://skills.github.com">Skills</a>
+          </li>
+
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;status&quot;,&quot;context&quot;:&quot;support&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://www.githubstatus.com">Status</a>
+          </li>
+
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;contact_github&quot;,&quot;context&quot;:&quot;support&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://support.github.com?tags=dotcom-footer">Contact GitHub</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-md-0 pl-md-4" aria-labelledby="REDACTED">
+        <h3 class="h5 mb-3 text-mono color-fg-muted text-normal" id="REDACTED">
+          Company
+        </h3>
+
+        <ul class="list-style-none f5">
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;about&quot;,&quot;context&quot;:&quot;company&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://github.com/about">About</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;why_github&quot;,&quot;context&quot;:&quot;company&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://github.com/why-github">Why GitHub</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;customer_stories&quot;,&quot;context&quot;:&quot;company&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="/customer-stories?type=enterprise">Customer stories</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;blog&quot;,&quot;context&quot;:&quot;company&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://github.blog">Blog</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;readme&quot;,&quot;context&quot;:&quot;company&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="/readme">The ReadME Project</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;careers&quot;,&quot;context&quot;:&quot;company&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://github.careers">Careers</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;newsroom&quot;,&quot;context&quot;:&quot;company&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="/newsroom">Newsroom</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;inclusion&quot;,&quot;context&quot;:&quot;company&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="/about/diversity">Inclusion</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;social_impact&quot;,&quot;context&quot;:&quot;company&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://socialimpact.github.com">Social Impact</a>
+          </li>
+          <li class="lh-condensed mb-3">
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;shop&quot;,&quot;context&quot;:&quot;company&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://shop.github.com">Shop</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="color-bg-subtle">
+    <div class="container-xl p-responsive f6 py-4 d-md-flex REDACTED flex-items-center gap-3">
+      <nav aria-label="Legal and Resource Links">
+        <ul class="list-style-none d-flex flex-wrap color-fg-muted gapx-3">
+          <li>
+            &copy; <time datetime="2026">2026</time> GitHub, Inc.
+          </li>
+
+          <li>
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;terms&quot;,&quot;context&quot;:&quot;subfooter&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://docs.github.com/site-policy/github-terms/REDACTED">Terms</a>
+          </li>
+
+          <li>
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;privacy&quot;,&quot;context&quot;:&quot;subfooter&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="https://docs.github.com/site-policy/privacy-policies/REDACTED">Privacy</a>
+            <a href="https://github.com/github/site-policy/pull/582" class="Link--secondary">(Updated 02/2024)<time datetime="2024-02" class="sr-only">02/2024</time></a>
+          </li>
+
+          <li>
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;sitemap&quot;,&quot;context&quot;:&quot;subfooter&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="/sitemap">Sitemap</a>
+          </li>
+
+          <li>
+            <a class="Link--secondary" REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;what_is_git&quot;,&quot;context&quot;:&quot;subfooter&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}" href="/git-guides">What is Git?</a>
+          </li>
+
+            <li >
+  <cookie-consent-link>
+    <button
+      type="button"
+      class="Link--secondary underline-on-hover border-0 p-0 REDACTED"
+      data-action="click:cookie-consent-link#REDACTED"
+      REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;cookies&quot;,&quot;context&quot;:&quot;subfooter&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}"
+    >
+       Manage cookies
+    </button>
+  </cookie-consent-link>
+</li>
+
+<li>
+  <cookie-consent-link>
+    <button
+      type="button"
+      class="Link--secondary underline-on-hover border-0 p-0 REDACTED text-left"
+      data-action="click:cookie-consent-link#REDACTED"
+      REDACTED="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;dont_share_info&quot;,&quot;context&quot;:&quot;subfooter&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;REDACTED&quot;}"
+    >
+      Do not share my personal information
+    </button>
+  </cookie-consent-link>
+</li>
+
+        </ul>
+      </nav>
+
+      <nav aria-label="GitHub&#39;s Social Media Links" class="footer-social mt-3 mt-md-0 d-flex gapx-6 gapy-1 flex-wrap flex-items-center flex-lg-justify-end">
+        
+<ul class="list-style-none d-flex flex-items-center lh-condensed-ultra gap-3">
+    <li>
+      <a href="https://www.linkedin.com/company/github" class="footer-social-icon d-block Link--outlineOffset" REDACTED="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Linkedin&quot;,&quot;label&quot;:&quot;text:linkedin&quot;}">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 18" aria-hidden="true" class="d-block" width="19" height="18"><path d="M3.94 2A2 2 0 1 1 2 0a2 2 0 0 1 1.94 2zM4 5.48H0V18h4zm6.32 0H6.34V18h3.94v-6.57c0-3.66 4.77-4 4.77 0V18H19v-7.93c0-6.17-7.06-5.94-8.72-2.91z" fill="currentColor"></path></svg>
+        <span class="sr-only">GitHub on LinkedIn</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com/github" class="footer-social-icon d-block Link--outlineOffset" REDACTED="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Instagram&quot;,&quot;label&quot;:&quot;text:instagram&quot;}">
+        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" aria-hidden="true" class="d-block" width="18" height="18"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" fill="currentColor"></path></svg>
+        <span class="sr-only">GitHub on Instagram</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.youtube.com/github" class="footer-social-icon d-block Link--outlineOffset" REDACTED="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to YouTube&quot;,&quot;label&quot;:&quot;text:youtube&quot;}">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.17 13.6" aria-hidden="true" class="d-block" width="23" height="16"><path d="M18.77 2.13A2.4 2.4 0 0 0 17.09.42C15.59 0 9.58 0 9.58 0a57.55 57.55 0 0 0-7.5.4A2.49 2.49 0 0 0 .39 2.13 26.27 26.27 0 0 0 0 6.8a26.15 26.15 0 0 0 .39 4.67 2.43 2.43 0 0 0 1.69 1.71c1.52.42 7.5.42 7.5.42a57.69 57.69 0 0 0 7.51-.4 2.4 2.4 0 0 0 1.68-1.71 25.63 25.63 0 0 0 .4-4.67 24 24 0 0 0-.4-4.69zM7.67 9.71V3.89l5 2.91z" fill="currentColor"></path></svg>
+        <span class="sr-only">GitHub on YouTube</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://x.com/github" class="footer-social-icon d-block Link--outlineOffset" REDACTED="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to X&quot;,&quot;label&quot;:&quot;text:x&quot;}">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1227" fill="currentColor" aria-hidden="true" class="d-block" width="16" height="16"><path d="M714.163 519.284 1160.89 0h-105.86L667.137 450.887 357.328 0H0l468.492 681.821L0 1226.37h105.866l409.625-476.152 327.181 476.152H1200L714.137 519.284h.026ZM569.165 687.828l-47.468-67.894-377.686-540.24h162.604l304.797 435.991 47.468 67.894 396.2 566.721H892.476L569.165 687.854v-.026Z"></path></svg>
+        <span class="sr-only">GitHub on X</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.tiktok.com/@github" class="footer-social-icon d-block Link--outlineOffset" REDACTED="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to tiktok&quot;,&quot;label&quot;:&quot;text:tiktok&quot;}">
+        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" aria-hidden="true" class="d-block" width="18" height="18"><title>TikTok</title><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" fill="currentColor"></path></svg>
+        <span class="sr-only">GitHub on TikTok</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.twitch.tv/github" class="footer-social-icon d-block Link--outlineOffset" REDACTED="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Twitch&quot;,&quot;label&quot;:&quot;text:twitch&quot;}">
+        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" aria-hidden="true" class="d-block" width="18" height="18"><title>Twitch</title><path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714Z" fill="currentColor"></path></svg>
+        <span class="sr-only">GitHub on Twitch</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/github" class="footer-social-icon d-block Link--outlineOffset" REDACTED="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to github&#39;s org&quot;,&quot;label&quot;:&quot;text:github&quot;}">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 16 16" width="20" aria-hidden="true" class="d-block"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+        <span class="sr-only">GitHub’s organization on GitHub</span>
+      </a>
+    </li>
+</ul>
+
+        
+
+  <locale-selector>
+    <REDACTED data-anchor-align="start" data-anchor-side="outside-bottom" data-view-component="true" class="footer-social-icon">
+  <button role="button" aria-haspopup="true" aria-controls="REDACTED" aria-expanded="false" id="REDACTED" aria-label="English - Select language" type="button" data-view-component="true" class="d-flex flex-items-center border-0 REDACTED p-0 locale-trigger Button--secondary Button--medium Button">  <span class="Button-content">
+    <span class="Button-label"><span class="REDACTED">
+          <svg height="16" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-globe mr-1 color-fg-muted locale-icon">
+    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM5.78 8.75a9.64 9.64 0 0 0 1.363 4.177c.255.426.542.832.857 1.215.245-.296.551-.705.857-1.215A9.64 9.64 0 0 0 10.22 8.75Zm4.44-1.5a9.64 9.64 0 0 0-1.363-4.177c-.307-.51-.612-.919-.857-1.215a9.927 9.927 0 0 0-.857 1.215A9.64 9.64 0 0 0 5.78 7.25Zm-5.944 1.5H1.543a6.507 6.507 0 0 0 4.666 5.5c-.123-.181-.24-.365-.352-.552-.715-1.192-1.437-2.874-1.581-4.948Zm-2.733-1.5h2.733c.144-2.074.866-3.756 1.58-4.948.12-.197.237-.381.353-.552a6.507 6.507 0 0 0-4.666 5.5Zm10.181 1.5c-.144 2.074-.866 3.756-1.58 4.948-.12.197-.237.381-.353.552a6.507 6.507 0 0 0 4.666-5.5Zm2.733-1.5a6.507 6.507 0 0 0-4.666-5.5c.123.181.24.365.353.552.714 1.192 1.436 2.874 1.58 4.948Z"></path>
+</svg>
+          <span class="color-fg-muted Link--secondary f6">English</span>
+          <svg height="16" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon REDACTED ml-1 color-fg-muted locale-icon">
+    <path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"></path>
+</svg>
+        </span></span>
+  </span>
+</button>
+
+  <div class="REDACTED" data-menu-overlay>
+    <div class="Overlay Overlay-whenNarrow REDACTED Overlay--width-auto" hidden>
+      <div class="Overlay-body REDACTED">
+        <ul class="ActionList" id="REDACTED" role="menu" aria-labelledby="REDACTED">
+                <li role="none" data-view-component="true" class="ActionList-item">
+    <a href="" selected="selected" style="white-space: normal;" data-action="click:locale-selector#handleSelectLocale" data-locale="en-us" role="menuitem" tabindex="-1" data-view-component="true" class="REDACTED ActionList-content">
+      
+      <span class="REDACTED">
+                  <div style="width: 16px; display: inline-block; text-align: center; margin-right: 8px; flex-shrink: 0;">
+            <svg height="16" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+          </div>
+          <span>English</span>
+
+      </span>
+</a></li>
+                <li role="none" data-view-component="true" class="ActionList-item">
+    <a href="" style="white-space: normal;" data-action="click:locale-selector#handleSelectLocale" data-locale="pt-br" role="menuitem" tabindex="-1" data-view-component="true" class="REDACTED ActionList-content">
+      
+      <span class="REDACTED">
+                  <div style="width: 16px; display: inline-block; text-align: center; margin-right: 8px; flex-shrink: 0;">
+            
+          </div>
+          <span>Português (Brasil)</span>
+
+      </span>
+</a></li>
+                <li role="none" data-view-component="true" class="ActionList-item">
+    <a href="" style="white-space: normal;" data-action="click:locale-selector#handleSelectLocale" data-locale="es-419" role="menuitem" tabindex="-1" data-view-component="true" class="REDACTED ActionList-content">
+      
+      <span class="REDACTED">
+                  <div style="width: 16px; display: inline-block; text-align: center; margin-right: 8px; flex-shrink: 0;">
+            
+          </div>
+          <span>Español (América Latina)</span>
+
+      </span>
+</a></li>
+                <li role="none" data-view-component="true" class="ActionList-item">
+    <a href="" style="white-space: normal;" data-action="click:locale-selector#handleSelectLocale" data-locale="ja" role="menuitem" tabindex="-1" data-view-component="true" class="REDACTED ActionList-content">
+      
+      <span class="REDACTED">
+                  <div style="width: 16px; display: inline-block; text-align: center; margin-right: 8px; flex-shrink: 0;">
+            
+          </div>
+          <span>日本語</span>
+
+      </span>
+</a></li>
+                <li role="none" data-view-component="true" class="ActionList-item">
+    <a href="" style="white-space: normal;" data-action="click:locale-selector#handleSelectLocale" data-locale="ko-kr" role="menuitem" tabindex="-1" data-view-component="true" class="REDACTED ActionList-content">
+      
+      <span class="REDACTED">
+                  <div style="width: 16px; display: inline-block; text-align: center; margin-right: 8px; flex-shrink: 0;">
+            
+          </div>
+          <span>한국어</span>
+
+      </span>
+</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</REDACTED>  </locale-selector>
+
+      </nav>
+    </div>
+  </div>
+</footer>
+
+
+
+    <ghcc-consent id="ghcc" class="position-fixed bottom-0 left-0" style="z-index: 999999"
+      data-locale="en"
+      REDACTED=""
+      REDACTED="false"
+    ></ghcc-consent>
+
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error" hidden>
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+    <button type="button" class="flash-close REDACTED" aria-label="Dismiss error">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+    <template id="site-details-dialog">
+  <details class="details-reset details-overlay REDACTED lh-default color-fg-default hx_rsm" open>
+    <summary role="button" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+      </button>
+      <div class="octocat-spinner my-6 REDACTED"></div>
+    </details-dialog>
+  </details>
+</template>
+
+    <div class="Popover REDACTED position-absolute" style="display: none; outline: none;">
+  <div class="Popover-message REDACTED REDACTED Box color-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+    <template id="REDACTED">
+  <div class="REDACTED position-absolute right-0 top-0">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0" data-copy-feedback="Copied!" REDACTED="w">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy REDACTED m-2">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check REDACTED color-fg-success d-none m-2">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div>
+</template>
+<template id="REDACTED">
+  <div class="REDACTED">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" REDACTED="w">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy REDACTED">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check REDACTED color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div>
+</template>
+
+
+
+
+    </div>
+    <div id="REDACTED" class="sr-only mt-n1" aria-live="polite" aria-atomic="true" ></div>
+    <div id="REDACTED" class="sr-only mt-n1" aria-live="assertive" aria-atomic="true"></div>
+  </body>
+</html>
+

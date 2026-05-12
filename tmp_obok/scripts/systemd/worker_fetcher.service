@@ -1,0 +1,14 @@
+[Unit]
+Description=OpenClaw Worker - Fetcher
+After=network.target
+
+[Service]
+Type=simple
+User=andy
+WorkingDirectory=/Users/andy/.openclaw/workspace/agents/worker_fetcher
+ExecStart=/usr/bin/env python3 /Users/andy/.openclaw/workspace/agents/worker_fetcher/app.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,156 @@
+Connecting to 210.107.75.32
+depth=2 C=US, ST=New Jersey, L=Jersey City, O=The USERTRUST Network, CN=USERTrust RSA Certification Authority
+verify return:1
+depth=1 C=GB, ST=Greater Manchester, L=Salford, O=Sectigo Limited, CN=Sectigo RSA Organization Validation Secure Server CA
+verify return:1
+depth=0 C=KR, ST=Seoul, O=Korea Investment & Securities Co.,Ltd., CN=openapivts.koreainvestment.com
+verify return:1
+CONNECTED(00000005)
+---
+Certificate chain
+ 0 s:C=KR, ST=Seoul, O=Korea Investment & Securities Co.,Ltd., CN=openapivts.koreainvestment.com
+   i:C=GB, ST=Greater Manchester, L=Salford, O=Sectigo Limited, CN=Sectigo RSA Organization Validation Secure Server CA
+   a:PKEY: RSA, 2048 (bit); sigalg: REDACTED
+   v:NotBefore: Jan 28 00:00:00 2026 GMT; NotAfter: Feb 19 23:59:59 2027 GMT
+-----BEGIN CERTIFICATE-----
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED+REDACTED
+5uHGyE8Cupp/zmEIgXtq/REDACTED/NNJOGofg7v
+/REDACTED+86QU/U5EBBLyOa
+2Cfy5ajQjeP9aQnlYDt/4GK87Kkmoya7+aZt8Ct/REDACTED
+osFTxNe36JVgW+REDACTED/Pbwz
+REDACTED
+Z/kxwklD2TA2RIxsqU/REDACTED
+REDACTED/REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+6frwRWlQ+REDACTED
+EKO4+REDACTED
+wNJ7j7UWDEZV1tGi+REDACTED+VPiXmm07k
+AkjzxugAAAGcBusm+REDACTED
+iq+7vSO5FkweY+REDACTED+2Zb2Uz90y
+rQB/REDACTED
+REDACTED
+IQD+REDACTED
+REDACTED
+REDACTED+REDACTED
+XR9T6YtVKPBN5u/REDACTED+REDACTED
+BgYf/REDACTED
+REDACTED/ScIt/vDD0TJ3CPoGAfJFIM/REDACTED
+REDACTED==
+-----END CERTIFICATE-----
+ 1 s:C=GB, ST=Greater Manchester, L=Salford, O=Sectigo Limited, CN=Sectigo RSA Organization Validation Secure Server CA
+   i:C=US, ST=New Jersey, L=Jersey City, O=The USERTRUST Network, CN=USERTrust RSA Certification Authority
+   a:PKEY: RSA, 2048 (bit); sigalg: REDACTED
+   v:NotBefore: Nov  2 00:00:00 2018 GMT; NotAfter: Dec 31 23:59:59 2030 GMT
+-----BEGIN CERTIFICATE-----
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED/FeN+REDACTED
+REDACTED
+REDACTED/c8Vdjf1XoxfDV/ElFw4Sy+BKzL+k/h
+REDACTED+REDACTED
+REDACTED+REDACTED
+REDACTED/REDACTED
+HwYDVR0jBBgwFoAUU3m/REDACTED
+Z/kxwklD2TA2RIxsqU/rMA4GA1UdDwEB/REDACTED/
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED/REDACTED
+REDACTED+Xq+uH5xWo+jBaYXEgscBDxLmP
+bYox6xU2JPti1Qucj+REDACTED
+REDACTED+REDACTED
+R+REDACTED
+SPr5z0noX0+REDACTED+REDACTED
+REDACTED+bfEO
+REDACTED+REDACTED
+6k/+REDACTED+cQKXA0o4D/I+pWV
+idWkvklsQLI+REDACTED+REDACTED
+REDACTED=
+-----END CERTIFICATE-----
+ 2 s:C=US, ST=New Jersey, L=Jersey City, O=The USERTRUST Network, CN=USERTrust RSA Certification Authority
+   i:C=US, ST=New Jersey, L=Jersey City, O=The USERTRUST Network, CN=USERTrust RSA Certification Authority
+   a:PKEY: RSA, 4096 (bit); sigalg: REDACTED
+   v:NotBefore: Feb  1 00:00:00 2010 GMT; NotAfter: Jan 18 23:59:59 2038 GMT
+-----BEGIN CERTIFICATE-----
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED
+REDACTED/MPans9s/B
+REDACTED+OJv0OwWIJAJPuLodMkY
+REDACTED+E/CHFHv25B+O1ORRxhFnRghRy4YUVD+8M/5+bJz/
+REDACTED//O+T23LLb2
+REDACTED+UzeQc0PzMsNT
+79uq/nROacdrjGCT3sTHDN/hMq7MkztReJVni+49Vv4M0GkPGw/zJSZrM233bkf6
+REDACTED+REDACTED
+Yo61Zs8liM2EuLE/REDACTED+1b/97l
+REDACTED+REDACTED/QV9AqURE9JnnV4ee
+UB9XVKg+/REDACTED+eLf8ZxXhyVeE
+REDACTED+CDwIDAQABo0IwQDAd
+BgNVHQ4EFgQUU3m/REDACTED/BAQDAgEGMA8G
+A1UdEwEB/REDACTED
+Up/L+M+REDACTED/FNQwISbxmtOuowhT6KO
+VWKR82kV2LyI48SqC/REDACTED/JJpuXior7gtNn3/3
+REDACTED+REDACTED/Fjs
+8PRF/iKz6y+O0tlFYQXBl2+REDACTED
+iQycE0xyNN+REDACTED/+XeTWYRUc+ZruwXtuhxkYze
+REDACTED+yDZ4XUmFF0sbmZgIn/f3gZ
+REDACTED/
+REDACTED/zB+REDACTED
+REDACTED
+REDACTED/REDACTED+6IHdfG
+REDACTED
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=C=KR, ST=Seoul, O=Korea Investment & Securities Co.,Ltd., CN=openapivts.koreainvestment.com
+issuer=C=GB, ST=Greater Manchester, L=Salford, O=Sectigo Limited, CN=Sectigo RSA Organization Validation Secure Server CA
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: rsa_pss_rsae_sha256
+Peer Temp Key: X25519, 253 bits
+---
+SSL handshake has read 5487 bytes and written 1641 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is REDACTED
+Protocol: TLSv1.3
+Server public key is 2048 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+DONE

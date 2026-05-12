@@ -1,0 +1,76 @@
+{
+  "trade_history": [
+    {
+      "timestamp": "2026-05-07T09:11:28.000000",
+      "side": "BUY",
+      "ticker": "KRW-ETH",
+      "exec_price_krw": 3425000.0,
+      "qty_btc": 23.364485981,
+      "amount_krw": 80000000.0,
+      "fee_krw": 0.0,
+      "simulated": true,
+      "source": "auto_trader_v2",
+      "trade_id": "REDACTED"
+    },
+    {
+      "timestamp": "2026-05-07T09:11:28.000000",
+      "side": "BUY",
+      "ticker": "KRW-ARB",
+      "exec_price_krw": 187.0,
+      "qty_btc": 213898.305082,
+      "amount_krw": 40000000.0,
+      "fee_krw": 0.0,
+      "simulated": true,
+      "source": "auto_trader_v2",
+      "trade_id": "sim-arb-20260507-1"
+    },
+    {
+      "timestamp": "2026-05-07T09:11:28.000000",
+      "side": "BUY",
+      "ticker": "KRW-OP",
+      "exec_price_krw": 214.0,
+      "qty_btc": 140186.91589,
+      "amount_krw": 30000000.0,
+      "fee_krw": 0.0,
+      "simulated": true,
+      "source": "auto_trader_v2",
+      "trade_id": "sim-op-20260507-1"
+    },
+    {
+      "timestamp": "2026-05-07T09:11:28.000000",
+      "side": "BUY",
+      "ticker": "KRW-SHIB",
+      "exec_price_krw": 0.00935,
+      "qty_btc": 3209625668.0,
+      "amount_krw": 30000000.0,
+      "fee_krw": 0.0,
+      "simulated": true,
+      "source": "auto_trader_v2",
+      "trade_id": "REDACTED"
+    },
+    {
+      "timestamp": "2026-05-07T09:11:28.000000",
+      "side": "BUY",
+      "ticker": "KRW-PENGU",
+      "exec_price_krw": 15.3,
+      "qty_btc": 1307189.542,
+      "amount_krw": 20000000.0,
+      "fee_krw": 0.0,
+      "simulated": true,
+      "source": "auto_trader_v2",
+      "trade_id": "REDACTED"
+    }
+  ],
+  "krw_balance": 0.0,
+  "positions": {
+    "ETH": 23.364485981,
+    "ARB": 213898.305082,
+    "OP": 140186.91589,
+    "SHIB": 3209625668.0,
+    "PENGU": 1307189.542
+  },
+  "meta": {
+    "initialized_at": "2026-05-07T09:11:28.000000",
+    "base_capital_krw": 200000000.0
+  }
+}
