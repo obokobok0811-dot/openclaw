@@ -1,0 +1,37 @@
+name: Create PR on push
+on:
+  push:
+    branches:
+      - obok-sync-20260513
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create Pull Request
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const branch = context.ref.replace('refs/heads/', '')
+            const { data: prs } = await github.pulls.list({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              head: `${context.repo.owner}:${branch}`
+            })
+            if (prs.length === 0) {
+              await github.pulls.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                head: branch,
+                base: 'main',
+                title: 'sync: upload current obok agent config (masked) 2026-05-13',
+                body: `This PR uploads the current Obok agent config (masked).
+
+- Masking: API keys and secrets were redacted.
+- Branch: ${branch}
+
+Please review and merge.`
+              })
+            } else {
+              console.log('PR already exists for branch', branch)
+            }
